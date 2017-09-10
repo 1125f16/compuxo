@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Callbacks</title>
+
+		<meta name="description" content="engineering and architecting ">
+		<meta name="author" content="abel sanchez & john williams">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai-sublime.css">
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Callbacks</h1>
+					<h3>Callback Functions</h3>
+					<p>
+						<small>abel sanchez, <a href="mailto:abel@mit.edu">abel@mit.edu</a>, and john williams, <a href="mailto:jrw@mit.edu">jrw@mit.edu</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<h3>Callback Pattern</h3>
+					<p>
+						A callback is a function that is passed as an argument to other code. The receiving code is expected to call back (execute) the argument when needed.
+					</p>
+
+<pre><code class="javascript" data-trim contenteditable>function sortData(callback) {
+    var data = [23,47,19,91,58,38,20,34,82,69];
+
+    // do something...
+    callback(data);
+    // ...
+}
+ 
+function sortingFunction(data) {
+    // ... sort data
+}
+ 
+sortData(sortingFunction);</code></pre>
+
+				</section>
+
+				<section>
+					<h3>Filter Callback</h3>
+					<p>
+						Applying a filter creates a new array with all elements that pass your function. The method takes a callback function.
+					</p>
+
+<pre><code class="javascript" data-trim contenteditable>var numbers = [56, 23, 99, 12, 49, 31];
+
+function callback(){
+	// --- Your Code ---
+}
+
+numbers.filter(callback)</code></pre>
+
+
+				</section>
+
+
+				<section>
+					<h3>ForEach()</h3>
+					<p>
+						The forEach() method executes a provided function, a callback, once for each array element.
+					</p>
+
+<pre><code class="javascript" data-trim contenteditable>function logArrayElements(element, index, array) {
+  // --- Your Code ----
+}
+
+// log array contents
+[2, 7, 5, 3].forEach(logArrayElements);</code></pre>
+
+
+				</section>
+
+
+
+				<section>
+					<h1>THE END</h1>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: false, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
