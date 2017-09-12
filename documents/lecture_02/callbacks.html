@@ -55,19 +55,17 @@
 						A callback is a function that is passed as an argument to other code. The receiving code is expected to call back (execute) the argument when needed.
 					</p>
 
-<pre><code class="javascript" data-trim contenteditable>function sortData(callback) {
-    var data = [23,47,19,91,58,38,20,34,82,69];
+<pre><code class="javascript" data-trim contenteditable>var list = [5,8,9,2,7,6,3,1,4];
 
-    // do something...
-    callback(data);
-    // ...
+function callback(list){
+	// --- Your Code ---
 }
- 
-function sortingFunction(data) {
-    // ... sort data
+
+function filter(list,callback){
+	// --- Your Code ---
 }
- 
-sortData(sortingFunction);</code></pre>
+
+var filtered = filter(list, callback);</code></pre>
 
 				</section>
 
