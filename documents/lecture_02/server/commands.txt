@@ -1,0 +1,37 @@
+How to put up node/Express server on AWS EC2
+First set up a SubDirectory on the remote server
+mkdir server
+cd server
+
+sudo apt-get update
+
+curl -sL https://deb.nodesource.com/setup_8.x| sudo -E bash -
+
+sudo apt-get install -y nodejs
+
+npm init
+
+npm install express
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var express = require("express");
+var app 	= express();
+
+app.get('/',function(req,res){
+	var num = Math.floor(Math.random()*10);
+	res.send('my lucky number is '+num);
+});
+app.listen(9000);
