@@ -9,16 +9,17 @@ app.get('/color', function(req, res) {
     var num = Math.floor(Math.random() * 10);
     res.send('my lucky color is ' + num);
 });
-app.listen(9082, function() {
-    console.log('Example app listening on port 9082');
+app.listen(9081, function() {
+    console.log('Example app listening on port 9081');
 });
 
 // lets make an http.request to another machine
 var http = require('http');
 app.get('/mit', function(req, res) {
     var options = {
-        host: 'data.cityofboston.gov',
-        path: '/api/views/sx2i-td3j/rows.json'
+        host: 'localhost',
+        port: 8080,
+        path: '/bostonsmall.json'
     };
 
     var callback = function(response) {
@@ -33,10 +34,14 @@ app.get('/mit', function(req, res) {
         response.on('end', function() {
             var data = JSON.parse(str);
             var myArray = data.data;
-            //var list = myArray.filter(myfilter);
+            var list = myArray.filter(myfilter);
             
-            res.send(myArray[1]);
-            console.log(myArray[1]);
+            res.send(list);
+            console.log(list);
+            var myfilter = function(row){
+                if(parseInt(row[18]) > 100000)
+                    return row;
+            }
             
         });
     };
