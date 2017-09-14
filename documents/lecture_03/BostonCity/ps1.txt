@@ -1,0 +1,59 @@
+PS1 - Boston City Data
+The final goal is to run an AWS node express web service that 
+returns Boston city employees who earn more than $300000
+We want you to learn how to debug so we will attack this problem
+in several parts. 
+
+
+
+Part 1 - First we set get node to read a local file called
+bostonsmall.json. 
+1) create a directory called BostonCity
+2) put bostoncitydata.json file into this directory
+3) cd BostonCity
+4) open a Command window in this directory 
+4) run "node read.js"
+Notice that we can read a file as a string. We use
+JSON.parse(str) to turn this into a JavaScript object.
+   
+Part 2 - Run a simple Web Server to host bostonsmall.json
+In BostonCity run a Command window and do the following:
+1) npm init
+2) npm install http-server
+3) http-server
+You will now have a Web Server running on your machine
+Find the IP address of your machine 
+Open a browser and enter URL http://localhost:8080/bostonsmall.json
+also substitute your IP for localhost to make sure its accessible.
+
+Part 3 - We will run a node express server on port 9081 on your own machine
+to get the bostonsmall.json. So now modify test.js so that when 
+in your browser your type localhost:9081/mit  you get the local
+file bostonsmall.json from your http-server web server. 
+You'll need to change the options to the following:
+ var options = {
+        host: 'localhost',
+	port: 8080
+        path: '/bostonsmall.json'
+    };
+
+Part 4 using Part 3 return rows with salaries above 200000 
+(use data in row[18]) 
+
+Part 5
+Modify test.js to hit the Boston City Web Site
+    var options = {
+        host: 'data.cityofboston.gov',
+        path: '/api/views/sx2i-td3j/rows.json'
+    };
+return only rows with salaries above 300000
+How many people have salaries above 300000
+
+
+Part 6 - Now run the same node express server on AWS so that 
+we can hit the Boston City Web Site and get salaries above
+300000
+
+
+
+

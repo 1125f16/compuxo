@@ -1,0 +1,25 @@
+{
+  "meta" : {
+  },
+  "data" : [ [ 1, "CA6D4BA0-056B-481E-A5B4-E1B6E1C8108F", 1, 1487098314, "947295", 1487098314, "947295", null, "Abadi,Kidani A", "Assessing Department", "Property Officer", "46291.98", null, "300.00", null, null, null, null, "46591.98", "02118" ]
+, [ 2, "56A885B1-D63E-46E3-98FF-5EFBAF5D3D63", 2, 1487098314, "947295", 1487098314, "947295", null, "Abasciano,Joseph", "Boston Police Department", "Police Officer", "6933.66", null, "850.00", "205.92", "74331.86", null, "15258.44", "97579.88", "02132" ]
+, [ 3, "9509DFD5-B4B4-419C-8864-9B068EC03FF4", 3, 1487098314, "947295", 1487098314, "947295", null, "Abban,Christopher John", "Boston Fire Department", "Fire Fighter", "103442.22", null, "550.00", "15884.53", null, "4746.50", null, "124623.25", "02132" ]
+, [ 4, "9613CCDD-8721-4FD5-9515-E1765AC24FF0", 4, 1487098314, "947295", 1487098314, "947295", null, "Abbasi,Sophia", "Green Academy", "Manager (C) (non-ac)", "18249.83", null, null, null, null, null, null, "18249.83", "02148" ]
+, [ 5, "B0854B21-2651-46AD-BCF7-0F62D374BAFE", 5, 1487098314, "947295", 1487098314, "947295", null, "Abbate-Vaughn,Jorgelina", "BPS Ellis Elementary", "Teacher", "84410.28", null, "1250.00", null, null, null, null, "85660.28", "02481" ]
+, [ 6, "B03C2410-9EAF-402A-8E73-9712DEBB24B8", 6, 1487098314, "947295", 1487098314, "947295", null, "Abberton,James P", "Public Works Department", "Maint Mech (Carpenter)##", "41449.16", null, "81.00", "8807.47", null, null, null, "50337.63", "02127" ]
+, [ 7, "E06E8324-BC71-448C-8CA7-B9F328ACD2F4", 7, 1487098314, "947295", 1487098314, "947295", null, "Abbott,Erin Elizabeth", "Hurley K-8", "Teacher", "80413.68", null, null, null, null, null, null, "80413.68", "02081" ]
+, [ 8, "B813DC65-1421-4A69-B157-834843770C71", 8, 1487098314, "947295", 1487098314, "947295", null, "Abbott,John R.", "BPS Snowden International Hi", "Teacher", "99264.10", null, "656.04", null, null, null, null, "99920.14", "02445" ]
+, [ 9, "7F588024-1F26-49E3-B7F4-42E50BE241B0", 9, 1487098314, "947295", 1487098314, "947295", null, "Abbruzzese,Angela", "BPS Clap Elementary", "Lunch Hour Monitors", "5000.90", null, null, null, null, null, null, "5000.90", "02125" ]
+, [ 10, "55579F52-6938-4A4F-AAE0-61A584CEB47F", 10, 1487098314, "947295", 1487098314, "947295", null, "Abbruzzese,Donna", "BPS Clap Elementary", "Lunch Hour Monitors", "621.90", null, null, null, null, null, null, "621.90", "02125" ]
+, [ 11, "38BD64F1-67C5-4EB3-BA1C-E18233BB544F", 11, 1487098314, "947295", 1487098314, "947295", null, "Abdalkhallaq,Amira N.", "BPS O'Bryant School", "Teacher", "105500.20", null, "5010.00", null, null, null, null, "110510.20", "02121" ]
+, [ 12, "E5B3C1D4-77CC-4F94-99F1-420DDC4A7598", 12, 1487098314, "947295", 1487098314, "947295", null, "Abdal-Khallaq,Musiri Kari", "Green Academy", "Teacher", "93142.59", null, "1346.00", null, null, null, null, "94488.59", "02119" ]
+, [ 13, "9CC2A61C-CD26-4BD8-9705-1831E3739CCF", 13, 1487098314, "947295", 1487098314, "947295", null, "Abdal-Khallaq,Naima", "BPS Charlestown High", "Teacher", "105500.20", null, "27.50", null, null, null, null, "105527.70", "02121" ]
+, [ 14, "7D7DF4A8-F920-4425-BBDC-30D458131C21", 14, 1487098314, "947295", 1487098314, "947295", null, "Abdelnour,Lisa", "BPS Carter Center", "Paraprofessional", "32463.56", null, null, null, null, null, null, "32463.56", "02131" ]
+, [ 15, "815C92E6-13D4-4196-933B-BF1F33B7FABA", 15, 1487098314, "947295", 1487098314, "947295", null, "Abdelrahim,Maha", "Boston Public Library", "Library Aide", "1181.60", null, null, null, null, null, null, "1181.60", "02125" ]
+, [ 16, "2C5E8037-87B0-4839-BC37-194E454404F8", 16, 1487098314, "947295", 1487098314, "947295", null, "Abdul-Aziz,Ramadani", "Boston Police Department", "Police Officer", "99122.67", null, "800.00", "25411.32", null, "58420.00", null, "183753.99", "02119" ]
+, [ 17, "06784967-0EBA-4948-B2C3-36E30CB8C59A", 17, 1487098314, "947295", 1487098314, "947295", null, "Abdur-Rahim,Theodora", "HPEC: Com Acd Science & Health", "Teacher", "106200.12", null, "2100.00", null, null, null, null, "108300.12", "02126" ]
+, [ 18, "51DCFF9D-1628-4991-AF2A-087F53FCC119", 18, 1487098314, "947295", 1487098314, "947295", null, "Abelard,Jean Marc", "West Roxbury Academy", "Staff Asst (B)", "81717.08", null, "550.00", null, null, null, null, "82267.08", "02119" ]
+, [ 19, "4CD3E955-3DA5-4304-9559-04507F081CA4", 19, 1487098314, "947295", 1487098314, "947295", null, "Abellard,Eliphete Jean", "Elderly Commission", "Driver", "34086.59", null, null, "489.01", null, null, null, "34575.60", "02126" ]
+, [ 20, "13E1D4C1-FE7B-4EEE-9EB3-784028A186E8", 20, 1487098314, "947295", 1487098314, "947295", null, "Abelson,Marc A.", "BPS Mason Elementary", "Teacher", "90398.08", null, null, null, null, null, null, "90398.08", "02140" ]
+]
+}
