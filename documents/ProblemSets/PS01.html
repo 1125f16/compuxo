@@ -1,0 +1,65 @@
+<html>
+<body>
+<h2>PS1 - Boston City Data</h2><br>
+The final goal is to run an AWS node express web service that 
+returns Boston city employees who earn more than $300000
+We want you to learn how to debug so we will attack this problem
+in several parts. <br>
+
+
+<h3>
+Part 1 - First we set get node to read a local file called
+bostonsmall.json. </h3><br>
+<ul>
+<li> create a directory called BostonCity</li>
+<li> put bostoncitydata.json file into this directory</li>
+<li> cd BostonCity</li>
+<li> open a Command window in this directory </li>
+<li> run "node read.js"</li>
+</ul>
+Notice that we can read a file as a string. We use
+JSON.parse(str) to turn this into a JavaScript object.
+  <br>
+<h3>Part 2 - Run a simple Web Server to host bostonsmall.json</h3><br>
+In BostonCity run a Command window and do the following:
+<ul>
+<li> npm </li>
+<li> npm install http-server</li>
+<li> http-server</li>
+</ul>
+
+You will now have a Web Server running on your machine
+Find the IP address of your machine 
+Open a browser and enter URL http://localhost:8080/bostonsmall.json
+also substitute your IP for localhost to make sure its accessible.
+<br>
+<h3>
+Part 3 - We will run a node express server on port 9081 on your own machine
+to get the bostonsmall.json.</h3><br>
+So now modify test.js so that when 
+in your browser your type localhost:9081/mit  you get the local
+file bostonsmall.json from your http-server web server. 
+You'll need to change the options to the following:<br>
+ var options = {
+        host: 'localhost',
+	port: 8080
+        path: '/bostonsmall.json'
+    };
+<br><h3>
+Part 4 using Part 3 return rows with salaries above 200000 
+(use data in row[18]) </h3><br>
+
+<br><h3>Part 5 Modify test.js to hit the Boston City Web Site</h3><br>
+    var options = {
+        host: 'data.cityofboston.gov',
+        path: '/api/views/sx2i-td3j/rows.json'
+    };<br>
+return only rows with salaries above 300000
+How many people have salaries above 300000
+
+
+<h3>Part 6 - Now run the same node express server on AWS so that 
+we can hit the Boston City Web Site and get salaries above
+300000</h3>
+</body>
+</html>
