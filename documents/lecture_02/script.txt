@@ -1,0 +1,22 @@
+1) Install VSCode
+2) Simple Function 
+	- the good parts
+	- variables
+	- conditionals
+	- loops
+	- functions
+3) Arrays and objects
+	- Item access
+	- Loop through
+	- Pass to function
+4) Callbacks
+	- pattern
+	- exercise
+5) Install Node
+	- Go through slides - Up to "NPM" 
+	- Move to VSCode
+	- Write the Node App "Hello World!" 
+	- Write a Node App with a local module
+	- Write a Node App with NPM module
+	- Write a server using express
+	- Step into code
