@@ -9,8 +9,8 @@ app.get('/color', function(req, res) {
     var num = Math.floor(Math.random() * 10);
     res.send('my lucky color is ' + num);
 });
-app.listen(9081, function() {
-    console.log('Example app listening on port 9081');
+app.listen(8081, function() {
+    console.log('Example app listening on port 8081');
 });
 
 // lets make an http.request to another machine

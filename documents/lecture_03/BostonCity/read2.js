@@ -1,5 +1,5 @@
-var fs = require('fs');
-var obj = JSON.parse(fs.readFileSync('bostonsmall.json', 'utf8'));
+var obj = require('./bostonsmall.json');
+
 var list = obj.data;
 
 
