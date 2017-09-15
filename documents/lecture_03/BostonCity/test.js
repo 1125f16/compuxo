@@ -17,13 +17,12 @@ app.listen(9081, function() {
 var http = require('http');
 app.get('/mit', function(req, res) {
     var options = {
-        host: 'localhost',
-        port: 8080,
-        path: '/bostonsmall.json'
+        host: 'data.cityofboston.gov',
+        path: '/api/views/sx2i-td3j/rows.json'
     };
 
     var callback = function(response) {
-        var str='';
+        var str = '';
 
         //another chunk of data has been recieved, so append it to `str`
         response.on('data', function(chunk) {
@@ -35,17 +34,18 @@ app.get('/mit', function(req, res) {
             var data = JSON.parse(str);
             var myArray = data.data;
             var list = myArray.filter(myfilter);
-            
+
             res.send(list);
             console.log(list);
-            var myfilter = function(row){
-                if(parseInt(row[18]) > 100000)
-                    return row;
+
+            function myfilter(row) {
+                return parseInt(row[18]) > 400000;
+
             }
-            
+
         });
     };
-    
+
     http.request(options, callback).end();
 
 

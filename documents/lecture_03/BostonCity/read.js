@@ -1,13 +1,11 @@
 var fs = require('fs');
-var obj = JSON.parse(fs.readFileSync('bostonsmall.json', 'utf8'));
+var obj = JSON.parse(
+    fs.readFileSync('bostoncitydata.json', 'utf8'));
 var list = obj.data;
+var myList = list.filter(greater);
 
-
-var greatercheck = function(row){
-	if(row[18]>= 100000)
-	return row;
-};
-
-var newlist = list.filter(greatercheck);
-console.log(newlist);
-console.log(newlist.length);
+function greater(row) {
+    return Number(row[18]) >= 300000;
+}
+console.log(myList);
+console.log(myList.length);
