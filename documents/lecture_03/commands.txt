@@ -13,18 +13,12 @@ npm init
 
 npm install express
 
-
-
-
-
-
-
-
-
-
-
-
-
+// to copy a zip file to a remote machine
+//use following but replace paths 
+scp -i ../first.pem code.zip ubuntu@xxxx.amazon.com:~/.
+// remember the :~/. at the end
+sudo apt install unzip
+// install unzip
 
 
 var express = require("express");
