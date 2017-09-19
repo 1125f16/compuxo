@@ -1,0 +1,1006 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "yiig-ei94",
+      "name" : "payments 2005 to 2010",
+      "attribution" : "City of Chicago",
+      "attributionLink" : "http://www.cityofchicago.org",
+      "averageRating" : 0,
+      "category" : "Administration & Finance",
+      "createdAt" : 1462295214,
+      "description" : "All vendor payments made by the City of Chicago from 1996 to present. Payments from 1996 through 2002 have been rolled-up and appear as \"2002.\" Total payment information is summarized for each vendor and contract number for data older than two years. These data are extracted from the City’s Vendor, Contract, and Payment Search.\r\n\r\nTime Period: 1996 to present.\r\n\r\nFrequency: Data is updated daily.\r\n\r\nRelated Applications: City of Chicago Vendor, Contract, and Payments Search (http://webapps.cityofchicago.org/VCSearchWeb/org/cityofchicago/vcsearch/controller/payments/begin.do?agencyId=city).",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 20645921,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1410165085,
+      "publicationGroup" : 215792,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1462264568,
+      "rowsUpdatedBy" : "n9j5-zhen",
+      "tableId" : 1711091,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewLastModified" : 1462295214,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 253347771,
+        "name" : "VOUCHER NUMBER",
+        "dataTypeName" : "text",
+        "fieldName" : "voucher_number",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1293935,
+        "width" : 127,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 253347772,
+        "name" : "AMOUNT",
+        "dataTypeName" : "money",
+        "fieldName" : "amount",
+        "position" : 2,
+        "renderTypeName" : "money",
+        "tableColumnId" : 1462736,
+        "width" : 107,
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 253347773,
+        "name" : "Check Date",
+        "dataTypeName" : "text",
+        "fieldName" : "check_date",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1300991,
+        "width" : 88,
+        "format" : { }
+      }, {
+        "id" : 253347774,
+        "name" : "DEPARTMENT NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "department_name",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1293938,
+        "width" : 304,
+        "format" : { }
+      }, {
+        "id" : 253347775,
+        "name" : "CONTRACT NUMBER",
+        "dataTypeName" : "text",
+        "fieldName" : "contract_number",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1293942,
+        "width" : 131,
+        "format" : { }
+      }, {
+        "id" : 253347776,
+        "name" : "VENDOR NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "vendor_name",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1293941,
+        "width" : 361,
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Metadata" : {
+            "Data Owner" : "Finance",
+            "Time Period" : "1996 to present",
+            "Frequency" : "Data is updated daily"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "where" : {
+            "children" : [ {
+              "value" : "2005",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "value" : "2006",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "value" : "2007",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "value" : "2008",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "value" : "2009",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "value" : "2010",
+              "operator" : "EQUALS",
+              "columnFieldName" : "check_date",
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "operator" : "OR",
+            "metadata" : {
+              "unifiedVersion" : 2,
+              "tableColumnId" : {
+                "215792" : 1300991
+              },
+              "operator" : "EQUALS"
+            }
+          }
+        },
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "2bvy-ndsa",
+        "displayName" : "open data",
+        "emailUnsubscribed" : false,
+        "profileLastModified" : 1397323366,
+        "screenName" : "open data"
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "OR",
+            "children" : [ {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2005"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2006"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2007"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2008"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2009"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            }, {
+              "type" : "operator",
+              "value" : "EQUALS",
+              "children" : [ {
+                "columnId" : 253347773,
+                "type" : "column"
+              }, {
+                "type" : "literal",
+                "value" : "2010"
+              } ],
+              "metadata" : {
+                "freeform" : true
+              }
+            } ],
+            "metadata" : {
+              "operator" : "EQUALS",
+              "tableColumnId" : {
+                "215792" : 1300991
+              }
+            }
+          } ],
+          "metadata" : {
+            "unifiedVersion" : 2
+          }
+        }
+      },
+      "rights" : [ "read", "update_column", "update_view", "delete_view" ],
+      "tableAuthor" : {
+        "id" : "scy9-9wg4",
+        "displayName" : "cocadmin",
+        "privilegesDisabled" : false,
+        "profileImageUrlLarge" : "/api/users/scy9-9wg4/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/scy9-9wg4/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/scy9-9wg4/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "cocadmin",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "payments", "vendors" ],
+      "viewFilters" : {
+        "type" : "operator",
+        "value" : "AND",
+        "children" : [ {
+          "type" : "operator",
+          "value" : "OR",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2005"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2006"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2007"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2008"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2009"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          }, {
+            "type" : "operator",
+            "value" : "EQUALS",
+            "children" : [ {
+              "columnId" : 253347773,
+              "type" : "column"
+            }, {
+              "type" : "literal",
+              "value" : "2010"
+            } ],
+            "metadata" : {
+              "freeform" : true
+            }
+          } ],
+          "metadata" : {
+            "operator" : "EQUALS",
+            "tableColumnId" : {
+              "215792" : 1300991
+            }
+          }
+        } ],
+        "metadata" : {
+          "unifiedVersion" : 2
+        }
+      }
+    }
+  },
+  "data" : [ [ 18425, "4D5A5A3B-2360-4E47-902C-CCA318B18C0A", 18425, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12000.09", "2010", null, "19166", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18426, "DFCD5D04-49E7-4448-8143-6294C81575AB", 18426, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "25885.44", "2010", null, "19167", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18427, "B3ECCB63-D83A-4DC5-860C-C48AB5D3F369", 18427, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "392725.98", "2010", null, "8832", "OCE' NORTH AMERICA" ]
+, [ 18428, "3D7AD670-E66D-4F51-A3CA-4B7FAFFC4E29", 18428, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "46307.85", "2010", null, "DV", "OCE' NORTH AMERICA" ]
+, [ 18429, "676B2EFB-8835-4F6E-B172-8C951555595F", 18429, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1027", "2010", null, "DV", "DAVID L JAMISON" ]
+, [ 18430, "DE27F2BC-266E-40DC-89B5-FA660F87DB2F", 18430, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "130000", "2010", null, "21119", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18431, "7D249757-C5ED-441E-B7FA-E50B814598A0", 18431, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "37297.12", "2010", null, "21398", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18432, "76B8B1AB-BEF3-4297-9D01-47F01F6E4B0C", 18432, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "49349.2", "2010", null, "21399", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18433, "903B4A1E-66FD-47E4-B608-A890D2869D83", 18433, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "69316.87", "2010", null, "21400", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18434, "716659AB-0662-4EB8-8BAD-41298E3C2FB8", 18434, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "HUMAN  RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18435, "ACD4FF5A-B2F8-4D3E-8EF9-38C41E97E442", 18435, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "524804.07", "2010", null, "17076", "HUMAN RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18436, "844C9E0A-2287-4ED7-AA4D-134E2016C653", 18436, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "100415.26", "2010", null, "17141", "HUMAN RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18437, "B5997313-EE30-4539-B6F6-DF7BC2FA9A8A", 18437, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "176897.49", "2010", null, "17151", "HUMAN RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18438, "4E2CE7A6-E3EF-425F-BF62-614C63F9CDA8", 18438, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "250121.97", "2010", null, "17372", "HUMAN RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18439, "54DC9E90-00BD-4634-8DDC-B075E056B539", 18439, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "89101.13", "2010", null, "21078", "HUMAN RESOURCES DEVELOPMENT INSTITUTE, INC." ]
+, [ 18440, "2F538CE5-19DE-4D13-AFCB-285A2FD8F43F", 18440, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "222", "2010", null, "DV", "ACCUTEK LABORATORIES" ]
+, [ 18441, "BE8C5369-8BE8-4BE3-9622-447B2B4DDE8E", 18441, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "49899.66", "2010", null, "20295", "JACK PHELAN CHEVROLET" ]
+, [ 18442, "7083AD48-0F95-4D49-9CE7-87764A33B58A", 18442, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "21012.32", "2010", null, "DV", "JACK PHELAN CHEVROLET" ]
+, [ 18443, "36BE4B74-E383-4224-8F99-E5729E7C37D1", 18443, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "39000", "2010", null, "18100", "BOLDPLANNING INC" ]
+, [ 18444, "9A54B1E3-F354-4F1A-803B-10918C9222CB", 18444, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "18575.93", "2010", null, "21420", "REFUGEEONE" ]
+, [ 18445, "6F545F5A-51C2-4C31-9C3E-DC4807B4EBF0", 18445, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2445131.45", "2010", null, "18109", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18446, "118B9626-57CB-445A-85D6-D1EBC25589D2", 18446, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "26885.55", "2010", null, "18237", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18447, "CF67F789-9AD4-4364-8145-3FCEEB0E422D", 18447, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "16870.93", "2010", null, "18962", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18448, "4308AC6F-9FAF-4F33-A1C6-4ABB46029EE5", 18448, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5054.93", "2010", null, "19095", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18449, "03ED6440-FD95-43F3-94E7-5954F49C7ED7", 18449, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6394.17", "2010", null, "19268", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18450, "6756BD7D-CA8B-47BE-AC8C-EB5242C83576", 18450, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "149028.64", "2010", null, "20048", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18451, "5154710A-0BBD-4910-84F8-C4D004C9F6A2", 18451, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "97118.75", "2010", null, "20774", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18452, "E17A2A85-82AD-4257-9F2A-38E173B3BD31", 18452, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "53506.57", "2010", null, "21264", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18453, "CA6C389E-0F0C-4968-89C4-7292DDDAAD62", 18453, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4595.61", "2010", null, "21413", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18454, "391FD235-675D-429B-8B6C-822C1D202DBE", 18454, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "35930.36", "2010", null, "21618", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18455, "ECFF386A-EB4D-4329-BA48-F5AAF10680E7", 18455, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "66987.57", "2010", null, "22337", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18456, "29CD05A2-38D6-4D60-8501-9C4B2D4CD676", 18456, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "REFUGEEONE" ]
+, [ 18457, "1A27D1D2-4D75-4251-BEF7-90DD47C786D5", 18457, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "385", "2010", null, "DV", "PUBLIC RISK MANAGEMENT ASSOCIATION (PRIMA)" ]
+, [ 18458, "89B52573-AB9E-4E47-855A-0B7B2B51CA10", 18458, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "377337.44", "2010", null, "19309", "CENTER FOR ECONOMIC PROGRESS" ]
+, [ 18459, "75D37929-450B-4EA6-A623-C62D31F31BA5", 18459, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "400693.6", "2010", null, "18828", "BREAKTHROUGH URBAN MINISTRIES, INC." ]
+, [ 18460, "5B198766-D830-4180-87DF-15C56AC64457", 18460, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "BREAKTHROUGH URBAN MINISTRIES, INC." ]
+, [ 18461, "6307CF6D-2170-49A0-9B3C-F0A547A4E5CC", 18461, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "144986.16", "2010", null, "15934", "EVERGREEN SUPPLY CO." ]
+, [ 18462, "1D4525A1-31EB-4F15-A975-67104D96F3BF", 18462, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "900", "2010", null, "DV", "EVERGREEN SUPPLY CO" ]
+, [ 18463, "E96AB26C-692B-4F12-A870-254C630738FF", 18463, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1079", "2010", null, "DV", "SMG/SOLDIER FIELD" ]
+, [ 18464, "A162B101-C87D-4D95-927F-3F9F98EA007F", 18464, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "76372.99", "2010", null, "16566", "EVERGREEN SUPPLY CO." ]
+, [ 18465, "08BF099B-60B6-475C-89E0-7EA857BD948F", 18465, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5712", "2010", null, "17518", "EVERGREEN SUPPLY CO." ]
+, [ 18466, "731719F1-E96B-4711-A019-21660F7D7A78", 18466, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "160510.93", "2010", null, "17972", "EVERGREEN SUPPLY CO." ]
+, [ 18467, "A7F9364A-A789-43D2-A7A2-746DE55C5D74", 18467, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "795", "2010", null, "22372", "INTER AMERICAN DEVELOPMENT" ]
+, [ 18468, "7A1F5565-D5FB-4967-84B7-399E1A522022", 18468, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "627.06", "2010", null, "DV", "PARADIGM LITIGATION SUPPORT, INC. D/B/A/ PARADIGM REPORTING & CAPTIONING" ]
+, [ 18469, "EC910A98-046F-41F7-84DA-F49A12003E4C", 18469, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "268571.43", "2010", null, "19308", "CITY-WIDE TAX ASSISTANCE PROGRAM" ]
+, [ 18471, "B63013A9-B98F-42ED-A844-86FE41150444", 18471, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "99260", "2010", null, "21780", "L F L PROPERTIES INC" ]
+, [ 18472, "E92F49D4-1FB6-493A-95F9-DCF767490EBA", 18472, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "64101.96", "2010", null, "13777", "PAY-EASE INC" ]
+, [ 18473, "119FCD5F-D143-400F-B618-0FAB0C4008B1", 18473, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "48721.14", "2010", null, "DV", "PAY-EASE INC" ]
+, [ 18474, "687B8E4B-B45E-4204-AAE3-655A90F8D8E4", 18474, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "59080.76", "2010", null, "12542", "BRECHEISEN ENGINEERING" ]
+, [ 18475, "1E02AD39-B740-465D-BDA4-10B20C14B330", 18475, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "72174.4", "2010", null, "19397", "BIOPOOL US INC" ]
+, [ 18476, "B6E27DFD-D5A9-4355-885A-69617942FBC9", 18476, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12817.6", "2010", null, "DV", "THE GALE GROUP" ]
+, [ 18477, "A3469810-4E90-402F-A33A-5A999B5C072D", 18477, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "71093.96", "2010", null, "21195", "CENGAGE LEARNING, INC." ]
+, [ 18478, "907A6A6B-E2A3-460E-B615-1E418965BFA1", 18478, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2803260.71", "2010", null, "6390", "PRUDENTIAL INSUR. CO./AMER" ]
+, [ 18479, "1D691A82-9E16-489F-9F3F-D89F5CB22DE5", 18479, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5063083.19", "2010", null, "DV", "THE PRUDENTIAL INSUR. CO./AMER" ]
+, [ 18480, "DD1D4D31-1AFD-496E-9DCD-A118A1DA536A", 18480, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "MYSI CORPORATION" ]
+, [ 18481, "937BA283-E70E-4F90-94D3-CF753A966AAC", 18481, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5076.87", "2010", null, "14488", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18482, "82A31459-37FA-4211-9F9F-CE392F518176", 18482, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "124581.68", "2010", null, "17590", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18483, "80D723EE-8A63-4C29-AA3F-FD61EB3BA8D6", 18483, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2641.52", "2010", null, "18243", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18484, "FD5C1241-6AA6-4BB3-9FE8-CEBBF08740B9", 18484, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10109.11", "2010", null, "19265", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18485, "2A95104B-4D57-4E3C-A525-9DF6887B5F50", 18485, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "23226.57", "2010", null, "20782", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18486, "3DC65D15-379E-4F81-A026-C43B99566AD6", 18486, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22756.7", "2010", null, "21488", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18487, "33B87F13-FC57-4790-B22A-8A4C881CCB43", 18487, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "69434.41", "2010", null, "22538", "ASIAN HUMAN SERVICES, INC." ]
+, [ 18488, "B71B212F-7265-45E9-803D-C6618920E00C", 18488, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "25000", "2010", null, "DV", "CENTER FOR ECONOMIC PROGRESS" ]
+, [ 18489, "6086CE21-3B85-4A9F-BE15-D44AE212AE7A", 18489, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "52812.06", "2010", null, "18848", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18490, "DA6F1BCB-8041-4F7B-85A7-A623DD684EBF", 18490, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "18333.5", "2010", null, "19165", "LAWYERS COMMITTEE FOR BETTER HOUSING" ]
+, [ 18493, "E1058053-85C3-4AC7-BDE6-A0BC5E6831B6", 18493, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2658460.5", "2010", null, "22495", "AFTER-SCHOOL MATTERS, INC." ]
+, [ 18498, "3B884126-4579-4EAE-B523-64391FD0A05B", 18498, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1250", "2010", null, "DV", "TOMEKA REID" ]
+, [ 18499, "EF5156D4-C8EA-45F1-A32C-B176BE7A1212", 18499, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "800", "2010", null, "DV", "THOMAS AARON WICKENDEN" ]
+, [ 18500, "1E1C4832-46CC-4A44-A8C6-B9E575D827F6", 18500, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "850", "2010", null, "DV", "JULIA RAE ANTONICK" ]
+, [ 18501, "AA0D0DD1-0A6F-4C49-A318-0A07800C87CE", 18501, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "750", "2010", null, "DV", "SANDRA HOLUBOW" ]
+, [ 18502, "EB06FB36-B033-4E35-AD68-62621F79C69C", 18502, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "9250", "2010", null, "18903", "LIFE-SPAN" ]
+, [ 18503, "C97298FC-6503-40D6-AA48-B341D9F9C836", 18503, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "64166.63", "2010", null, "21065", "LIFE-SPAN" ]
+, [ 18504, "78F0D156-6CD0-4A18-A570-CE9B5CD33CFA", 18504, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1323301.75", "2010", null, "11544", "STAPLES CONTRACT & COMMERCIAL INC" ]
+, [ 18505, "FDEB2BE9-B776-4655-973C-BF03BF736924", 18505, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "129352.19", "2010", null, "12309", "STAPLES CONTRACT & COMMERCIAL INC" ]
+, [ 18506, "F760E8D6-181C-4537-9E82-7A4ADA8C6050", 18506, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6115.87", "2010", null, "DV", "STAPLES CONTRACT & COMMERCIAL INC" ]
+, [ 18507, "3F686111-469D-4AE0-9D5A-2869D11CEA2E", 18507, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22937.61", "2010", null, "21409", "MIDWEST PESTICIDE ACTION CENTER NFP" ]
+, [ 18508, "D3018B78-BF85-4A62-B5AD-0D125DD7B3EE", 18508, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "MIDWEST PESTICIDE ACTION CENTER NFP" ]
+, [ 18509, "7AF44541-3565-4CFB-809E-2CB14886C624", 18509, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "60", "2010", null, "DV", "ILLINOIS CHAPTER AMERICAN ACADEMY OF PEDIATRICS" ]
+, [ 18510, "C8BB9981-CC96-49EF-ADEA-624C8E7CEA09", 18510, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "879640.94", "2010", null, "DV", "TALAN & KTSANES" ]
+, [ 18511, "C5DC4FE5-68A8-4FD1-9FC3-08A9CB7DF910", 18511, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "63675", "2010", null, "DV", "MARCIA K. JOHNSON" ]
+, [ 18512, "ACE6EA55-564B-4367-8306-6275E93A803A", 18512, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4227182.34", "2010", "DEPT OF BUSINESS & INFORMATION SERVICES", "16761", "INFOR PUBLIC SECTOR INC" ]
+, [ 18513, "DC439D9A-3627-4EE9-AD57-91DE90C03E3D", 18513, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "434231.41", "2010", null, "T28191", "INFOR PUBLIC SECTOR INC" ]
+, [ 18514, "B08BEDCA-1B1A-48FE-958B-9F3A2D029C23", 18514, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "PROFESSIONAL DYNAMIC NETWORK INC" ]
+, [ 18515, "987968D9-F803-403E-ABF7-FFAD9C9399F4", 18515, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10916", "2010", null, "19054", "WOMEN'S BUSINESS DEVELOPMENT CENTER" ]
+, [ 18516, "52AD591B-9421-4524-962C-531546BD9F22", 18516, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10857.3", "2010", null, "DV", "CONSTANT CONTACT INC" ]
+, [ 18517, "7928371F-D93B-4CC7-AA7C-2AEDA17A9628", 18517, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6929.53", "2010", null, "9728", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18518, "5333F82F-7354-4389-80FC-D3C77C995261", 18518, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "401640.9", "2010", null, "DV", "ALBANY PARK COMMUNITY CENTER, INCORPORATED" ]
+, [ 18519, "8A61A241-EFD3-4F8E-BA71-C72BE2D22A63", 18519, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2739799.49", "2010", null, "DV", "DYKEMA GOSSETT ROOKS & PITTS" ]
+, [ 18520, "850FA9C5-2885-4047-A4A4-E8B33605E1E2", 18520, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "17817.54", "2010", null, "DV", "SBC GLOBAL SERVICES, INC. D/B/A/ AT & T GLOBAL SERVICES INC" ]
+, [ 18521, "5566CF55-E735-489C-9F1C-BC7EF152D751", 18521, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7008.1", "2010", null, "19279", "SANKOFA SAFE CHILD INITIATIVE" ]
+, [ 18522, "5E206F38-A7F7-41E5-92F2-D3AD59267354", 18522, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "35403.82", "2010", null, "21620", "SANKOFA SAFE CHILD INITIATIVE" ]
+, [ 18523, "8D3AE4EB-4B75-4879-833C-8E24BB03CA11", 18523, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "214593.05", "2010", null, "15202", "ALBANY PARK COMMUNITY CENTER, INC" ]
+, [ 18524, "A08CDE50-8BFE-4583-9494-BB68D1CC0F58", 18524, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "175000", "2010", null, "8786", "USI MIDWEST LLC" ]
+, [ 18525, "D21B509E-0FE8-4B2E-A719-4BA04A2B7CFC", 18525, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8677861", "2010", null, "DV", "USI MIDWEST LLC" ]
+, [ 18526, "9C3CB2C0-B255-463E-A19E-06A1C291666B", 18526, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4074.26", "2010", null, "DV", "CHICAGO READER" ]
+, [ 18527, "07A97E10-17E2-47E1-95AC-8FCE6086270C", 18527, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "639.81", "2010", null, "DV", "EMILY HUNTER" ]
+, [ 18528, "E4395AE0-F0E8-4E71-9600-7102EB41C6BF", 18528, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1500", "2010", null, "DV", "LIVE THE SPIRIT RESIDENCY" ]
+, [ 18529, "93911402-A978-4065-965F-3E1A0D9C9E9A", 18529, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1500", "2010", null, "DV", "FIFTH HOUSE ENSEMBLE" ]
+, [ 18530, "8E4930A3-5885-4440-BEC4-D2990E90728A", 18530, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2750", "2010", null, "DV", "DANCEWORKS CHICAGO INC NFP" ]
+, [ 18531, "A9A3C9E2-4CF9-4A05-8927-538A80E933D1", 18531, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "ELEMENTS CONTEMP BALLET NFP" ]
+, [ 18532, "CD5CC774-CDCC-46B1-AA3C-BCE5BE6F16AE", 18532, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1666.98", "2010", null, "DV", "HILTON CRYSTAL" ]
+, [ 18533, "292F5A0A-D810-4A6F-8AED-5B1A10BABBF7", 18533, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2250", "2010", null, "DV", "CHICAGO CHILDREN THEATRE" ]
+, [ 18534, "459B94F2-F83F-4F96-B1E8-4E60DDA80FE3", 18534, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6658825.15", "2010", null, "18116", "CHICAGO COMMONS ASSOCIATION" ]
+, [ 18535, "F9B32778-4539-4110-A22C-2C0140111139", 18535, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "67430", "2010", null, "20711", "CHICAGO COMMONS ASSOCIATION" ]
+, [ 18536, "EE2215A9-7D10-477A-8BFE-36690A2E90D9", 18536, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "242660.94", "2010", null, "20787", "CHICAGO COMMONS ASSOCIATION" ]
+, [ 18537, "BDC24D7E-74C8-4653-93ED-0393C08334A1", 18537, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6802.48", "2010", null, "9741", "CHICAGO COMMONS ASSOCIATION" ]
+, [ 18538, "49DF34E1-C88E-45B5-AFBA-03E2819B943D", 18538, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "956338.56", "2010", null, "DV", "CHICAGO COMMONS ASSOCIATION" ]
+, [ 18539, "444BA5D9-0775-48F5-AC85-0728C2D07228", 18539, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "806.84", "2010", null, "DV", "WELLSPRING CENTER FOR HOPE" ]
+, [ 18540, "5143FDAD-5D54-4906-ADBD-7CE1357AD89F", 18540, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "9819.95", "2010", null, "18890", "WELLSPRING CENTER FOR HOPE" ]
+, [ 18541, "AF152BE7-CABC-4160-8D25-AB7194104EAC", 18541, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "57947.42", "2010", null, "20997", "WELLSPRING CENTER FOR HOPE" ]
+, [ 18542, "E9A04383-6F88-4464-98D9-44E5E138C883", 18542, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10206.74", "2010", null, "13311", "A. M. C. MECHANICAL, INC." ]
+, [ 18543, "E50888CD-F2AE-4D40-911A-BBDE627C4073", 18543, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "A. M. C. MECHANICAL, INC." ]
+, [ 18544, "5B421512-535B-4BCE-B3A1-51BC1C232F26", 18544, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "660", "2010", null, "DV", "THEATER WIT" ]
+, [ 18545, "B2F9987B-699C-4A6E-8145-2B0CE5DDB7E5", 18545, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2400", "2010", null, "DV", "ERASING THE DISTANCE" ]
+, [ 18546, "C6BFBED4-9744-4935-B0FB-1CB10B6B6677", 18546, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "900", "2010", null, "DV", "SPUDNIK PRESS COOPERATIVE" ]
+, [ 18547, "F6313162-85CF-41E1-9E45-9F156E1F3A47", 18547, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "SERENDIPITY THEATRE COMPANY" ]
+, [ 18548, "4497BC0D-A791-47B2-9EED-F8CC6CC5A029", 18548, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1606.17", "2010", null, "DV", "FRANK GRIMALDI" ]
+, [ 18549, "8C740841-D820-4BAC-8D8A-3E07480A3B3F", 18549, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "DANK-HAUS GERMAN CULTURAL CTR" ]
+, [ 18550, "F3395693-B2F3-4E77-BDA4-7BC1025ED156", 18550, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3000", "2010", null, "DV", "KARTEMQUIN EDUCATIONAL FILMS" ]
+, [ 18551, "4599D8EC-A62E-46C7-A5CC-C94417A76EAF", 18551, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1900", "2010", null, "DV", "GILLOURY INSTITUTE D/B/A/ SILK ROAD RISING" ]
+, [ 18552, "055A9F65-2085-4FF0-850D-69FEC9DEF460", 18552, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1100", "2010", null, "DV", "VOICE OF THE CITY" ]
+, [ 18553, "1CCC2851-D69F-4FA4-94A8-5385927F6040", 18553, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "CHICAGO CULTURAL ALLIANCE" ]
+, [ 18554, "44653BA7-17EC-4EBB-80E6-4A6C75094032", 18554, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "494.7", "2010", null, "DV", "EDGAR I GALLO" ]
+, [ 18555, "CB4F0C12-E69E-43AF-98FD-AD07224A1A5B", 18555, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "20390.18", "2010", null, "21098", "ASIAN HUMAN SERVICES, INC" ]
+, [ 18556, "A2B81189-09C7-4F9E-B18B-4244F54785D3", 18556, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "70644.42", "2010", null, "22338", "ASIAN HUMAN SERVICES, INC" ]
+, [ 18557, "541D3BC5-660A-41EE-8FCD-846B64E7A8CA", 18557, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7910.67", "2010", null, "17001", "OPENLANDS" ]
+, [ 18558, "9E2F0F8B-B438-4949-8630-28864D1F61EA", 18558, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "373.72", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18374", "GOODCITY" ]
+, [ 18559, "C88036B5-FD36-4C9D-A547-964F9AD622B4", 18559, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5100", "2010", null, "DV", "GOODCITY" ]
+, [ 18560, "1A748547-B596-48D3-9BDD-22A66603D875", 18560, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "60121.42", "2010", null, "1942", "DAVID MASON & ASSOCIATES 01 ILLINOIS, LIMITED" ]
+, [ 18561, "B3FCD099-F14A-4E30-A23F-689AE2563A73", 18561, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "30613.86", "2010", null, "9715", "DAVID MASON & ASSOCIATES 01 ILLINOIS, LIMITED" ]
+, [ 18562, "CF296D69-E24C-464E-A074-DCFFF25D11C7", 18562, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "114671.26", "2010", null, "DV", "SMITHAMUNDSEN LLC" ]
+, [ 18563, "15CD9638-A164-4D0D-91C6-D72BFD8563BE", 18563, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2342802.01", "2010", null, "DV", "AFSCME COUNCIL 31" ]
+, [ 18564, "F64C7606-BE2F-4A4E-9657-21016DEC7BBE", 18564, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "389.8", "2010", null, "DV", "AARON DURNBAUGH" ]
+, [ 18565, "70459DD6-DBB6-4118-B645-C6E9B5CEE611", 18565, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "38114.73", "2010", null, "DV", "MIDCO INC." ]
+, [ 18566, "A24D8144-024C-48F7-B151-B928B6F25505", 18566, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "27365.7", "2010", null, "DV", "KULWIN & ASSOCIATES" ]
+, [ 18567, "8CEC60B6-7BF9-43DF-930B-476A6B2DF1B1", 18567, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5505", "2010", null, "DV", "MICROTRAIN" ]
+, [ 18568, "D74D670B-0FD4-40D6-A429-E32C08C803DB", 18568, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1881", "2010", null, "DV", "ANGELA PETRUZZI" ]
+, [ 18569, "07798EDA-C338-44F5-8453-EC47744BB548", 18569, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2623.9", "2010", "DEPARTMENT OF BUSINESS AFFAIRS AND LICENSING", "9397", "KEYBOARD ENTERPRISES DEVELOPMENT. INC." ]
+, [ 18570, "791E2BBC-B9DA-4DFE-857D-80BA21635FFE", 18570, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3000", "2010", null, "DV", "AGUSTIN GOMEZ-LEAL" ]
+, [ 18571, "7145575F-5490-4324-9C2E-EA8F73BADB34", 18571, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "592.9", "2010", null, "DV", "TRI-TECH FORENSICS, INC" ]
+, [ 18572, "A3F6544B-C14D-4127-BAEE-220006BEEA0A", 18572, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "18064.27", "2010", null, "DV", "NILES ANIMAL HOSPITAL & BIRD" ]
+, [ 18573, "1A5ADBA1-EC45-4977-8BFC-650D198708E8", 18573, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "703.9", "2010", null, "DV", "JO ANNE CIMINO COURT REPORTING" ]
+, [ 18574, "8CBB9A6D-C829-43B0-BB82-289A76213B21", 18574, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "KATHERINE DAVIS" ]
+, [ 18575, "A2D855A9-6160-469E-A04C-95DC266D7210", 18575, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22500", "2010", null, "22644", "BEYONDMEDIA" ]
+, [ 18576, "8DEF63DB-DFDE-4F82-885C-82FD80945204", 18576, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2000", "2010", null, "DV", "BEYONDMEDIA" ]
+, [ 18577, "3CF0DA96-D1E0-46E2-B4A9-8F30FAE04B19", 18577, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "875", "2010", null, "DV", "ACFE" ]
+, [ 18578, "1464B555-D3D4-491C-8CC5-66BF78C3E592", 18578, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12920.03", "2010", null, "19153", "ROGERS PARK COMM DEV CORP" ]
+, [ 18579, "898E031D-A2EA-4DC3-B4DF-833BD4F5B37F", 18579, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "50058.86", "2010", null, "21870", "ROGERS PARK COMM DEV CORP" ]
+, [ 18580, "025BCB46-699F-4AF2-ACA0-9B42551D6F46", 18580, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5000", "2010", null, "DV", "WOMEN'S BUSINESS DEVELOPMENT CENTER" ]
+, [ 18581, "973948B3-4AD4-4A34-9122-7EAA96FD9F5A", 18581, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "23219313.78", "2010", null, "DV", "MUNICIPAL EMPLOY CREDIT UNION" ]
+, [ 18582, "8926648A-410D-4BF9-A57F-B64B49E8ACFB", 18582, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "315", "2010", null, "20418", "PROFESSIONAL DYNAMIC NETWORK INC" ]
+, [ 18583, "FAB3E694-1BAA-4BF9-91C9-431186EE74AF", 18583, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8235.6", "2010", null, "DV", "FLEX DISCOVERY LLC CHICAGO" ]
+, [ 18586, "7A69137B-E196-472B-8101-1F17BB54033F", 18586, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "63875", "2010", null, "DV", "CIRCLE URBAN MINISTRIES 01" ]
+, [ 18587, "B8E72664-F046-4CBF-84DC-21343CE1A709", 18587, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "13890", "2010", null, "DV", "GEORGE P. BERBAS, P.C." ]
+, [ 18588, "07FF31FF-8E42-4681-B693-6A62773741D0", 18588, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "328214.11", "2010", null, "16508", "RS & H ILLINOIS INC" ]
+, [ 18589, "18705C2B-899B-4985-8DEF-74AEA167D935", 18589, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12960", "2010", null, "DV", "NOVAK CONSTRUCTION CO." ]
+, [ 18590, "51EA3CBA-B6E3-44CE-9CB5-FEAEDE5FB99A", 18590, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "582.35", "2010", null, "DV", "SEAN WIEDEL" ]
+, [ 18591, "1D52994A-7560-4664-A446-EE4ED4E8CE04", 18591, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "119571.61", "2010", null, "15441", "ILLINOIS CHAPTER AMERICAN ACADEMY OF PEDIATRICS" ]
+, [ 18592, "DA73768E-C473-41B4-BF2C-576A2DAC4527", 18592, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4627.49", "2010", null, "18972", "CHICAGO GAY & LESBIAN CHAMBER" ]
+, [ 18593, "503A1969-32C0-4B82-A1D8-970CE8407F27", 18593, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "16255.95", "2010", null, "21279", "CHICAGO GAY & LESBIAN CHAMBER" ]
+, [ 18594, "CF9C354F-C15F-4914-8EE2-0190EDBF5A95", 18594, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "43520.12", "2010", null, "13221", "TRANSYSTEMS CORPORATION" ]
+, [ 18595, "9F5757DD-45C3-436D-865F-DE6C190B14BD", 18595, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "141514.93", "2010", null, "14622", "TRANSYSTEMS CORPORATION" ]
+, [ 18596, "2037254C-2FCE-4312-8CDB-B42A742A3C21", 18596, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "599121.58", "2010", null, "15089", "TRANSYSTEMS CORPORATION" ]
+, [ 18597, "8F7C21F8-E232-4173-907C-F0DD9FACC38E", 18597, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "659500.11", "2010", null, "15090", "TRANSYSTEMS CORPORATION" ]
+, [ 18598, "C2676C3C-288F-4F06-AD8C-1CB467FEE975", 18598, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1043632.52", "2010", null, "21624", "TRANSYSTEMS CORPORATION" ]
+, [ 18599, "4A835ED2-EF00-49DC-88AC-58F0D0710596", 18599, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "78971.57", "2010", null, "2282", "TRANSYSTEMS CORPORATION" ]
+, [ 18600, "FCF2513E-C464-4A02-9C77-1B012BF9E83B", 18600, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3378.33", "2010", null, "3542", "TRANSYSTEMS CORPORATION" ]
+, [ 18601, "5EDB901A-9D2F-4D86-9EF7-6FA293D9A673", 18601, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1929087.42", "2010", null, "6652", "TRANSYSTEMS CORPORATION" ]
+, [ 18602, "AAD25E59-5662-4768-9DEF-1D8CE4C2E91C", 18602, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "196011.26", "2010", null, "8982", "TRANSYSTEMS CORPORATION" ]
+, [ 18603, "3104DDBB-7DD7-472C-8C45-29047A56E65E", 18603, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1128.72", "2010", null, "DV", "TRANSYSTEMS CORPORATION" ]
+, [ 18604, "27A4E3A2-69DE-45DF-94F7-40B1331EF9EC", 18604, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "175000", "2010", "DEPARTMENT OF FINANCE", "8786", "USI MIDWEST, INC." ]
+, [ 18605, "683E9A4A-6F72-4A16-9A2C-7A0F54488825", 18605, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8677861", "2010", null, "DV", "USI MIDWEST, INC." ]
+, [ 18606, "47188D46-1AD2-40CF-B2E6-46C5085E3375", 18606, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "299703.79", "2010", null, "12802", "CHARLES EQUIPMENT CO" ]
+, [ 18607, "1D200C96-19F3-44BD-BB52-B2E3AD67CDE6", 18607, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7028.07", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "14004", "ALTERNATIVES INC" ]
+, [ 18608, "01DE078B-F5CA-4521-984C-EC5C7DC300D0", 18608, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2813.99", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18790", "ALTERNATIVES INC" ]
+, [ 18609, "3EA066B7-CBCF-4C67-834E-37B593627ED7", 18609, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "155653.47", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20033", "ALTERNATIVES INC" ]
+, [ 18610, "32BF04AA-532E-4C3B-A8E9-BC11577C0156", 18610, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "329451.24", "2010", "DEPT OF AVIATION", "16940", "STV INCORPORATED" ]
+, [ 18611, "B4ABA395-81D2-4A12-86C4-436E5EFF4820", 18611, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "19504.81", "2010", "DEPT OF AVIATION", "1966", "STV INCORPORATED" ]
+, [ 18612, "BF89B05B-CB7E-4E00-8298-C759EEF08557", 18612, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7376.4", "2010", null, "18971", "CHATHAM BUSINESS ASSOCIATIO 01" ]
+, [ 18613, "D006C2F8-2879-4918-A5AC-0711DFEDEE8F", 18613, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "38930.19", "2010", null, "21276", "CHATHAM BUSINESS ASSOCIATIO 01" ]
+, [ 18614, "2DFFBF12-1582-460E-AB42-15E59584F103", 18614, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "270.94", "2010", null, "DV", "THOMAS W ROBY IV" ]
+, [ 18615, "7825C93D-87D1-4164-A16A-B174C4741967", 18615, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "128465", "2010", null, "11203", "USI MIDWEST LLC" ]
+, [ 18616, "7ABA7350-E020-4D4F-B1E8-EC0CC084E391", 18616, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "200000", "2010", null, "13021", "USI MIDWEST LLC" ]
+, [ 18617, "19BB3425-9136-43C6-B3DD-F5F099D5C592", 18617, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2030.4", "2010", null, "DV", "AFTER SCHOOL MATTERS, INC." ]
+, [ 18619, "8C285C0B-AE32-4AB7-81C8-53A4FB1E2BB8", 18619, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14298446.32", "2010", null, "20958", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18620, "BCFE3EB9-011B-41C1-85C1-E3EF6813F875", 18620, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1772355.77", "2010", null, "21625", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18621, "8937672D-CC2F-46DA-B2B2-6B66E92E2995", 18621, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1643800", "2010", null, "22374", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18622, "4BCA1CEB-CC09-456A-8F5C-8E437FB47FE7", 18622, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "589000", "2010", null, "23929", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18627, "3AB70ACB-885F-4110-9410-789FD2D253E6", 18627, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "WASHINGTON UNIV- ST LOUIS" ]
+, [ 18628, "AA9B0F62-2209-48A1-8860-1EB264F8294A", 18628, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1780.27", "2010", null, "18239", "ALLIANCE OF LOCAL SERVICE ORGANIZATIONS" ]
+, [ 18630, "AD7D6004-3415-4EDE-B5C1-3FC54180B9EE", 18630, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2000", "2010", null, "DV", "ALLIANCE OF LOCAL SERVICE ORGANIZATIONS" ]
+, [ 18631, "E54529D0-0930-4C75-A8C3-EE301F7BA823", 18631, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "228.85", "2010", null, "DV", "THOMAS L JOHNSON" ]
+, [ 18632, "34EC0240-ACC8-4ABA-8096-10EDEDF41AED", 18632, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2124.46", "2010", null, "DV", "GERALD ALDER" ]
+, [ 18633, "65207E32-4760-4A1B-BB4C-C98C06543DF1", 18633, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1119.3", "2010", null, "DV", "MEDIA TRACKING INC D/B/A/ NEWSPAPERCLIPS.COM" ]
+, [ 18634, "164C6D1F-C449-460D-A57F-5A5AE225E3CF", 18634, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "75", "2010", null, "DV", "KELVIN L ROBINSON" ]
+, [ 18635, "5947566B-CFBE-4E2D-81AE-4C655BDF4F9B", 18635, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "628.99", "2010", null, "DV", "CHICAGO BOTANIC GARDEN 01" ]
+, [ 18636, "7C25510D-9139-4CE1-9EFE-7F79D45981EF", 18636, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "203248.25", "2010", null, "DV", "NULINX INTERNATIONAL, INC." ]
+, [ 18637, "AF24DE47-81F9-4269-A9AE-0B20F24E5741", 18637, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "153129.53", "2010", null, "17444", "BOWMAN,BARRETT & ASSOCIATES" ]
+, [ 18638, "8F921582-73F0-4CEB-B425-1942C7BF210A", 18638, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "591553.48", "2010", null, "20262", "BOWMAN,BARRETT & ASSOCIATES" ]
+, [ 18639, "24A4318E-A26C-4D88-AAD2-807911EF6F79", 18639, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6819", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "19238", "HISPANIC HOUSING DEVELOPMENT CORP" ]
+, [ 18640, "C48DC322-F86E-41F0-A52D-7948BF65F997", 18640, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "286363.45", "2010", null, "DV", "DALEY MOHAN GROBLE PC CHICAGO" ]
+, [ 18641, "043F006F-D403-4D26-96B1-382A5CEE4780", 18641, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "23360.11", "2010", null, "19736", "RECYCLEREWARDS INC" ]
+, [ 18642, "A7333592-94FE-4E21-A2A1-0563C15861EF", 18642, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1348193.19", "2010", null, "15383", "MOTOROLA SOLUTIONS INC" ]
+, [ 18643, "A7239489-9A25-4FC5-8773-A18978025BAC", 18643, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11682977.09", "2010", null, "19782", "MOTOROLA SOLUTIONS INC" ]
+, [ 18644, "80286EA8-4604-4A8B-A889-A3BAA882CDBD", 18644, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7080", "2010", null, "DV", "THOMAS J  BROWNE" ]
+, [ 18645, "2DC91A9E-5F52-4669-A6A8-161F8C46347C", 18645, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "81490", "2010", null, "DV", "GB ILLINOIS 2 LLC" ]
+, [ 18646, "902DC5E0-9DE7-44CC-A6CA-5907143BF63C", 18646, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "240.16", "2010", null, "DV", "SUE NEWMAN" ]
+, [ 18647, "BB658FBF-FCD3-46F5-821C-E3D780170241", 18647, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "37.32", "2010", null, "DV", "GEORGE ARTEAGA" ]
+, [ 18648, "0E9A2122-84A5-4567-983C-A73E72695FC1", 18648, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "575", "2010", null, "DV", "DAMILIC CORPORATION" ]
+, [ 18649, "7121C6B6-D8F9-4708-A107-BBA89C3800D2", 18649, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "360", "2010", null, "DV", "NATIONWIDE GAGE CALIBRATION" ]
+, [ 18650, "148A96B0-FEEE-4BF9-A826-46F0153B47DD", 18650, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "195", "2010", null, "DV", "R C COMMUNICATIONS DIVISION OF RENT COM, INC." ]
+, [ 18651, "39F177BE-09E2-4B29-9DCC-42FA48EEFCD1", 18651, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10114695.31", "2010", null, "1416", "BPC AIRPORT PARTNERS," ]
+, [ 18652, "AFE89594-31FD-4E1E-B433-949C9B9C5344", 18652, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "9.5", "2010", null, "DV", "BETTIE ROGERS" ]
+, [ 18653, "D8ADBCDB-BE2A-485F-8525-6670119B1A6F", 18653, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "66225.15", "2010", null, "DV", "HARTIGAN & O CONNOR" ]
+, [ 18654, "A4F70976-0703-45F4-B266-512DD21EC8C0", 18654, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14650.76", "2010", null, "20778", "ALTERNATIVES INC" ]
+, [ 18655, "894D5680-4640-49D6-8370-98171826B91B", 18655, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "900", "2010", null, "DV", "ALTERNATIVES INC" ]
+, [ 18656, "96EEE24E-641B-4537-A418-70F7D7C1D769", 18656, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "28550.49", "2010", null, "11338", "TRANSYSTEMS CORPORATION" ]
+, [ 18657, "1C7205CB-F35F-4B43-9692-5D3E924DC46A", 18657, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "113133.61", "2010", null, "11569", "TRANSYSTEMS CORPORATION" ]
+, [ 18658, "BEC450AB-12A2-4C2A-B30B-3A022192FCFB", 18658, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "87855", "2010", null, "18937", "CELLMARK FORENSICS INC" ]
+, [ 18659, "87312D89-F195-4F04-BF67-19CFB15AFD5D", 18659, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "27711", "2010", null, "DV", "CELLMARK FORENSICS INC" ]
+, [ 18661, "EC149232-BC36-4930-B0F9-174C6B22148A", 18661, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "128465", "2010", "DEPARTMENT OF FINANCE", "11203", "USI MIDWEST, INC." ]
+, [ 18662, "334002B8-0E66-40AA-BD8F-4E731905857D", 18662, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "200000", "2010", "DEPARTMENT OF FINANCE", "13021", "USI MIDWEST, INC." ]
+, [ 18663, "A8085A47-BFB4-4E7C-B425-0C3EFEFD47DD", 18663, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "400", "2010", null, "DV", "AMY LOWE" ]
+, [ 18664, "9737CB62-B9C5-4BCC-868B-272960F7E5A0", 18664, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14464.6", "2010", null, "DV", "ACCESS LIVING OF METROPOLITAN CHICAGO" ]
+, [ 18665, "30867548-4F5C-40A9-B890-4E927F2B4370", 18665, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5535.54", "2010", null, "19156", "ACCESS LIVING OF METROPOLITAN CHICAGO" ]
+, [ 18666, "BDD578DF-3335-4584-9402-6BB38B00A1DD", 18666, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "105615.46", "2010", null, "20320", "ACCESS LIVING OF METROPOLITAN CHICAGO" ]
+, [ 18667, "3341CD77-F16A-40EB-ABD8-1F38F6BFCBCE", 18667, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "25801.95", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20772", "ACCESS LIVING OF METROPOLITAN CHICAGO" ]
+, [ 18668, "81F03082-A2D9-486E-AA78-84957CE390B8", 18668, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "27683.35", "2010", null, "21847", "ACCESS LIVING OF METROPOLITAN CHICAGO" ]
+, [ 18669, "CE809359-3E0E-4E82-AFA8-558304D94459", 18669, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4580.5", "2010", null, "DV", "ACCURATE DOCUMENT DESTRUCTION" ]
+, [ 18670, "908A9210-2519-4876-AF2D-387F89200DAB", 18670, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10322.2", "2010", null, "18236", "ADA S MCKINLEY COMM. SERVICE" ]
+, [ 18671, "C21D0C42-6D52-4F87-88E1-B0083844ABB0", 18671, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "161146.93", "2010", null, "20032", "ADA S MCKINLEY COMM. SERVICE" ]
+, [ 18672, "DA69A977-4358-4FE3-BF73-C94FB43CA85C", 18672, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "32688.61", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20773", "ADA S MCKINLEY COMM. SERVICE" ]
+, [ 18673, "DD540618-CEEC-48AF-8B38-C71B7A70328B", 18673, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "13344.35", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "21048", "ADA S MCKINLEY COMM. SERVICE" ]
+, [ 18674, "0DE1B81D-AA1B-4CD3-BFE3-3B281C4A628E", 18674, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "150656.27", "2010", null, "22444", "ADA S MCKINLEY COMM. SERVICE" ]
+, [ 18675, "5C12776D-0C57-405A-B9F3-DFDB01AD35B8", 18675, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "142079", "2010", null, "DV", "AIRPORTS COUNCIL INTERNATIONAL-NA CONFERENCE" ]
+, [ 18676, "F33BDEAA-2E28-4EDE-9F6E-190ECE514115", 18676, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "168258.27", "2010", null, "17239", "TCA HEALTH INC" ]
+, [ 18677, "2588BCED-7AC4-412A-8BDC-95BE6B2F2D3C", 18677, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "TCA HEALTH INC" ]
+, [ 18678, "69EC108D-9691-413E-B177-16E13FE0F342", 18678, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "29775.75", "2010", null, "DV", "AT & T 09" ]
+, [ 18679, "B83D1902-2908-49C6-8853-3306089392F7", 18679, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14691.7", "2010", null, "DV", "ASIAN HUMAN SERVICES" ]
+, [ 18680, "CD40401C-53A8-4FB2-A16F-7A2862EC6331", 18680, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "44584.23", "2010", null, "14774", "ASIAN HUMAN SERVICES, INC" ]
+, [ 18681, "C38E9D6B-64EC-4857-953C-D67F2E52FF5E", 18681, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "199107.73", "2010", null, "15203", "ASIAN HUMAN SERVICES, INC" ]
+, [ 18682, "B78E8850-D300-4EFB-B93C-AABC2B179EE5", 18682, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "106908.08", "2010", null, "20426", "ASIAN HUMAN SERVICES, INC" ]
+, [ 18683, "904ADE70-C3AF-4972-B897-08EFC9C80FD7", 18683, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "271213.45", "2010", null, "15946", "PLASTIC CARD SOLUTIONS, INC." ]
+, [ 18684, "7E29B984-408C-4F63-922A-757ABA007A65", 18684, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1470", "2010", null, "DV", "MARIA URIBE" ]
+, [ 18685, "2B7A94E5-B4FE-4CCC-A9A0-8752FC967157", 18685, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "791653.15", "2010", null, "DV", "ILLINOIS DEPT OF COMMERCE & ECONOMIC OPPORTUNITY" ]
+, [ 18686, "1653E349-31FC-434B-A60F-72DE2E473BC2", 18686, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "269.68", "2010", null, "DV", "MATTHEW STEWART" ]
+, [ 18687, "76CB5C93-A67F-44F7-9D09-DBB2E65CEEE1", 18687, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "73", "2010", null, "DV", "SOUTHTOWNSTAR" ]
+, [ 18688, "44BD8FFD-5B9F-481B-828C-73AD7B029DAD", 18688, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "55", "2010", null, "DV", "MARK GALVAN" ]
+, [ 18689, "CF823338-8471-4D5B-B996-4D5E60806E45", 18689, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12687.5", "2010", null, "DV", "J.A. WALKER AND ASSOCIATES, PC" ]
+, [ 18690, "7DF11ECD-D5DA-4DF8-8245-7B7ABED7D48E", 18690, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6294.94", "2010", null, "19011", "MEXICAN AMER CHAMBER OF COMRCE" ]
+, [ 18691, "3FA54A97-E902-4ADA-BD15-2DB1E9F13781", 18691, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "27209.35", "2010", null, "21941", "MEXICAN AMER CHAMBER OF COMRCE" ]
+, [ 18692, "57FBFA0F-F49A-403E-8089-023F40ECBF53", 18692, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1781.66", "2010", null, "DV", "MEXICAN AMER CHAMBER OF COMRCE" ]
+, [ 18693, "926E9416-45A0-4818-81B6-BC6310E5FBAD", 18693, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "28673.87", "2010", null, "21850", "WOODSTOCK INSTITUTE 01" ]
+, [ 18694, "A029EED6-E4CB-49EC-86E9-80FA60AAFD84", 18694, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "WOODSTOCK INSTITUTE 01" ]
+, [ 18695, "9637B51F-3F63-4EA4-BACF-8700B28D7B1F", 18695, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "128111.92", "2010", null, "17120", "ERIE FAMILY HEALTH CENTER" ]
+, [ 18696, "A70CCC9E-385D-49DC-9DDC-81CF5C197B57", 18696, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "140445.68", "2010", null, "17749", "ERIE FAMILY HEALTH CENTER" ]
+, [ 18697, "94FA7E59-F554-4777-B2AE-2F7DD5ED1AB4", 18697, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "57453.28", "2010", null, "DV", "ERIE FAMILY HEALTH CENTER" ]
+, [ 18698, "2562D143-5F5D-4618-842D-47EF8D67F8CB", 18698, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1278.65", "2010", null, "DV", "STERNS BOOK SERVICE" ]
+, [ 18699, "AD0D3225-4E83-49F8-BD95-EACDC8A65B4E", 18699, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "15292.64", "2010", null, "15569", "INDUSTRIAL SYSTEMS LIMITED" ]
+, [ 18700, "F0CF9A69-DA4C-4EAC-99CC-C1996C2A9F73", 18700, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "42625.44", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20812", "CENTER OF HIGHER DEVELOPMENT" ]
+, [ 18701, "678C3387-10C9-4E76-878A-41FCD1977999", 18701, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6769", "2010", null, "DV", "CENTER OF HIGHER DEVELOPMENT" ]
+, [ 18702, "323446EA-FED1-47C2-9EEF-21C0C7E9FB5F", 18702, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2190", "2010", null, "DV", "NELSON E. SOSA" ]
+, [ 18703, "92CBDA96-9AE4-4B41-BDB9-3AB36DDE1FE0", 18703, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "118175", "2010", null, "18455", "ASKREPLY, INC" ]
+, [ 18704, "AC47FF51-9E76-4BB4-B328-91AC095BBB9A", 18704, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11721", "2010", null, "DV", "WINSTON ATWATER" ]
+, [ 18705, "E5AC75D6-7358-4B44-A61A-95D51D39EE18", 18705, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "370", "2010", null, "DV", "IGFOA C/O CM SERVICES" ]
+, [ 18706, "2394802F-BD7E-45C7-AD7C-4373B5E21BD0", 18706, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "73741", "2010", null, "15143", "ECIVIS.COM LLC" ]
+, [ 18707, "EEC6A708-183C-4003-B233-D248F70955DC", 18707, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "575", "2010", null, "DV", "RECORD INFORMATION SERVICES IN" ]
+, [ 18708, "19DA5BDC-02D2-42A2-A159-5C3AC4765F8B", 18708, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "616.79", "2010", null, "DV", "HYDE PARK NEWSPAPERS INC" ]
+, [ 18709, "F804E2B7-90FC-4D5B-B0EC-4E08FECF0E5C", 18709, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6420422.23", "2010", null, "15044", "DETROIT SALT" ]
+, [ 18710, "86A47173-E529-48B5-A524-A1E7A4B1EBED", 18710, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "941.38", "2010", null, "DV", "DEMCO INC" ]
+, [ 18711, "4A260B36-850E-460D-9A2A-77818E13791F", 18711, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6501", "2010", null, "11888", "THRESHOLDS" ]
+, [ 18712, "7D6C41D0-4546-466D-94D7-2BDBF8178E81", 18712, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "242433.08", "2010", null, "14655", "THRESHOLDS" ]
+, [ 18713, "47C4CD7A-1EC9-4108-849C-CBE13A49367C", 18713, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "261938.59", "2010", null, "14661", "THRESHOLDS" ]
+, [ 18714, "0B230F9C-57DC-485A-AC87-3CE0E8A34637", 18714, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "164973.19", "2010", null, "16063", "THRESHOLDS" ]
+, [ 18715, "AF450D28-A182-45E9-9093-FF70F7926996", 18715, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "296794.62", "2010", null, "17255", "THRESHOLDS" ]
+, [ 18716, "70C2D7B2-2AA5-49C3-AF3B-9E337AD3A17C", 18716, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "374383.87", "2010", null, "17410", "THRESHOLDS" ]
+, [ 18717, "01CCFB27-E6B1-4C98-93DA-744604320DBA", 18717, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "600284.96", "2010", null, "18871", "THRESHOLDS" ]
+, [ 18718, "BC1A6ADA-FF39-42A0-BABE-EC0D09BFCBF1", 18718, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "ROGERS PARK COMM DEV CORP" ]
+, [ 18719, "EBAA0721-8B3B-487C-9B2C-D57FEAA75EFA", 18719, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "658.95", "2010", null, "19180", "ADVOCATE HEALTH CENTERS" ]
+, [ 18720, "A9E05E3C-20BF-4755-98C8-5DAE70C1E86D", 18720, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1734.56", "2010", null, "DV", "ADVOCATE HEALTH CENTERS" ]
+, [ 18721, "BF634F68-F740-4481-9B5D-D13025322828", 18721, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "693574.79", "2010", null, "DV", "SANCHEZ & DANIELS" ]
+, [ 18722, "4159A47B-1C49-465C-8A59-39A6A32F8F21", 18722, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "40175", "2010", null, "DV", "MONEY SAVVY GENERATION FD" ]
+, [ 18723, "356273D2-2165-4B07-AF4F-5802023B34B3", 18723, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1500", "2010", null, "DV", "KALAPRIYA FOUNDATION" ]
+, [ 18724, "A86EC6DA-2406-4F0B-9284-4D3B1101560F", 18724, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "66549.75", "2010", null, "17748", "ARDMORE ASSOCIATES, LLC" ]
+, [ 18725, "0F4578FF-9E2F-4508-9183-3869213A10BA", 18725, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "72960.2", "2010", null, "19749", "ARDMORE ASSOCIATES, LLC" ]
+, [ 18726, "5593A708-7838-4C68-9844-D88BACA0D0AC", 18726, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "171493.31", "2010", null, "20517", "ARDMORE ASSOCIATES, LLC" ]
+, [ 18727, "DBB7BEC5-BB1F-4201-8ADC-4A73CF110DF7", 18727, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "202893.78", "2010", null, "5857", "ARDMORE ASSOCIATES, LLC" ]
+, [ 18728, "87E367AA-9BB3-4544-A549-F01026603890", 18728, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "52080", "2010", null, "21956", "WORLD BOOK INC" ]
+, [ 18729, "98B1EC48-18EE-46E8-B77F-8A486F3CB87C", 18729, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "64657", "2010", null, "DV", "WORLD BOOK INC" ]
+, [ 18730, "85DCD810-54A9-4F79-A7B7-79F1E5509ACB", 18730, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "99260", "2010", null, "21780", "L F L PROPERTIES INC" ]
+, [ 18731, "993CD77E-E16A-4814-890C-8866313AB319", 18731, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "19474", "2010", null, "20017", "WILLIAM MORALES & ASSOC., P.C." ]
+, [ 18732, "D292EC7F-773D-4E56-8E1C-43301A8ABD33", 18732, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "24700", "2010", null, "22060", "WILLIAM MORALES & ASSOC., P.C." ]
+, [ 18733, "2188C4F4-6498-4938-8B67-442FC61F5CE8", 18733, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "506061", "2010", null, "14652", "NOVAPRO RISK SOLUTIONS LP" ]
+, [ 18734, "45FA0521-248D-4F3B-9FD9-696634D4C9F2", 18734, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1408583.68", "2010", null, "DV", "NOVAPRO RISK SOLUTIONS LP" ]
+, [ 18735, "699032DC-076F-4167-827B-D0C352C122BF", 18735, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14394.47", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "21019", "PREVENTION FORCE FAMILY CENTER" ]
+, [ 18736, "472F7981-B929-45E1-91D2-3B5EE33E9FCF", 18736, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2800", "2010", null, "DV", "PREVENTION FORCE FAMILY CENTER" ]
+, [ 18737, "EAF4EB3B-4A07-4125-A54B-EC57043F9ADD", 18737, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "158458.55", "2010", null, "17199", "UNIVERSITY OF CHICAGO" ]
+, [ 18738, "4DDB91C8-E87E-477B-8E18-95C11A5AED1D", 18738, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22757.69", "2010", null, "DV", "UNIVERSITY OF CHICAGO" ]
+, [ 18740, "19D53DCB-3318-478C-92CA-BA7BBCF1BD7E", 18740, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11421652.65", "2010", null, "DV", "PUBLIC BUILDING COMMISSION CHG" ]
+, [ 18741, "024E274A-3A15-4931-A9D4-2A4543EAC5C1", 18741, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8171810.6", "2010", null, "12301", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18742, "E2FAB3A8-01BA-4DD1-889B-B5BCA836EDB4", 18742, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1800000", "2010", null, "15297", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18743, "8305B67E-DA54-4AF8-8C5A-5FFBCFAC7ABB", 18743, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11671170.2", "2010", null, "16456", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18744, "C7785F77-D52B-4BFD-B36D-76E67A62670E", 18744, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "26096836.8", "2010", null, "17229", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18745, "2744D363-2058-4194-9E62-5BBFC1232021", 18745, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "600879.42", "2010", null, "18350", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18746, "26AE3B39-6903-4295-B53E-104993B05AC7", 18746, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10620264.18", "2010", null, "18415", "PUBLIC BUILDING COMMISSION CHICAGO" ]
+, [ 18749, "F0F6C29B-E08F-4407-9662-20D168D04B76", 18749, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "24309.85", "2010", null, "19841", "KIDS OFF THE BLOCK" ]
+, [ 18750, "084B493E-0F7B-44FD-AED9-10D3D73A5605", 18750, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8460.44", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20905", "KIDS OFF THE BLOCK" ]
+, [ 18751, "5ACDE486-36BB-4316-B8FA-5BAD107B5675", 18751, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "58445.6", "2010", null, "20639", "METROPOLITAN ASIAN FAMILY SRVC" ]
+, [ 18752, "8911F440-F08C-4DB1-9472-D1F876015382", 18752, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "21410.05", "2010", null, "20655", "METROPOLITAN ASIAN FAMILY SRVC" ]
+, [ 18753, "00F7B3DE-06EB-4C72-96CA-8C82750869AC", 18753, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6390", "2010", null, "DV", "ANTWAN L  DOBSON" ]
+, [ 18754, "CDF83B9F-0EDF-453C-9C00-309353BF223A", 18754, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11175", "2010", null, "DV", "EDNA TURKINGTON" ]
+, [ 18755, "1D3A3D28-C031-4B0D-B3E4-55C99FB6CDE8", 18755, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "16622.26", "2010", null, "19145", "VOICE OF THE PEOPLE, INC." ]
+, [ 18756, "5054DCD5-8783-4A9D-BAB9-25366E0810D9", 18756, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10428", "2010", null, "21508", "VOICE OF THE PEOPLE, INC." ]
+, [ 18757, "ACB9AFA3-0F41-44D9-BCF0-2FB7BB2A9C7B", 18757, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1100", "2010", null, "DV", "HERMAN TOROSIAN" ]
+, [ 18758, "8CE1F981-FAAF-41E2-89F8-4D2669B9B2F1", 18758, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1810", "2010", null, "DV", "SPARK VENTURES" ]
+, [ 18759, "30A7BB22-E828-404F-BCFD-150DA828EE44", 18759, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "655309.59", "2010", null, "15039", "WIGHT/INDUSTRIA JV" ]
+, [ 18760, "F0DB929C-2ACE-4651-8677-1C9ADFF59827", 18760, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "69.99", "2010", null, "DV", "MICHAEL SNOW" ]
+, [ 18761, "F20CF41F-FE2E-40C7-82CF-4C3FDB84239E", 18761, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "997.56", "2010", null, "DV", "ELISABETH K. WEBER" ]
+, [ 18762, "7F548C63-4642-4D1F-8F1E-67582A2A59D3", 18762, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "130553.62", "2010", null, "18047", "PUBLIC SURPLUS LLC" ]
+, [ 18763, "C9B64A24-2AFE-4559-A05B-8BFE077C5524", 18763, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "25624.33", "2010", null, "22247", "FASTER MESSENGER SERVICE" ]
+, [ 18764, "E43F8D49-66B6-47A1-A404-20B981C9C693", 18764, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "FASTER MESSENGER SERVICE" ]
+, [ 18765, "05C681CA-40C5-4C6E-B854-8A2C17705C70", 18765, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "148600", "2010", null, "19722", "WES KOCHEL INC." ]
+, [ 18766, "3FDBA80F-7FC8-48BC-9D52-1B84A95B47AC", 18766, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "42241.97", "2010", null, "DV", "IHS GLOBAL, INC." ]
+, [ 18767, "7AB37336-141A-41D8-8F25-FF5E7785E2ED", 18767, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "906100", "2010", "DEPARTMENT OF BUILDINGS", "19354", "HENEGHAN WRECKING & EXCAVATING CO INC" ]
+, [ 18768, "DCDB5136-0F94-4423-8DC1-24B92347A156", 18768, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5280", "2010", null, "DV", "CHILDSERV" ]
+, [ 18769, "3E45A433-D961-41A8-9163-48D0F36E78FD", 18769, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5758.24", "2010", null, "18390", "CHILDSERV 01" ]
+, [ 18770, "BE2DF359-AB4A-4767-8424-C4495B84C4B4", 18770, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "18908.52", "2010", null, "19277", "CHILDSERV 01" ]
+, [ 18771, "59F6D5FE-953A-4DE7-85F8-E76B9391A4B5", 18771, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "27962.02", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20832", "CHILDSERV 01" ]
+, [ 18772, "8BD3BD8F-031B-419D-93BB-F895EA7B0DAE", 18772, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "72648.55", "2010", null, "20855", "CHILDSERV 01" ]
+, [ 18773, "150C7425-CE0B-4D3B-A48D-777F183117D9", 18773, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "73276.92", "2010", null, "21619", "CHILDSERV 01" ]
+, [ 18774, "67290F75-AC79-43C8-AEB8-9B3321293215", 18774, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "250000", "2010", "PLANNING & DEVELOPMENT", "7585", "CHILDSERV 01" ]
+, [ 18775, "9165B84B-51D6-4E47-AD54-64FD2A6D35BB", 18775, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "576", "2010", null, "DV", "MAURITZON INC" ]
+, [ 18776, "B7272CC1-E31A-4CE3-B70A-12CA20359849", 18776, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2831276.62", "2010", "DEPT OF AVIATION", "11103", "UNISON CONSULTING, INC." ]
+, [ 18777, "77542B3E-55B6-406B-845C-7723410EE03E", 18777, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3802235.42", "2010", "DEPT OF AVIATION", "11608", "UNISON CONSULTING, INC." ]
+, [ 18778, "FA0D8F49-F317-4671-A364-5598DBB7C03C", 18778, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "242987.21", "2010", null, "DV", "JANE ADDAMS HULL HOUSE ASSOC" ]
+, [ 18779, "9176B22F-863F-4B9F-ADF2-0EAC388C8ADE", 18779, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "23078.07", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "14007", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18780, "EABDE440-34ED-401E-9BEB-68031C2FE4DE", 18780, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "127966.82", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "18147", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18781, "B6C715C4-8449-4184-82FD-68EA966F68A7", 18781, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2105418.29", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "18160", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18782, "DAA6F045-CB32-4B48-B5B2-7414DF00B318", 18782, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "632.5", "2010", null, "DV", "EQUIPMENT MANAGEMENT CO" ]
+, [ 18783, "922E393A-C11E-419A-8FF9-2279E17B0E9F", 18783, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1704498.79", "2010", null, "19941", "RAVENSWOOD DISPOSAL SERV INC" ]
+, [ 18784, "78CFAC21-84D5-4A10-A551-BF262B1B5616", 18784, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "138.6", "2010", null, "DV", "JOHN LEOVY" ]
+, [ 18785, "5D84A24D-EC88-4EC0-9B81-252A55D67FCD", 18785, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "20671.15", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18353", "CHICAGO YOUTH PROGRAMS, INC" ]
+, [ 18786, "22995DCC-25F5-450E-858D-19E1AEE67739", 18786, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6513.3", "2010", null, "19262", "CHICAGO YOUTH PROGRAMS, INC" ]
+, [ 18787, "B65BBE41-2D7D-4928-8B02-C91532773CE3", 18787, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "31619.15", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20830", "CHICAGO YOUTH PROGRAMS, INC" ]
+, [ 18788, "88265374-570C-4DAF-81AD-F794F8DF216D", 18788, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22043.81", "2010", null, "21518", "CHICAGO YOUTH PROGRAMS, INC" ]
+, [ 18790, "6EA04C5B-A09E-4B84-80D3-A260ABA9F7F6", 18790, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "43335", "2010", null, "DV", "RHONDA L. WALKER" ]
+, [ 18791, "B91870DC-BF48-4584-8CBF-475BACAFB05D", 18791, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1800", "2010", null, "DV", "JFSW INC" ]
+, [ 18792, "C480C998-475E-4175-969F-EDA3187AFA9F", 18792, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10174.15", "2010", null, "DV", "HAYES & ASSOCIATES" ]
+, [ 18793, "C8B82673-C9C9-4492-BD56-6E8C288BA02B", 18793, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "106.25", "2010", null, "DV", "MARWAN TAMIMI" ]
+, [ 18794, "0C1D7B16-CD54-4DEE-A0C2-CB64D0C1B396", 18794, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "295", "2010", null, "DV", "INSTITUTE OF TRANSPORTATION ENGINEERS" ]
+, [ 18795, "41ADF341-7B1A-4152-A0E8-AA10D253C051", 18795, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "30.5", "2010", null, "DV", "JACQUELINE EDWARDS" ]
+, [ 18796, "1E73AD6C-2CD9-448C-9D7B-9B01DA106550", 18796, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "189", "2010", null, "DV", "MORBIDITY AND MORTALITY WEEKLY REPORT" ]
+, [ 18797, "46D706D7-783F-478F-9300-0F386AB9A1C8", 18797, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "15405.53", "2010", null, "DV", "ANTHONY R MARTIN" ]
+, [ 18798, "171A1304-8E88-4034-8FC0-F33BCC85AFF0", 18798, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2000", "2010", null, "DV", "ELNORA WALLACE" ]
+, [ 18799, "C053FF61-C7D8-4E82-9DB2-08E7F71C67BF", 18799, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "108840.96", "2010", null, "18819", "PRIMO CENTER FOR WOMEN & CHILDREN" ]
+, [ 18801, "4A01E3DB-AD75-4A0C-A5A1-42C5240BEF5E", 18801, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7229.58", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18359", "CHRISTIAN FELLOWSHIP FLOCK" ]
+, [ 18802, "1BAA655F-1524-4D17-B4A4-C85FDAF9E0EC", 18802, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14558.49", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20837", "CHRISTIAN FELLOWSHIP FLOCK" ]
+, [ 18803, "E8D7E9D9-6CF6-43F3-A436-B6E4DB25F008", 18803, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5296414.25", "2010", null, "13820", "U.S. EQUITIES ASSET MANAGEMENT LLC" ]
+, [ 18804, "EBA5599B-4850-470F-82AE-AC1DF3A81BCF", 18804, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1810676.92", "2010", null, "DV", "U.S. EQUITIES ASSET MGMT LLC" ]
+, [ 18805, "E5DB07E7-B994-46D7-BB78-236FE41E408D", 18805, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "46379.91", "2010", null, "DV", "VARGA BERGER LEDSKY" ]
+, [ 18806, "9FE07782-DEB5-424F-9C56-73375D6AD9B2", 18806, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "279501.84", "2010", null, "14760", "ESI CONSULTANTS LIMITED" ]
+, [ 18807, "F38B384E-0D7C-48DF-A47A-09DAE28827CD", 18807, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "84244", "2010", null, "8453", "ESI CONSULTANTS LIMITED" ]
+, [ 18808, "CFB6FCD9-057F-4850-A8F9-0A798914A016", 18808, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "38746.99", "2010", null, "DV", "HAINES & COMPANY INC" ]
+, [ 18809, "2434727B-C036-4AA8-BB52-179AA2049B49", 18809, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "76560", "2010", null, "DV", "JEAN M BRABECK" ]
+, [ 18810, "7EE4229F-7002-476C-A647-AA01F7D5B4C8", 18810, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1125", "2010", "DEPARTMENT OF WATER MANAGEMENT", "22249", "UPCYCLE PRODUCTS INC" ]
+, [ 18811, "91412943-9C51-4B1B-9E9C-C95ABE3EE67F", 18811, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4400", "2010", null, "DV", "DERRICK YEE" ]
+, [ 18812, "2C4B20E7-D665-4C78-BE67-66BB0BCFB00C", 18812, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "75", "2010", null, "DV", "LUBOMYR POWIDASKO" ]
+, [ 18814, "FF0BD444-4F6C-47A9-8AE6-D481F2E40003", 18814, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "235", "2010", null, "DV", "MEDIA TEMPLE INC" ]
+, [ 18815, "7703F530-EFA3-48BA-8911-1B830FDDE883", 18815, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2508132.55", "2010", null, "12744", "WORLD WIDE PROTECTION GROUP INC" ]
+, [ 18816, "230E03AE-076F-44B8-8D2E-410A5C7E8DC2", 18816, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "238347", "2010", null, "16520", "COMMUNITY RENOVATION PARTNERS" ]
+, [ 18817, "432A51E1-26FE-4A4D-B5E0-B06F89116DE0", 18817, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "COMMUNITY RENOVATION PARTNERS" ]
+, [ 18818, "D9E91AEF-655C-4678-81CD-D64C9008E3EE", 18818, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "EWA BASNIK" ]
+, [ 18819, "95BA2FEE-222F-4D98-9601-84E57BD2C5B5", 18819, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "145778.5", "2010", null, "DV", "TITAN OUTDOOR, LLC." ]
+, [ 18820, "17BD0EAC-CFDE-49CA-B6D2-C24577D3B545", 18820, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "99783.36", "2010", null, "14158", "HARRISON & COMPANY" ]
+, [ 18821, "A22C7720-7C31-4D95-ADC2-7349A2F891F0", 18821, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "44750.92", "2010", null, "15910", "HARRISON & COMPANY" ]
+, [ 18822, "4E73D3BB-A816-4E56-9F71-0AABBA967876", 18822, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "441981.05", "2010", null, "17530", "HARRISON & COMPANY" ]
+, [ 18823, "4764CC4B-9A55-43E9-ADB6-F94720FBAD50", 18823, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "62577.75", "2010", null, "DV", "HARRISON AND COMPANY" ]
+, [ 18824, "F7CF1971-E6AF-43D9-A290-93B03A381199", 18824, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "69791.59", "2010", null, "DV", "ARBORETUM VIEW ANIMAL HOSPITAL" ]
+, [ 18825, "487A4941-DE51-455F-9EB0-169574602C3D", 18825, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "31316.84", "2010", null, "DV", "FELDESMAN TUCKER LEIFER FEDEL" ]
+, [ 18826, "26B217FA-832B-4B99-9865-063A7EF63DD7", 18826, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "42875.49", "2010", null, "9704", "SOUTHLAND PRINTING CO" ]
+, [ 18827, "82986C7A-BB39-4C59-AB01-8AB2A4EFC876", 18827, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "0", "2010", null, "DV", "SOUTHLAND PRINTING CO" ]
+, [ 18828, "B61ED298-CD04-40E8-87BF-B2CE34414BD0", 18828, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "322.19", "2010", null, "12782", "LAW BULLETIN PUBLISHING CO" ]
+, [ 18829, "E42C48A4-F941-4D9C-8AB7-9B87A962AC8B", 18829, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "13377.2", "2010", null, "12784", "LAW BULLETIN PUBLISHING CO" ]
+, [ 18830, "E5DB7413-8464-4268-B5C4-38FDE7F2C9D6", 18830, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "212161.42", "2010", "DEPARTMENT OF LAW", "21128", "LAW BULLETIN PUBLISHING CO" ]
+, [ 18831, "A7B288E6-9DA3-4AF2-B58C-2DEC50F3F798", 18831, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11052.32", "2010", null, "DV", "LAW BULLETIN PUBLISHING CO" ]
+, [ 18832, "A43FED32-BCF3-446F-AD1B-317CB1DA5449", 18832, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "506533", "2010", null, "11336", "P.W.S. ENVIRONMENTAL, INC." ]
+, [ 18833, "645079DE-1FEE-403C-9645-5D7E59440E65", 18833, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "217228.59", "2010", null, "15185", "P.W.S. ENVIRONMENTAL, INC." ]
+, [ 18834, "FE32A018-DA88-4B14-B066-DF6A2E4776BA", 18834, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "18882", "2010", null, "19571", "OCCU-SPORT MED CORP" ]
+, [ 18835, "BD0FE6AE-6873-4FFF-B937-8F126120193B", 18835, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "334438.63", "2010", null, "19572", "OCCU-SPORT MED CORP" ]
+, [ 18836, "A7BA99A2-D85B-408D-B928-528DB1B9C957", 18836, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "451", "2010", null, "DV", "OCCU-SPORT MED CORP  DBA/AOMS" ]
+, [ 18837, "49A6B230-9FD7-4C1F-B6DD-A8253BF7D919", 18837, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10152", "2010", null, "17575", "JOLIET EQUIPMENT CORPORATION" ]
+, [ 18838, "FD4CF388-1443-440F-B884-4A22DE37271B", 18838, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "28257.69", "2010", null, "DV", "BAKER & TAYLOR CO" ]
+, [ 18839, "69711DA3-B65D-42B8-AAF6-4F23D8EF2E38", 18839, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3795", "2010", null, "DV", "LAURINE A. CLARK" ]
+, [ 18840, "C129CE5E-91EC-4C90-A24E-1576DDD8AB17", 18840, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1909.34", "2010", null, "DV", "FEDEX FREIGHT INC." ]
+, [ 18841, "EBD10C1B-AB8D-4CF2-91CE-ADB649DD85BF", 18841, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "121300.23", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "11879", "BETTER BOYS FOUNDATION" ]
+, [ 18842, "92A7198C-C7EB-42BD-A07B-BD671875EAD5", 18842, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5980.35", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18259", "BETTER BOYS FOUNDATION" ]
+, [ 18843, "215931D6-91C1-4606-9D04-124967B4D36E", 18843, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "80820.48", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "19965", "BETTER BOYS FOUNDATION" ]
+, [ 18844, "853A4E00-8A05-4F82-AA57-0CAC5D48AC85", 18844, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14047.44", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20796", "BETTER BOYS FOUNDATION" ]
+, [ 18845, "714B30A4-1DF1-4287-B6A1-64BFBA7FEFB9", 18845, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "33348.68", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "21862", "BETTER BOYS FOUNDATION" ]
+, [ 18846, "E20587CE-7464-4F9B-ABD3-3FB387F4D826", 18846, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "235573.94", "2010", null, "20041", "THRESHOLDS" ]
+, [ 18848, "906CAC34-52E8-4C81-B986-B7A502D64E5F", 18848, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1560.83", "2010", null, "DV", "CONCORD PROMOTIONS" ]
+, [ 18849, "BD387535-670C-40AE-93D8-A4579B076728", 18849, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5356.15", "2010", null, "DV", "AMICUS COURT REPORTERS" ]
+, [ 18850, "0610350B-F44F-47C2-86F8-6BD1B5650A3B", 18850, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "52000", "2010", null, "DV", "FXEXPRESS PUBLICATIONS INC DBA GLOBAL TRAVELER MAGAZINE" ]
+, [ 18851, "96567E13-5741-406F-AC78-1C3E9AD3A1A1", 18851, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8750.01", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18378", "HIGHSIGHT" ]
+, [ 18852, "8D6BB1BE-69C2-421C-AC19-B983537F831E", 18852, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "22666.66", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20888", "HIGHSIGHT" ]
+, [ 18853, "457C9DB1-5474-4B05-943C-101E77CBC018", 18853, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1689.31", "2010", null, "18888", "SARAH'S INN" ]
+, [ 18854, "080E9AE1-E1C1-4260-ACF5-079E36A8F72D", 18854, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "57142.45", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20969", "SARAH'S INN" ]
+, [ 18855, "2589BFFB-8FD9-4DB5-A940-1744E90F0B77", 18855, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "24402.2", "2010", null, "DV", "SIMPLEXGRINNELL LP" ]
+, [ 18857, "FF5C7482-C32F-43FD-89A2-F29703260723", 18857, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1026161.05", "2010", null, "11589", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18858, "9F1A4325-FE29-4749-BA6E-EFF122379839", 18858, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "207306.36", "2010", null, "11684", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18859, "28D17604-EF73-42AF-8A57-EECE5C2D9F4A", 18859, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "313420.1", "2010", null, "14907", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18860, "4E601643-DE6B-4654-940E-0CCE0820A744", 18860, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "178865.86", "2010", null, "15084", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18861, "03E302B9-B1E4-4547-A408-F6D8D17DFC45", 18861, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1228017.06", "2010", null, "15085", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18862, "AFF5EDB8-06B0-46C3-BB15-0DF3B08F51BB", 18862, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1672936.07", "2010", null, "22226", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18863, "84053DDC-5D9A-4B86-B2C0-8F271C1FA84C", 18863, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "223835.98", "2010", null, "22228", "MY BAPS CONSTRUCTION CORP." ]
+, [ 18864, "BC0F3A74-AA12-439A-AE60-EBC058A69073", 18864, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5934", "2010", null, "21974", "ADVANCE AUTO CENTER" ]
+, [ 18865, "E95ED660-0899-4F2E-8A13-2B23C8A2A14C", 18865, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "40768", "2010", null, "14306", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18866, "BD88B018-8A99-45B8-BE36-DD92A77F0DDE", 18866, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "265966.11", "2010", null, "15171", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18867, "590ACA0B-A10E-4A8D-9978-F0010B5B4162", 18867, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "254370.54", "2010", null, "17335", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18868, "F5390E1E-B6A7-42ED-9919-4426F89D11C8", 18868, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "426131.02", "2010", null, "17336", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18869, "0ABF0AE3-0894-4B7F-A694-9833BC941528", 18869, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5584.58", "2010", null, "17979", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18870, "91C8206C-A9AE-40F2-B78C-6993723B2393", 18870, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "128999", "2010", null, "21127", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18871, "0215A9FB-320A-4A97-8B9F-36F212A32AD0", 18871, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "213790", "2010", null, "22177", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18872, "726EA45B-7251-4C0D-A2B9-9E2C11E3EB36", 18872, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "37418.4", "2010", null, "DV", "PRODUCTION DISTRIBUTION COMPANIES" ]
+, [ 18873, "FE4E2279-E84E-4953-B9E0-A4EC0DF66461", 18873, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "200", "2010", null, "DV", "EXTRA NEWSPAPER PUBLICATIONS" ]
+, [ 18875, "27FE994F-0CDF-4C67-B916-0F0E581CDF50", 18875, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11184", "2010", null, "DV", "PEARL E MEADOR" ]
+, [ 18876, "310A8480-CED2-494A-950D-2DFE148125EE", 18876, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11450", "2010", null, "DV", "MARY HACKETT 01" ]
+, [ 18877, "24B00F1F-C78F-4238-9A71-461F7631AF17", 18877, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10872", "2010", null, "DV", "AB REALTY PARNTERS LLC" ]
+, [ 18878, "AC36DBD1-FEBA-4A5F-90D8-1F7CEF7B1748", 18878, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7844", "2010", null, "DV", "MDS EQUITIES LLC" ]
+, [ 18879, "5945CDE6-A53D-448B-BFC6-271E0E1DB6C8", 18879, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "625", "2010", null, "DV", "ACTIVE COPIER CO. INC." ]
+, [ 18880, "1B2EED96-5E2B-427F-A6F0-60A75FA0F697", 18880, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2160", "2010", null, "DV", "RUBEN ZENDEJAS" ]
+, [ 18881, "F0DA7376-9B85-45A3-928F-40B32A02C7B3", 18881, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12180", "2010", null, "DV", "JAMES  A.  RIVERA" ]
+, [ 18882, "1B59B756-9454-4358-B480-90FDCA755FC9", 18882, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3540", "2010", null, "DV", "DONALD PUGH" ]
+, [ 18883, "F58B704A-CDEE-4499-B0F3-B15008A2F1EA", 18883, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4620", "2010", null, "DV", "JOAN E LOVE" ]
+, [ 18884, "03F5195A-8844-410C-9A5A-F672ADFFD77D", 18884, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2250", "2010", null, "DV", "RITA N AMADI" ]
+, [ 18885, "EB1EEE0A-0394-4DF9-9293-507094D744C6", 18885, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6833.75", "2010", null, "DV", "TIMOTHY J MCPHILLIPS" ]
+, [ 18886, "FA429738-8270-4413-A708-6685849C8F17", 18886, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1500", "2010", null, "DV", "DARNETTA ANDERSON" ]
+, [ 18887, "40006C74-6EBB-467E-8E99-3E3CBB823156", 18887, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4200", "2010", null, "DV", "TERRI N MCFARLAND" ]
+, [ 18888, "92FE653C-E9A0-464A-884E-AF424CC6815F", 18888, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3300", "2010", null, "DV", "MAXCINE HARVEY" ]
+, [ 18889, "C4CDF306-23D0-45DF-8966-369E8394BE61", 18889, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8940", "2010", null, "DV", "RAY G ORELLANA" ]
+, [ 18890, "9AE1E293-0AC6-4F77-9AFE-DD27C13A265A", 18890, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "16122.5", "2010", null, "DV", "ROBERT E FORNACIARI" ]
+, [ 18891, "2765F765-98FE-401D-AA65-D6B708AD4AF3", 18891, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5816.25", "2010", null, "DV", "DORIS L WALLACE" ]
+, [ 18892, "DAF5C568-D5F7-407B-B943-1ABB66A3BE3C", 18892, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "735", "2010", null, "DV", "JAMES J REGAN" ]
+, [ 18893, "E3A72A80-35A7-4CEC-976A-932DBA62D9A9", 18893, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "948", "2010", null, "DV", "JOSEPH N FABIANSKI" ]
+, [ 18894, "CFE02DF5-6459-4121-ACE8-161251B0EB84", 18894, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4134", "2010", null, "DV", "CHRISTINE J MILLER" ]
+, [ 18895, "326128E5-F4C9-46E9-9AFA-10093B8EBE2F", 18895, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3375", "2010", null, "DV", "ERI OKAWA" ]
+, [ 18896, "203707A4-6526-430E-A546-E7EB2C36C5B4", 18896, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3470.74", "2010", null, "DV", "ADAM RHODES" ]
+, [ 18897, "1D504136-0DFE-4F35-AB13-300E9C59DBFB", 18897, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "216", "2010", null, "DV", "MATTHEW L WIECLAWEK" ]
+, [ 18898, "30BA7305-3859-43C8-9F55-2FEDFF0F0895", 18898, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8640", "2010", null, "DV", "JON K WILSON" ]
+, [ 18899, "5D15024C-BC81-4927-ACF4-8B86293495DB", 18899, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1710", "2010", null, "DV", "ROBERT C GONZALEZ" ]
+, [ 18900, "6BD83A94-87AA-4ADF-A6E7-B606A64FB028", 18900, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2000", "2010", null, "DV", "REGINALD J DEAN" ]
+, [ 18901, "7A97E2A0-D3FC-4438-9723-D39DF0CCECAF", 18901, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3780", "2010", null, "DV", "RIKI J KAELIN" ]
+, [ 18902, "895AD65F-48D8-4A2A-B628-93D58E0BC60A", 18902, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11017.5", "2010", null, "DV", "MICHELLE N GARDNER" ]
+, [ 18903, "CDC514CA-03D6-42BD-BD8F-3CAD6EF6CFF5", 18903, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "462.43", "2010", null, "DV", "RANJIT SINGH" ]
+, [ 18904, "72184FDD-7E28-43D6-9835-419330296FDA", 18904, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6006", "2010", null, "DV", "BERNITA WOOLFOLK" ]
+, [ 18905, "5450E3BD-8EFC-47B2-828C-BF64500290CF", 18905, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7311", "2010", null, "DV", "DOROTHY LEE MCCANN" ]
+, [ 18906, "D98A5F3C-19CE-4A53-A2F7-C4DDD30B41B8", 18906, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4470", "2010", null, "DV", "CRAIG D. KLEIN" ]
+, [ 18907, "D8F85671-4FCC-4120-9118-822F8A7E9FD0", 18907, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7822.5", "2010", null, "DV", "FRANCIS R  DAVIS" ]
+, [ 18908, "DDD849CD-AEC7-4995-B98F-5DB8D7AEE2E8", 18908, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "494.65", "2010", null, "DV", "NICHOLAS R PTAK" ]
+, [ 18909, "04E06883-DF49-482E-A501-B103BB2BAC4B", 18909, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "424.37", "2010", null, "DV", "DAVID M LEON" ]
+, [ 18910, "1FE4E4F2-3CA2-41B9-BA09-AA5106E0F489", 18910, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "40779.86", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18536", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18911, "BE3169AD-1554-4496-9F77-15AD8AC56EF7", 18911, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "170296.83", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20052", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18912, "54F1A023-7C41-4131-A08D-A4ABAB86D38B", 18912, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "137643.39", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20899", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18913, "AC927E5F-BC0B-43EF-A2FE-20C0A6F5BD5E", 18913, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "59489.76", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "9773", "JANE ADDAMS HULL HOUSE ASSOCIATION" ]
+, [ 18914, "C15803C3-60BE-46DD-8E07-B0857142687B", 18914, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "856.81", "2010", "DEPARTMENT OF CHILDREN AND YOUTH SERVICES", "18523", "DOUGLASS-TUBMAN YOUTH MINISTRIES MINISTRIES, INC." ]
+, [ 18915, "5B7A63F4-6FF2-4EDA-9816-8BC4B109C6EF", 18915, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1250", "2010", null, "DV", "HEARTLAND ALLIANCE" ]
+, [ 18916, "6FB4AE10-F20D-44C5-8FDD-DB9D0909399B", 18916, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "278465.39", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "18821", "BEACON THERAPEUTIC & TREATMENT" ]
+, [ 18917, "0712573D-BBAF-42B9-B6C2-7EF25BE74836", 18917, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7166.68", "2010", "DEPARTMENT OF HEALTH", "19296", "BEACON THERAPEUTIC & TREATMENT" ]
+, [ 18918, "58A71C01-8566-4DC7-84D5-B0CBAD462136", 18918, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "170103.79", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "20035", "BEACON THERAPEUTIC & TREATMENT" ]
+, [ 18919, "44232EEB-B3A1-4F28-9259-C2CC657C0397", 18919, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "20472.63", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "22448", "BEACON THERAPEUTIC & TREATMENT" ]
+, [ 18920, "E5FF654F-984C-40B9-B2BB-9396E23FA9D6", 18920, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8973.83", "2010", "DEPT OF FAMILY AND SUPPORT SERVICES", "22631", "BEACON THERAPEUTIC & TREATMENT" ]
+, [ 18921, "D7152596-5475-4BDE-A716-09CB46C5B16D", 18921, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6202.85", "2010", null, "DV", "PRECISION DIE CUTTING &" ]
+, [ 18922, "E5DB71FA-F647-4CD5-819C-FFC31B65A5E9", 18922, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "67473.49", "2010", null, "19766", "RUANE CONSTRUCTION INC" ]
+, [ 18923, "D81E9D13-74A3-41CF-8540-1A237679C9AB", 18923, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6666.34", "2010", null, "19239", "INDUSTRIAL COUNCIL OF NW COMN" ]
+, [ 18924, "6C78032F-83FE-424B-888F-F4DDC4224CF7", 18924, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1059", "2010", null, "DV", "CHRISTOPHER B MARTINEZ" ]
+, [ 18925, "B5181F75-39E8-4607-9FE0-8373F6FAC4C7", 18925, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "316", "2010", null, "DV", "TIMOTHY R HIGH" ]
+, [ 18926, "5D6D9027-775D-4CE2-8010-9DC4A55BEC6A", 18926, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4740", "2010", null, "DV", "MICHAEL B O'BOYLE" ]
+, [ 18927, "4EB16539-4F30-4827-BD03-64BA15FE489D", 18927, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "711", "2010", null, "DV", "DEVIN P SULLIVAN" ]
+, [ 18928, "0F03ECF5-5877-4AA5-A31F-BF6E7CE3F71B", 18928, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4320", "2010", null, "DV", "ANGELO A HERRERA" ]
+, [ 18929, "A7F335E4-FAAA-4708-8D02-C3129E9C282B", 18929, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5422.5", "2010", null, "DV", "DERRICK C STRONG" ]
+, [ 18930, "7466EB0B-2A3C-448A-A08D-6FC20CA53DB5", 18930, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8156", "2010", null, "DV", "MICHAEL C DAVIS" ]
+, [ 18931, "19B53AF0-8F2B-4752-B476-7A74AA505937", 18931, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "390.11", "2010", null, "DV", "QUIZSANDA JACKSON" ]
+, [ 18932, "D44FC725-3ADD-41F5-B981-B5D6AFBA13F0", 18932, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2312", "2010", null, "DV", "MARGARET EAGLIN" ]
+, [ 18933, "F091036D-9EB3-4F98-9648-C2DE825E8495", 18933, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "984", "2010", null, "DV", "DEBORAH HENRY-WALKER" ]
+, [ 18934, "E95723DB-FBBA-4548-8514-75ECE3873E78", 18934, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "6045", "2010", null, "DV", "HAYLEY K STAFEN" ]
+, [ 18935, "4A90D8F8-466F-417A-AC2C-1B00886E10A5", 18935, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "21409.5", "2010", null, "DV", "JOHN A. HEIDER" ]
+, [ 18936, "E6B3DCAB-CB8F-43BC-8491-9043AE78B23E", 18936, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4244.86", "2010", null, "DV", "ASHLEY L SUSINA" ]
+, [ 18937, "900F3E5E-A958-437A-A8E5-BFE09CD8D69F", 18937, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "24468", "2010", null, "DV", "JONATHAN ZAENTZ" ]
+, [ 18938, "4BD9817F-0A2D-48A6-B8D1-484C944B1F8A", 18938, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2760", "2010", null, "DV", "DAWN M DOW" ]
+, [ 18939, "99F7DD4F-FC23-40DD-9C49-BC62D7DD26B1", 18939, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "515518.11", "2010", null, "16945", "HEKTOEN INSTITUTE LLC." ]
+, [ 18940, "BC5F4A60-6B9B-41C2-9655-BE9D62DEF874", 18940, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "36276.62", "2010", null, "17060", "HEKTOEN INSTITUTE LLC." ]
+, [ 18941, "4CE33602-A6ED-4FC5-B598-19D2AFAD9BF3", 18941, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "629200.16", "2010", null, "17121", "HEKTOEN INSTITUTE LLC." ]
+, [ 18942, "55BA4E65-85D6-4159-91FA-0C526E68A51E", 18942, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "117806.01", "2010", null, "17124", "HEKTOEN INSTITUTE LLC." ]
+, [ 18943, "1E637C7C-8B5A-450D-A491-68DA317D9950", 18943, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "2927542.32", "2010", null, "17186", "HEKTOEN INSTITUTE LLC." ]
+, [ 18944, "37C24A0B-D6DF-46D0-9A76-CE44A3B5B838", 18944, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "652586.14", "2010", null, "17220", "HEKTOEN INSTITUTE LLC." ]
+, [ 18945, "B3074C9C-2BC4-412A-8420-AC395E2B973A", 18945, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1589002.55", "2010", null, "17221", "HEKTOEN INSTITUTE LLC." ]
+, [ 18946, "7AD31D70-8308-4BDF-9891-4F83C645E3F0", 18946, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "142653.08", "2010", null, "17770", "HEKTOEN INSTITUTE LLC." ]
+, [ 18947, "C7309DD4-73DB-4BC0-A8DA-7B7E262D800B", 18947, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8440.88", "2010", null, "18532", "HEKTOEN INSTITUTE LLC." ]
+, [ 18948, "E0402435-D128-4B80-92FF-37D2E5E48FB3", 18948, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "65397.97", "2010", null, "19521", "HEKTOEN INSTITUTE LLC." ]
+, [ 18949, "9D2DFB7F-D0E2-462A-946A-D454E2B529EF", 18949, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "368692.09", "2010", null, "19753", "HEKTOEN INSTITUTE LLC." ]
+, [ 18950, "B1934A64-A4A7-4FE0-B96F-A2B34C3145B5", 18950, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "55049.17", "2010", null, "21521", "HEKTOEN INSTITUTE LLC." ]
+, [ 18951, "C46C2F64-6F12-47AF-A470-DF99091843A9", 18951, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "94395.71", "2010", null, "22450", "HEKTOEN INSTITUTE LLC." ]
+, [ 18952, "D06686F7-189B-47F9-9897-8F9A66994061", 18952, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "54299.71", "2010", null, "22822", "HEKTOEN INSTITUTE LLC." ]
+, [ 18953, "D5D94FC8-4B8D-47EA-8C54-ABA826C78549", 18953, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "31074.32", "2010", null, "23020", "HEKTOEN INSTITUTE LLC." ]
+, [ 18954, "C8C03558-289B-4CA1-BC46-D8BEBF49FAF7", 18954, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "552", "2010", null, "DV", "CANDACE G. JAGGER" ]
+, [ 18955, "B9FFC838-0DE0-4260-BDDF-EB4BCB028BB5", 18955, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "161285.77", "2010", null, "DV", "LEGAL DISBURSEMENTS ANGELINA FUENTES/" ]
+, [ 18959, "FB504317-0C65-44F8-93FB-1D14CBAB4509", 18959, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7776", "2010", null, "DV", "VINTEGRA MANAGEMENT" ]
+, [ 18960, "EFB2C608-EC37-40D1-8217-9A6B3FAE8890", 18960, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8536", "2010", null, "DV", "ACOSTA MEDICAL TESTING CORP" ]
+, [ 18961, "57D98748-54BF-4112-B4C1-B8D6506FE15E", 18961, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "10400", "2010", null, "DV", "PETRO BRETAN" ]
+, [ 18962, "D5531ED2-F278-4062-A1BD-3E92AE7CAF96", 18962, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12902", "2010", null, "DV", "NATASHA TIMS" ]
+, [ 18963, "4B6522B2-BAFF-4F42-BD6E-5A2DC0E23AED", 18963, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "250", "2010", null, "DV", "THE ART INSTITUTE OF CHICAGO" ]
+, [ 18964, "DCBBE6BF-03ED-416D-9A4D-0BD8AFE038ED", 18964, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "500", "2010", null, "DV", "RENE ARCEO" ]
+, [ 18965, "F31325FE-15B4-4802-A370-A76967E9364C", 18965, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "335.1", "2010", null, "DV", "NATIONAL EMPLOYMENT LAW INSTITUTE" ]
+, [ 18966, "89DF84E5-7FC5-40AE-BFA8-6A549DDEBE23", 18966, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "128468.04", "2010", null, "T24757", "AREATHA CONSTRUCTION CO., INC." ]
+, [ 18967, "6A14FF7B-25CC-430D-A731-9A18D93FF2C4", 18967, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "53718.1", "2010", null, "DV", "BLOOMBERG L P" ]
+, [ 18968, "6A6B4CD8-1BA0-4912-B8DE-E0E3C2670688", 18968, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "14813.73", "2010", null, "DV", "ECONOMIC RESEARCH SERVICES" ]
+, [ 18969, "CB33BC90-5A11-4B96-B4B3-C4D044A4384D", 18969, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5160", "2010", null, "DV", "DARREL DAVIS" ]
+, [ 18970, "C1065226-064A-4546-8A8F-4527CCD3B9AB", 18970, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8916", "2010", null, "DV", "JAMIL MOHMOUND" ]
+, [ 18971, "1548D430-38C3-4FFC-93C2-0E7112003C9F", 18971, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3000", "2010", null, "DV", "BRADLEY UNIVERSITY" ]
+, [ 18972, "ECB989BA-BA67-480A-AC76-91B14AC8873D", 18972, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1000", "2010", null, "DV", "ELMHURST COLLEGE PRE-SCHOOL" ]
+, [ 18973, "4DF28DA9-11B0-49EC-97CE-85616B5EB22C", 18973, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "37718.37", "2010", null, "DV", "PATTEN INDUSTRIES INC" ]
+, [ 18974, "A48BBA8A-683C-4B86-B0C4-9B21F4927862", 18974, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1700", "2010", null, "DV", "BETTER BOYS FOUNDATION" ]
+, [ 18975, "0F1153F9-5E1F-40B5-8AAB-4B2A9849F286", 18975, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7000", "2010", null, "DV", "INTL COUNCIL FOR LOCAL ENV INS" ]
+, [ 18976, "CEAB944F-C820-40AD-813A-E4E85B539D29", 18976, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "12500", "2010", null, "19154", "SPANISH COALITION FOR HOUSING" ]
+, [ 18977, "89BF23D3-7E3A-4E5C-8206-3E1E1820B16C", 18977, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "7200", "2010", null, "19176", "SPANISH COALITION FOR HOUSING" ]
+, [ 18978, "BA9AEDF0-E486-4E70-B03E-BB710864AA15", 18978, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "84659.51", "2010", null, "20328", "SPANISH COALITION FOR HOUSING" ]
+, [ 18979, "D3720171-6743-4273-9B00-696BB9687C19", 18979, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "143464.34", "2010", null, "21121", "SPANISH COALITION FOR HOUSING" ]
+, [ 18980, "CA25791D-CE93-4529-9F4A-05DF064B9FD9", 18980, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "38709.84", "2010", null, "21411", "SPANISH COALITION FOR HOUSING" ]
+, [ 18981, "6D7FF526-CC48-4013-9151-73AFBC270736", 18981, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "68169.81", "2010", null, "21846", "SPANISH COALITION FOR HOUSING" ]
+, [ 18982, "CC0E83EC-4F43-46A0-9ABC-7A697DD9E62D", 18982, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "57671.89", "2010", null, "DV", "SPANISH COALITION FOR HOUSING" ]
+, [ 18983, "26E395A1-0916-4D5D-AB87-8273F1040BED", 18983, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "3501.55", "2010", null, "DV", "L.A. COURT REPORTERS LLC" ]
+, [ 18984, "BF0F011E-B151-423B-8255-409B2BC3D76C", 18984, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1878.76", "2010", null, "DV", "KONICA MINOLTA BUSINESS SOLUTIONS USA INC" ]
+, [ 18985, "53249985-C8A2-4125-B21F-D7D3DEDD3BA6", 18985, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "353871.18", "2010", null, "16325", "TOUCH-N-GO LANDSCAPING" ]
+, [ 18986, "62DE6F77-537A-40AB-91F0-6143FDFEB933", 18986, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "450", "2010", null, "DV", "SHARON HYSON" ]
+, [ 18987, "B4DA9470-7F3F-4A9A-A3F0-1F7E642E3C97", 18987, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "1151.43", "2010", null, "DV", "GLADYS HALL" ]
+, [ 18988, "FD5BC8EF-6D57-4F77-83B6-8A69278FDA73", 18988, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "47250.28", "2010", null, "5788", "COSTAR" ]
+, [ 18989, "9D666390-7250-492A-AD11-C5DEF2306E92", 18989, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "23625.14", "2010", null, "DV", "COSTAR" ]
+, [ 18990, "11C3C52F-25A2-4816-BFBF-576A2FB8AD82", 18990, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "5920.75", "2010", null, "19060", "GREATER NW CHICAGO DEV. CORP" ]
+, [ 18991, "6622EB75-1FE1-442C-B56C-4C5D1CCE8A94", 18991, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "47602.27", "2010", null, "21368", "GREATER NW CHICAGO DEV. CORP" ]
+, [ 18992, "D06E99CF-3AAE-4B6F-919A-57F0E8492661", 18992, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "15000", "2010", null, "DV", "CRISIS ASSOCIATES LLC" ]
+, [ 18993, "1F6A6A83-6104-4EB4-9AE9-CA74C3F24CD8", 18993, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "17258.08", "2010", null, "DV", "YANA HOUSE" ]
+, [ 18994, "3EBBD659-64C7-4524-BA78-DAD8DAB4E0A0", 18994, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "320", "2010", null, "DV", "IMVCA / NINA KRASAVIN" ]
+, [ 18995, "4CE7AAE1-572F-4C59-899D-80A7296009AF", 18995, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "8353.25", "2010", null, "DV", "ADVANTONE" ]
+, [ 18996, "BED9E914-CF35-4DE2-9C4D-F67D278F2636", 18996, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "400", "2010", null, "DV", "MALGORZATA BABIARZ" ]
+, [ 18997, "5422838F-A17E-4CE1-A67E-8EEF9FF230D7", 18997, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "184", "2010", null, "DV", "COMMUNICATION DIRECT ONE" ]
+, [ 18998, "18CD7F10-5598-43E7-9F0F-9AF660B6758C", 18998, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "4074.26", "2010", null, "DV", "CHICAGO READER" ]
+, [ 19000, "795FE3DE-D143-4451-B188-B68E05EB54C4", 19000, 1410164638, "386464", 1410164638, "386464", "{\n}", null, "11064", "2010", null, "DV", "7424 S PHILLIPS LLC" ]
+, [ 1343336, "86F6ABA8-9E07-4396-89EC-37B4B2080E79", 1343336, 1451727466, "878752", 1451727466, "878752", null, null, "25786.07", "2009", null, "11681", "HEARTLAND HEALTH OUTREACH, INC." ]
+, [ 1343586, "FF8B84B9-0998-4230-B123-FD778A03FCF3", 1343586, 1451727466, "878752", 1451727466, "878752", null, null, "12000", "2010", null, "DV", "JONATHAN T SWAIN" ]
+, [ 1343598, "612877B5-9EF7-4FA1-8389-40C0C0705864", 1343598, 1451727466, "878752", 1451727466, "878752", null, null, "348632.44", "2008", null, "17189", "HEARTLAND HEALTH OUTREACH, INC." ]
+, [ 1343827, "9BA1BEE7-7CC8-4CC3-993F-71E4055C13CB", 1343827, 1451727466, "878752", 1451727466, "878752", null, null, "88132.46", "2010", null, "14674", "HEARTLAND HEALTH OUTREACH, INC." ]
+ ]
+}
