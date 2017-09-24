@@ -1,0 +1,11 @@
+docker
+docker-compose up 
+
+// list docker containers and remove them
+docker ps -a -q
+docker rm $(docker ps -a -q)
+docker rm $(docker ps -a -f status=exited -q)
+// list docker images 
+docker images -a
+docker rmi image1 image1
+docker rmi $(docker images -f dangling=true -q)
