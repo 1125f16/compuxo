@@ -1,3 +1,9 @@
+data.cityofboston.gov/api/views/sx2i-td3j/rows.json'
+// install docker on aws 
+curl -L https://github.com/docker/machine/releases/download/v0.12.2/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine &&
+chmod +x /tmp/docker-machine &&
+sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+
 How to put up node/Express server on AWS EC2
 First set up a SubDirectory on the remote server
 mkdir server
@@ -12,10 +18,13 @@ sudo apt-get install -y nodejs
 npm init
 
 npm install express
+npm install http
+
+sudo apt install unzip
 
 // to copy a zip file to a remote machine
 //use following but replace paths 
-scp -i ../first.pem code.zip ubuntu@xxxx.amazon.com:~/.
+scp -i ../first.pem test.zip ubuntu@xxxx.amazon.com:~/.
 // remember the :~/. at the end
 sudo apt install unzip
 // install unzip
@@ -29,3 +38,6 @@ app.get('/',function(req,res){
 	res.send('my lucky number is '+num);
 });
 app.listen(9000);
+
+
+  

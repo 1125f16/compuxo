@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  web5:
+   build: .
+   ports:
+    - "8082:8082"
+   command: node test0.js

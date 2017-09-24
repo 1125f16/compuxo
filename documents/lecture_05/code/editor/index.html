@@ -1,0 +1,25 @@
+<!doctype html>
+<title>JSON Data</title>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="codemirror/codemirror.css">
+<script src="codemirror/codemirror.js"></script>
+<script src="codemirror/javascript.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+
+
+<button onclick="post()">POST</button>  <a href="http://goo.gl/uQVY8f">(for more colors see, http://goo.gl/uQVY8f)</a><br>
+
+<p><textarea id="code-json">{
+  "author" : "Abel",
+  "shape"  : "rectangle",    
+  "x"      : 10,
+  "y"      : 10,
+  "width"  : 75,
+  "height" : 25,  
+  "color"  : "orange"            
+}</textarea></p>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<script src="rectangle.js"></script>

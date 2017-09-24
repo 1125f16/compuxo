@@ -1,0 +1,35 @@
+<!doctype html>
+<title>JSON Data</title>
+<meta charset="utf-8"/>
+
+<link rel="stylesheet" href="codemirror/codemirror.css">
+<script src="codemirror/codemirror.js"></script>
+<script src="codemirror/javascript.js"></script>
+<link rel="stylesheet" href="styles.css">
+<script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+
+<button onclick="post()">POST</button>  <a href="http://goo.gl/uQVY8f">(for more colors see, http://goo.gl/uQVY8f)</a><br>
+
+<p><textarea id="code-json">
+function draw(){
+	var x = 10;
+	var y = 10;
+	var width  = 75;
+	var height = 25;  
+	var color  = 'orange';
+	var author = 'Abel';
+  
+    // draw rectangle
+	context.beginPath();
+	context.rect(x, y, width, height);
+	context.fillStyle = color;
+	context.fill();
+	context.stroke();
+
+    // draw label  
+	context.font = '10px Arial';
+	context.strokeText(author,(x+2),(y+10));
+}</textarea></p>
+<canvas id="canvas" width="640" height="480"></canvas>
+
+<script src="functionpusher.js"></script>

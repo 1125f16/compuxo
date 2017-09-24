@@ -1,0 +1,20 @@
+.CodeMirror { font-size:1.5em;}
+.CodeMirror { height: auto; border: 1px solid #ddd; }
+.CodeMirror pre { padding-left:5px; line-height: 1.25; }
+
+button{width:100px;height: 30px; font-size: 1.2em;}	
+
+/* unvisited link */
+a:link {
+    color: black;
+    font-family: "Arial";
+    font-size: 1em;
+    text-decoration: none;
+}
+a:hover {
+    color: brown;
+    background-color: BurlyWood;
+}
+a:active {
+    color: blue;
+}
