@@ -40,74 +40,67 @@
 
 <div class="container">
 
-  <h1>Docker - NodeJS Hello World</h1>
-  <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  <h1>Useful Docker Commands</h1>
   <hr>
 
-  <h2>Create a barebones NodeJS application</h2>
-  <p>Create a directory named "docnode". Initialize your application ("npm init"). Install express ("npm install express --save"). Your "package.json" file should look like the following.</p>
+  <p>Build image</p>
 
-<pre class="brush: javascript">
-{
-  "name": "docnode",
-  "version": "1.0.0",
-  "description": "barebones node on docker",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "abel@mit.edu",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.15.5"
-  }
-}
-</pre>
-
-  <p>Add a barebones express server. Name your file "index.js"</p>
-
-<pre class="brush: javascript">
-var express = require('express');
-var app     = express();
-
-app.get('/', function(req,res){
-  res.send('Hello World!');
-});
-
-var port = 3000;
-app.listen(port,function(){
-  console.log('Listening on port:' + port);
-});
-</pre>
-
-<p>Create a docker file. Name it "Dockerfile"</p>
-<pre class="brush: javascript">
-FROM node:slim
-
-MAINTAINER abelsan &lt;abel@mit.edu&gt;
-
-WORKDIR /app
-
-# copy code, install npm dependencies
-COPY index.js /app/index.js
-COPY package.json /app/package.json
-RUN npm install
-</pre>
-
-<p>Create a docker compose file. Name it "docker-compose.yml"</p>
-<pre class="brush: javascript">
-version: "2"
-
-services:
-  gin:
-    build: .
-    ports:
-      - "3000:3000"
-</pre>
-
-<p>If needed, copy your code to the remote machine. Once there, at the command line, enter "docker-compose up"</p>
 <pre class="brush: bash">
-docker-compose up
+# the "-t" gives your image a name 
+$ docker build -t YourImageName .
+</pre>
+
+
+  <p>List Containers</p>
+
+<pre class="brush: bash">
+# containers currently runing
+$ docker ps -a
+</pre>
+
+  <p>List Images</p>
+
+<pre class="brush: bash">
+# list all docker images
+$ docker images -a
+</pre>
+
+
+  <p>Delete containers</p>
+
+<pre class="brush: bash">
+# Delete every Docker containers
+# Must be run first because images are attached to containers
+$ docker rm $(docker ps -a -q)
+</pre>
+
+  <p>Delete images</p>
+
+<pre class="brush: bash">
+# Delete every Docker image
+$ docker rmi $(docker images -q)
+</pre>
+
+  <p>Force delete images</p>
+
+<pre class="brush: bash">
+# to force use
+$ docker rmi -f $(docker images -q)
+</pre>
+
+  <p>Stop container</p>
+
+<pre class="brush: bash">
+stop a container
+$ docker stop &lt;container id&gt;
+</pre>
+
+
+  <p>Shell in running container</p>
+
+<pre class="brush: bash">
+# from docker 1.3 onwards
+$ sudo docker exec -i -t &lt;containerIdOrName&gt; bash
 </pre>
 
 
