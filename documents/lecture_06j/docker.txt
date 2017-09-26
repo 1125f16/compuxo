@@ -1,4 +1,8 @@
-docker
+sudo apt-get update
+sudo apt install yum
+sudo apt install docker
+sudo apt install docker-compose
+
 docker-compose up 
 
 // list docker containers and remove them
