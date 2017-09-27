@@ -53,7 +53,7 @@ Response is an object
 { result : 6 }
 
 
-3) Return numbers greater than X - POST interface
+4) Return numbers greater than X - POST interface
 
 API
 -------
