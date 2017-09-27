@@ -16,9 +16,9 @@ Input Parameters
 value1 is a number
 value2 is a number
 
-Response
-------------------
-A number
+Response is an object
+-----------------------
+{ result : value1+value2 }
 
 
 2) Add two numbers - POST interface
