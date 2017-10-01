@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>CCHS - Web Programming</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- syntax highlighter -->
+    <link type="text/css" rel="stylesheet" href="css/theme.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="../../index.html">Arch & Eng Computation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../../lectures.html">Lectures <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<div class="container">
+
+  <h1>Ex1: Read contacts.json File From Local Machine</h1>
+  <hr>
+
+  <p>Ex1: We will use JavaScript read0.js  </p>
+
+<pre class="brush: bash">
+var obj = require('./contact.json');
+console.log(obj);
+</pre>
+
+ <h1>Ex2: Read bostonsmall.json File From Local Machine</h1>
+  <hr>
+
+  <p>Ex2: Copy read0.js to read1.js and change it to require bostonsmall.json. Then write out obj.data to console </p>
+
+<pre class="brush: bash">
+var obj = require('./bostonsmall.json');
+
+console.log(obj.data);
+</pre>
+
+<h1>Ex3: Using bostonsmall.json File write out the salaries of everyone to the console</h1>
+  <hr>
+
+  <p>Ex3: The total salaries (with overtime) are in row[18] of each row</p>
+
+
+<h1>Ex4: Running our own Web Server using "node" </h1>
+  <hr>
+
+  <p>Ex4: Use test0.js to run your own Web Server</p>
+
+<pre class="brush: bash">
+var express = require('express');
+
+var app = express();
+app.get('/', function(req, res) {
+    var num = Math.floor(Math.random() * 10);
+    res.send('my lucky number is ' + num);
+});
+// listen on port 9000
+app.listen(9000, function() {
+    console.log('Example app listening on port 9000');
+});
+</pre>
+
+<h1>Ex5: Running our own Web Server using "node" </h1>
+  <hr>
+
+  <p>Ex5: Use test0.js to run your own Web Server</p>
+
+<pre class="brush: bash">
+var express = require('express');
+
+var app = express();
+app.get('/', function(req, res) {
+    var num = Math.floor(Math.random() * 10);
+    res.send('my lucky number is ' + num);
+});
+// listen on port 9000
+app.listen(9000, function() {
+    console.log('Example app listening on port 9000');
+});
+</pre>
+
+<h1>Ex5: Using "routes" to call another web server</h1>
+  <hr>
+
+  <p>Ex5: Use http-server to run Web Server No. 1. Then use test1.js to run Web Server No. 2. </p>
+
+<pre class="brush: bash">
+var express = require('express');
+
+var app = express();
+app.get('/', function(req, res) {
+    var num = Math.floor(Math.random() * 10);
+    res.send('my lucky number is ' + num);
+});
+app.get('/color', function(req, res) {
+    var num = Math.floor(Math.random() * 10);
+    res.send('my lucky color is ' + num);
+});
+app.listen(9081, function() {
+    console.log('Example app listening on port 9000');
+});
+
+// lets make an http.request to another machine
+var http = require('http');
+app.get('/mit', function(req, res) {
+    var options = {
+        host: 'localhost',
+        port: 8080,
+        path: 'bostonsmall.json'
+    };
+    var callback = function(response) {
+        var str = '';
+
+        //another chunk of data has been recieved, so append it to `str`
+        response.on('data', function(chunk) {
+            str += chunk;
+        });
+
+        //the whole response has been recieved, so we just print it out here
+        response.on('end', function() {
+            res.send(str);
+            console.log(str);
+        });
+    };
+
+    http.request(options, callback).end();
+});
+</pre>
+
+h1>Ex6: Change the code above to return only salaries above 300K</h1>
+  <hr>
+
+  <p>Ex6: review read2.js below. Can we copy part of this into code above to return salaries above 300000 </p>
+
+<pre class="brush: bash">
+var obj = require("./bostonsmall.json");
+
+var list = obj.data;
+
+
+var greatercheck = function(row){
+  return parseInt(row[18])>= 100000;
+};
+
+var newlist = list.filter(greatercheck);
+console.log(newlist);
+console.log(newlist.length);
+</pre>
+
+
+<h1>Ex7: Demo of updating code to run on full data in bostoncitydata.json </h1>
+  <hr>
+
+ 
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- syntax highlighter -->
+    <script type="text/javascript" src="js/syntaxhighlighter.js"></script>
+  </body>
+</html>

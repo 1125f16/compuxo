@@ -8,7 +8,8 @@
   "author": "jrw@mit.edu",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "http": "0.0.0"
   },
   "devDependencies": {},
   "description": ""
