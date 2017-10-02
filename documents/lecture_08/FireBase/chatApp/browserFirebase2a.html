@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAVQLaGLhKu3DNssy3g7IuihPKQkuwASxY",
+        authDomain: "chatapp-c509e.firebaseapp.com",
+        databaseURL: "https://chatapp-c509e.firebaseio.com",
+        projectId: "chatapp-c509e",
+        storageBucket: "",
+        messagingSenderId: "363342895005"
+    };
+    firebase.initializeApp(config);
+</script>
+
+
+<input type='text' id='message' placeholder='Message'>
+<button type='button' onclick="firePostMessage()">Post Message</button>
+<div id="messages"></div>
+
+<script>
+    // assign user a random userId
+    var userId = Math.floor(Math.random() * 100);
+    var photo = 'https://drive.google.com/uc?id=0BzC6J7ShkT0QdHVWQkJqc1J5MzA';
+    function displayMessage(evt) {
+        var messages = document.getElementById('messages');
+        var newMessage = "<div><img width = 20 src='"+evt.photo+"'> " + evt.name+" said: "+evt.message + "</div>";
+        messages.innerHTML = messages.innerHTML + newMessage;
+    }
+    // Firebase
+
+    function initFirebase() {
+        var database = firebase.database();
+    }
+    // post message as child
+    function firePostMessage() {
+        var s = document.getElementById("message").value;
+        firebase.database().ref('users/' + userId).set({
+            "message": s,
+            "name": 'abel',
+            "photo":photo
+        });
+    }
+
+    // listen for changes
+    var ref = firebase.database().ref('users/');
+    ref.on("child_changed", function(snapshot) {
+        var changedPost = snapshot.val();
+        console.log(changedPost.message);
+        displayMessage(changedPost);
+    });
+
+    initFirebase();
+</script>
+
+</html>
