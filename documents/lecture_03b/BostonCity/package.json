@@ -1,0 +1,17 @@
+{
+  "name": "bostoncitydata",
+  "version": "1.0.0",
+  "main": "test0.js",
+  "scripts": {
+    "start": "node test0.js"
+  },
+  "author": "jrw@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
