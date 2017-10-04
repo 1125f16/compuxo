@@ -25,10 +25,11 @@
     // assign user a random userId
     var userId = Math.floor(Math.random() * 100);
     var photo = 'https://drive.google.com/uc?id=0BzC6J7ShkT0QN3g0RFVHY0JtZnM';
+    var name = 'fred';
     function displayMessage(evt) {
         var messages = document.getElementById('messages');
 
-        var newMessage = "<div> <img src = "+evt.photo+" width = 20>" + evt.userId+" said: " + evt.message + "</div>";
+        var newMessage = "<div> <img src = "+evt.photo+" width = 20>" + evt.name+" said: " + evt.message + "</div>";
 
         messages.innerHTML = messages.innerHTML + newMessage;
         
@@ -42,7 +43,7 @@
     function firePostMessage() {
         var s = document.getElementById("message").value;
         firebase.database().ref('users/' + userId).set({
-            userId: userId,
+            name: name,
             message: s,
             photo : photo
         });
