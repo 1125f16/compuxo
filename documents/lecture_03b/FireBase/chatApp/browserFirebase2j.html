@@ -24,12 +24,15 @@
 <script>
     // assign user a random userId
     var userId = Math.floor(Math.random() * 100);
-    var photo = 'https://drive.google.com/uc?id=0BzC6J7ShkT0QdHVWQkJqc1J5MzA';
-    var name = 'abel';
+    var photo = 'https://drive.google.com/uc?id=0BzC6J7ShkT0QN3g0RFVHY0JtZnM';
+    var name = 'john';
     function displayMessage(evt) {
         var messages = document.getElementById('messages');
-        var newMessage = "<div><img width = 20 src='"+evt.photo+"'> " + evt.name+" said: "+evt.message + "</div>";
+
+        var newMessage = "<div> <img src = "+evt.photo+" width = 20>" + evt.name+" said: " + evt.message + "</div>";
+
         messages.innerHTML = messages.innerHTML + newMessage;
+        
     }
     // Firebase
 
@@ -40,18 +43,17 @@
     function firePostMessage() {
         var s = document.getElementById("message").value;
         firebase.database().ref('users/' + userId).set({
-            "message": s,
-            "name": name,
-            "photo":photo
+            name: name,
+            message: s,
+            photo : photo
         });
     }
 
     // listen for changes
     var ref = firebase.database().ref('users/');
     ref.on("child_changed", function(snapshot) {
-        var changedPost = snapshot.val();
-        console.log(changedPost.message);
-        displayMessage(changedPost);
+        var post = snapshot.val();
+        displayMessage(post);
     });
     ref.on("child_added", function(snapshot) {
         var newPost = snapshot.val();
