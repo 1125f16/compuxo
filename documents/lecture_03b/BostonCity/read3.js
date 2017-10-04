@@ -21,7 +21,7 @@ var callback = function(response) {
     });
 };
 var greatercheck = function(row){
-	return parseInt(row[18])>= 200000;
+	return Number(row[18])>= 200000;
 };
 http.request(options, callback).end();
 

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<script>
+		window.onload = function(){
+			setInterval(countDown, 1000);
+		};
+
+		var countDown = function(){
+			var time = document.getElementById('heading');
+			time.innerHTML =  Number(time.innerHTML)-1;
+		};
+	</script> 
+</head>
+<body>
+	<h1 id='heading'>99</h1>
+</body>
+</html>
