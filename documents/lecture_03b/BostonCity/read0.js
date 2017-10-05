@@ -1,3 +1,3 @@
-var obj = require('./contact.json');
+var obj = require('./bostoncitydata.json');
 
 console.log(obj);
