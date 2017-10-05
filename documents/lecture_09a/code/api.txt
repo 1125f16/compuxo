@@ -1,0 +1,7 @@
+FLICKR API
+
+// JSONP approach
+http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=dataHandler&tags=dog&tagmode=any&format=json
+
+// HTTP GET
+https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4f145bca7bc87d6287f1caab430a29f9&per_page=20&bbox=-71.094423,42.358018,-71.093827,42.358544&format=json&nojsoncallback=1&tags=mit&accuracy=6&extras=description,+date_taken,date_upload,owner_name,geo,url_s

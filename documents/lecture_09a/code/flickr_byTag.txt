@@ -1,0 +1,34 @@
+<!-- FLICKR EXERCISE -->
+<!DOCTYPE html>
+<html>
+<script>
+
+function loadScript(url, callback){
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = url;
+    document.getElementsByTagName('body')[0].appendChild(script);
+}
+
+var run = function(){
+  var url = 'http://api.flickr.com/services/feeds/photos_public.gne?';
+  var tags = 'jsoncallback=dataHandler&tags=dog&tagmode=any&format=json';
+  loadScript(url + tags);
+};
+
+function dataHandler(data) {
+    console.log(data);
+
+    // ------------------------------------------------
+    //    YOUR CODE
+    //    	1) Change the search tag - your choice
+    //      2) Inspect the search response
+    //      3) Make an array of images
+    //      4) Place images on the page
+    //			(use the target div)
+    // ------------------------------------------------
+}
+</script>
+<button onclick="run()"> Call run function </button>
+<div id="target"></div>
+</html>

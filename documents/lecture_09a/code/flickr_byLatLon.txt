@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+function callServer(url){
+
+    // make xhr request
+    var xhReq = new XMLHttpRequest();
+    xhReq.open('GET', url, false);
+    xhReq.send(null);
+    var serverResponse = xhReq.responseText;
+
+    // create object from response
+    var locations = JSON.parse(serverResponse);
+    return locations;
+}
+
+function run(){
+    var url = 'https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=4f145bca7bc87d6287f1caab430a29f9';
+
+    var tags = '&per_page=20';
+    tags += '&bbox=-71.094423,42.358018,-71.093827,42.358544';
+    tags += '&format=json';
+    tags += '&nojsoncallback=1';
+    tags += '&tags=mit';
+    tags += '&accuracy=6';
+    tags += '&extras=description,+date_taken,date_upload,owner_name,geo,url_s';
+
+    var locations = callServer(url + tags);
+    dataHandler(locations);    
+    console.log(locations);
+}
+
+function dataHandler(locations) {
+    console.log(locations);
+
+    // ------------------------------------------------
+    //    YOUR CODE
+    //      1) Change the search latitude/longitude
+    //      2) Inspect the search response
+    //      3) Make an array of images
+    //      4) Place images on the page
+    //          (use the images div)
+    // ------------------------------------------------
+}
+
+</script>
+
+<input type="button" value="call server" onclick="run()"><br>
+<div id="images"></div>
+
+</html>
