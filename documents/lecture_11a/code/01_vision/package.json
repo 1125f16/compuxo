@@ -1,0 +1,14 @@
+{
+  "name": "vision",
+  "version": "1.0.0",
+  "description": "testing the ms vision api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abel@mit.edu",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}

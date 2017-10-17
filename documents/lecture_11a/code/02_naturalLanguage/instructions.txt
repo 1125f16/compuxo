@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" --data @message.json https://language.googleapis.com/v1/documents:analyzeEntities?key=AIzaSyBnTKU7hGCQRu3elXmt3AHplFQeRDRDA2U
