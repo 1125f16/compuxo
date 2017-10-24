@@ -1,0 +1,189 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Registries</title>
+
+		<meta name="description" content="engineering and architecting ">
+		<meta name="author" content="abel sanchez & john williams">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai-sublime.css">
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+			
+			<div class="slides">
+
+				<section>
+					<h1>Software Registries</h1>
+					<p>	
+						<i><small><a href="http://abel.mit.edu">Abel Sanchez</a> and <a href="http://esd.mit.edu/Faculty_Pages/williams/williams.htm">John R. Williams</a></small></i>
+					</p>
+				</section>
+
+
+				<section>
+					<h2>Software Platform</h2>
+					<p class="fragment">.NET</p>
+					<p class="fragment">Java</p>
+					<p class="fragment">Others?</p>					
+				</section>
+
+
+				<section>
+					<h2>Software Distribution</h2>
+					<p class="fragment">App Store</p>
+					<p class="fragment">Google Play</p>
+					<p class="fragment">Others?</p>					
+				</section>
+
+				<section>
+					<h2>Software Registry</h2>
+					<p class="fragment">npm</p>
+					<p class="fragment">Others?</p>					
+				</section>
+
+				<section>
+					<h2>Sign Up</h2>
+					<p>https://www.npmjs.com/signup</p>
+				</section>
+
+				<section>
+					<h2>Login to NPM</h2>
+
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm login
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Let's Create a New Package</h2>
+					<p>Let's start by creating a new directory</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ mkdir newdir
+					</code></pre>
+					<pre><code class="bash" data-trim contenteditable>
+					$ cd newdir
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Add Some Code</h2>
+					<p>Let's add a greeting function</p>
+					<pre><code class="javascript" data-trim contenteditable>
+					exports.greeting = function(){
+						console.log('Hello World!');
+					};
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Add Metadata</h2>
+					<p>Use npm's init to generate metadata</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm init
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Sample Metadata</h2>
+					<p>Sample package.json file</p>
+					<pre><code class="json" data-trim contenteditable>
+					{
+					  "name": "newdir",
+					  "version": "1.0.0",
+					  "description": "simple greeting function",
+					  "main": "index.js",
+					  "scripts": {
+					    "test": "echo \"Error: no test specified\" && exit 1"
+					  },
+					  "author": "abel@mit.edu",
+					  "license": "MIT"
+					}
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Publish to NPM</h2>
+					<p>Push code to registry</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm publish
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Confirm Code Is Live</h2>
+					<p>https://www.npmjs.com/~YourNpmUsername</p>
+
+				</section>
+
+				<section>
+					<h2>Active Learning</h2>
+					<p>Consume module published by classmate</p>
+
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: false, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+
+		</script>
+
+
+	</body>
+</html>
