@@ -1,0 +1,336 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>TDD</title>
+
+		<meta name="description" content="engineering and architecting ">
+		<meta name="author" content="abel sanchez & john williams">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai-sublime.css">
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+			
+			<div class="slides">
+
+				<section>
+					<h1>Test Driven Development</h1>
+					<p>	
+						<i><small><a href="http://abel.mit.edu">Abel Sanchez</a> and <a href="http://esd.mit.edu/Faculty_Pages/williams/williams.htm">John R. Williams</a></small></i>
+					</p>
+				</section>
+
+
+				<section>
+					<h2>Software Life Cycle</h2>
+					<img src="images/lifecycle_500.jpg" height="400">	
+				</section>
+
+				<section>
+					<h2>Github</h2>
+					<img src="images/gitcycle.png" width="800">	
+				</section>
+
+				<section>
+					<h2>TDD</h2>
+					<img src="images/tdd.png" height="400" >	
+				</section>
+
+				<section>
+					<h2>TDD Workflow</h2>
+					<ul>
+						<li>Write a test </li>
+						<li>Watch it fail</li>
+						<li>Write the code</li>
+						<li>Watch it fail</li>
+						<li>Fix </li>
+						<li>Watch it pass</li>
+						<li>Feel good</li>
+						<li>Add, commit, push, pull request</li>
+					</ul>						
+	
+				</section>
+
+				<section>
+					<h2>Mocha Test Framework</h2>
+					<p><a href="http://mochajs.org/">http://mochajs.org/</a></p>
+					<img src="images/mocha.jpg" height="250">
+				</section>
+
+				<section>
+					<h2>Install Mocha Globally</h2>
+
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm install mocha -g
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Create NPM App</h2>
+					<p>Let's start by creating a new directory</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ mkdir newdir
+					</code></pre>
+					<pre><code class="bash" data-trim contenteditable>
+					$ cd newdir
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Initialize Application</h2>
+					<p>Initialize application, set "test" property to "mocha || true"</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm init
+					</code></pre>
+					<pre><code class="javascript" data-trim contenteditable>
+					Press ^C at any time to quit.
+					name: (testor) 
+					version: (1.0.0) 
+					description: use mocha tests
+					entry point: (index.js) 
+					test command: mocha || true
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Sample Metadata</h2>
+					<p>Sample package.json file</p>
+					<pre><code class="json" data-trim contenteditable>
+					{
+					  "name": "testor",
+					  "version": "1.0.0",
+					  "description": "tdd",
+					  "main": "index.js",
+					  "directories": {
+					    "test": "test"
+					  },
+					  "scripts": {
+					    "test": "mocha || true"
+					  },
+					  "author": "abel@mit.edu",
+					  "license": "MIT"
+					}
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Add A Code File</h2>
+					<p>Write a code file, call it sum.js</p>
+					<pre><code class="javascript" data-trim contenteditable>
+					function sum(a, b) {
+					  return a + b;
+					}
+					module.exports = sum;
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Write a Test File</h2>
+					<p>Write a test file, call it test/test.js</p>
+					<pre><code class="javascript" data-trim contenteditable>
+					var sum = require('../sum.js');
+					var assert = require('assert');
+
+					describe('check functions', function() {
+
+					  describe('add', function() {
+					    it('it should return 2 when we pass 1,1', function() {
+					      assert.equal(2, sum(1,1));
+					    });
+					  });
+
+					});
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Run Test</h2>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm test
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Sample output</h2>
+					<img src="images/sample_output_01.png">
+				</section>
+
+                <!-- --------------------------------------- -->
+
+
+				<section>
+					<h2>Jest Test Framework</h2>
+					<p><a href="https://github.com/facebook/jest">https://github.com/facebook/jest</a></p>
+					<img src="images/jest.png" height="250">	
+				</section>
+
+				<section>
+					<h2>Install Mocha Globally</h2>
+
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm install -g jest
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Create NPM App</h2>
+					<p>Let's start by creating a new directory</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ mkdir newdir
+					</code></pre>
+					<pre><code class="bash" data-trim contenteditable>
+					$ cd newdir
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Initialize Application</h2>
+					<p>Initialize application, set "jest" property to "mocha || true"</p>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm init
+					</code></pre>
+					<pre><code class="javascript" data-trim contenteditable>
+					Press ^C at any time to quit.
+					name: (testor) 
+					version: (1.0.0) 
+					description: use jest tests
+					entry point: (index.js) 
+					test command: jest
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Sample Metadata</h2>
+					<p>Sample package.json file</p>
+					<pre><code class="json" data-trim contenteditable>
+					{
+					  "name": "testor",
+					  "version": "1.0.0",
+					  "description": "jest tests",
+					  "main": "index.js",
+					  "scripts": {
+					    "test": "jest"
+					  },
+					  "author": "abel@mit.edu",
+					  "license": "MIT"
+					}
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Add A Code File</h2>
+					<p>Write a code file, call it sum.js</p>
+					<pre><code class="javascript" data-trim contenteditable>
+					function sum(a, b) {
+					  return a + b;
+					}
+					module.exports = sum;
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Write a Test File</h2>
+					<p>Write a test file, call it sum.text.js</p>
+					<pre><code class="javascript" data-trim contenteditable>
+					const sum = require('./sum');
+
+					test('adds 1 + 2 to equal 3', () => {
+					  expect(sum(1, 2)).toBe(3);
+					});
+					</code></pre>
+
+				</section>
+
+
+				<section>
+					<h2>Run Test</h2>
+					<pre><code class="bash" data-trim contenteditable>
+					$ npm test
+					</code></pre>
+
+				</section>
+
+				<section>
+					<h2>Sample output</h2>
+					<img src="images/sample_output_02.png">
+				</section>
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/highlight/highlight.js', async: false, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+
+		</script>
+
+
+	</body>
+</html>
