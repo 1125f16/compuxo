@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<script src="superagent.js"></script>
+<button onclick="ping()" style="font-size:3em">Ping API</button>
+<div id='placeholder' style="font-size:3em"></div>
+<script>
+
+function ping(){
+    var element =document.getElementById('placeholder');  
+    superagent
+        .post('/signup')
+        .send({ username: 'pig', password: 'kong' })
+        .set('Accept', 'application/json')
+        .end(function(err, res){
+            if (err || !res.ok) {
+                element.innerHTML = JSON.stringify(err);
+                console.log(err);                
+            } else {
+                element.innerHTML = JSON.stringify(res.body);
+                console.log(res.body);                
+            }
+        });
+}
+
+</script>
+</html>
