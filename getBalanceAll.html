@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<h1>Balance List</h1>
+Check Balance:
+<button onclick="getBalance()">Get Balance</button><br><br>
+<div id="status" style="color:#0000FF"></div>
+
+<script>
+
+var accounts = [];
+accounts.push({'address':'0x54fcc51FceFC3959c2a78842f8705A20CD301c46','balance':0,'label':'Arlington'});
+accounts.push({'address':'0x5b77E5b7cd80EFeF760343Dc226Cc65aa3C16c0D','balance':0,'label':'Boston'});
+accounts.push({'address':'0x2E438E9A483816447E9e8778392ECF3E33ff6083','balance':0,'label':'Beverly'});
+accounts.push({'address':'0x1F9997eBb2A3b32098D88f1f0Ca3f25fEB5D82DB','balance':0,'label':'Braintree'});
+accounts.push({'address':'0x56DFceC68C950D33fEe443CE5C4a62e61f0071e4','balance':0,'label':'Brookline'});
+accounts.push({'address':'0xe9Fc42107b2563307a812de0A2348bb1B52968cB','balance':0,'label':'Cambridge'});
+accounts.push({'address':'0xE9d502678070638ADbeC0532238024006E12ADc4','balance':0,'label':'Canton'});
+accounts.push({'address':'0x347628B70BB45b349011651e7f65E8b1bfB2349b','balance':0,'label':'Charlestown'});
+accounts.push({'address':'0x105B28C63ea9815EaB885eC4790031bCB361fe89','balance':0,'label':'Clinton'});
+accounts.push({'address':'0x0bd6B8DbEBbd1AF19e6916d8f67972147E6b0377','balance':0,'label':'Concord'});
+accounts.push({'address':'0x0Aa6e4aC795A0e60353921B283Dd012F9Eb51B34','balance':0,'label':'Danvers'});
+accounts.push({'address':'0x2eB083455Fc4B1487fAfAbA9704996b6feBCced5','balance':0,'label':'Dartmouth'});
+accounts.push({'address':'0xCb6EC235863938eCeb9e0FCf7faD3bB42ab85Fc4','balance':0,'label':'Dedham'});
+accounts.push({'address':'0x825042A80A257FfC4366B78F777949E5Ea209E16','balance':0,'label':'Dennis'});
+accounts.push({'address':'0x16fAC5c36A33E60D2d4052Cf11b73a7F82C0C6E0','balance':0,'label':'Duxbury'});
+accounts.push({'address':'0xC34E611009b00324478E6fd31692F8e9Bd06e901','balance':0,'label':'Eastham'});
+accounts.push({'address':'0x43878350D9BF2571DF451F1a9A7e2CC395163734','balance':0,'label':'Edgartown'});
+accounts.push({'address':'0xdFFF07105e05d7fF0fb05C5Aeaa3029c4ffb9D27','balance':0,'label':'Everett'});
+accounts.push({'address':'0x8E4D169aBFa5fD561EF8c788FE0156A8BD0916d2','balance':0,'label':'Fairhaven'});
+accounts.push({'address':'0x87594968DE0e2b87344E966BeAAd96e6c328E8DE','balance':0,'label':'Falmouth'});
+accounts.push({'address':'0x6549B108A5eB32F617E2691bE0029f40Dcf94274','balance':0,'label':'Hyannis'});
+accounts.push({'address':'0x2fd99D0fEab93ACa11e4BdFb5BD9F2D2e399F938','balance':0,'label':'Lexington'});
+accounts.push({'address':'0x6bA9F86545772ff7d28cC1bEaD358d9DB1280393','balance':0,'label':'Malden'});
+accounts.push({'address':'0x1c993E8B3b882E53dfcbFBf69Ab08e96495ad57a','balance':0,'label':'Medford'});
+accounts.push({'address':'0xC7E090beFC86E60617898f96b75c2e44c2596DCb','balance':0,'label':'Milton'});
+accounts.push({'address':'0x9e15ae1483F0D16Edd1Cb5513381f19D346cbe84','balance':0,'label':'Natick'});
+accounts.push({'address':'0xc07b2b7BfA5737d0f929ac889301730486506968','balance':0,'label':'Newton'});
+accounts.push({'address':'0x7415c718c5bAf371762Baf8B55Df37daae953758','balance':0,'label':'Norwood'});
+accounts.push({'address':'0x1408871CBc5A85243423C1f61bBA5c25DC06dEBf','balance':0,'label':'Wellesley'});
+accounts.push({'address':'0xe0AaE87acB61b7a0229b10B75Aed8836E8980B45','balance':0,'label':'Watertown'});
+
+
+// create an instance of web3 from MetaMask
+if (typeof web3 !== 'undefined') {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  // set the provider you want from Web3.providers
+  web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+}
+
+// counter for array item
+var counter = 0;
+
+function getBalance(){
+
+	accounts.forEach(function(account){
+
+		// get the balance of account
+		web3.eth.getBalance(account.address, function(err, res){
+			counter++;
+
+			// add balance to account object in accounts array
+			// fromWei returns ether equivalent
+			addBalance(account,web3.fromWei(res));
+
+			// if all account data has returned, display data
+			if (counter >= accounts.length){
+				displayBalances();
+			}
+		});
+	});
+}
+
+function displayBalances(){
+
+	var table = '<table class="table" >' +
+  					'<thead class="thead-light">' +
+					    '<tr>' +
+					      '<th scope="col">balance</th>' +
+					      '<th scope="col">account</th>' +
+					      '<th scope="col">address</th>' +
+					    '</tr>' +
+					 '</thead>' +
+					 '<tbody>';
+
+	accounts.forEach(function(account){
+		table += '<tr>';
+		table += '  <td>' + account.balance + '</td>';
+		table += '  <td>' + account.label + '</td>';		
+		table += '  <td>' + account.address + '</td>';				
+		table += '</tr>';		
+	});
+
+  	table += '  </tbody>';
+	table += '</table>';
+	document.getElementById('status').innerHTML += table;
+
+}
+
+function addBalance(account, balance){
+	account.balance = balance;
+}
+
+
+</script>
+</html>
+

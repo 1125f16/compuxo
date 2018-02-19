@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Balance</h1>
+Check Balance:
+<input type="text" id="address" style="width:300px;" value="0xAD4d13871e7B14411e192677cd7cf94ba7068c68">
+<button onclick="getBalance()">Get Balance</button><br><br>
+<div id="status" style="color:#0000FF"></div>
+
+<p>
+	Another account you can try:<br>
+	0xD1D618bcb179db8b020358710138D1A008f4f39E
+</p>
+
+<script>
+
+// create an instance of web3 from MetaMask
+if (typeof web3 !== 'undefined') {
+  web3 = new Web3(web3.currentProvider);
+} else {
+  // set the provider you want from Web3.providers
+  web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+}
+
+function getBalance(){
+	var address = document.getElementById('address').value;
+	console.log(address);
+
+	// get the balance of address
+	web3.eth.getBalance(address, function(err, res){
+		var ether =  web3.fromWei(res);
+		var wei = web3.toWei(ether, 'ether');
+		status += 'Ether: ' + ether +'<br>';
+		status += 'Wei: ' + wei + '<br>';
+		document.getElementById('status').innerHTML = status;
+		console.log(res);
+	});
+
+}
+
+</script>
+</html>
+
