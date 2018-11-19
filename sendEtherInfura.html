@@ -31,7 +31,7 @@ function sendEther(){
 	web3.eth.sendTransaction({
 		from:from, 
 		to: to, 
-		value: web3.toWei(amount, "ether")
+		value: web3.utils.toWei(amount, "ether")
 	}, function(err, result){
 		// check for errors
 		if(err){
