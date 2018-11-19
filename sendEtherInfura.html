@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<h1>Send Ether</h1>
+
+From:<br>
+<input type="text" id="from" style="width:300px;font-family: monospace;" value="0xD1D618bcb179db8b020358710138D1A008f4f39E"><br>
+To:<br>
+<input type="text" id="to" style="width:300px;font-family: monospace;" value="0xAD4d13871e7B14411e192677cd7cf94ba7068c68"><br>
+Amount of Ether:<br>
+<input type="text" id="amount" style="width:30px;" value="1"><br>
+<button onclick="sendEther()">Send Ether</button><br>
+<div id="status" style="color:#0000FF"></div><br>
+
+
+<script>
+
+web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/f5bfb1ff634649c4b20fe53ecc693df3"));
+
+// you need to own the "from" account for this to work
+function sendEther(){
+
+	var status = document.getElementById('status');
+	var from   = document.getElementById('from').value;
+	var to     = document.getElementById('to').value;
+	var amount = Number(document.getElementById('amount').value);
+
+	web3.eth.sendTransaction({
+		from:from, 
+		to: to, 
+		value: web3.toWei(amount, "ether")
+	}, function(err, result){
+		// check for errors
+		if(err){
+			status.innerHTML = 'Transaction Error!';
+			console.log('Transaction Error:');
+			console.log(result);		
+		}
+		status.innerHTML = 'Ran to end!';
+	});
+
+}
+
+
+
+
+// get the balance of the current address
+// web3.eth.getBalance('0xD1D618bcb179db8b020358710138D1A008f4f39E', function(err, res){
+// 	document.getElementById('balance').innerHTML = res.c[0];
+// 	console.log(res);
+// });
+
+
+</script>
+</html>
+
