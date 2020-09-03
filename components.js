@@ -6,6 +6,8 @@ class Submodule extends HTMLElement {
 
     // attribute content 
     const title       = this.getAttribute('title');
+    const lecture     = this.getAttribute('lecture');
+    const lectureUrl  = this.getAttribute('lectureUrl');        
     const video       = this.getAttribute('video');
     const videoUrl    = this.getAttribute('videoUrl');
     const camtasia    = this.getAttribute('camtasia');    
@@ -14,6 +16,11 @@ class Submodule extends HTMLElement {
     const exerciseUrl = this.getAttribute('exerciseUrl');
     const test        = this.getAttribute('test');
     const testUrl     = this.getAttribute('testUrl');
+
+    let lectureStr = '';
+    if(lecture){
+      lectureStr = `<a href="${lectureUrl}"><i class="fab fa-slideshare"></i> ${lecture}</a><br />`;
+    }
 
     let videoStr = '';
     if(video){
@@ -35,6 +42,7 @@ class Submodule extends HTMLElement {
     this.innerHTML = `
         <h5>${title}</h5>
         <p>
+          ${lectureStr}
           ${videoStr}
           ${camtasiaStr}
           ${exerciseStr}
