@@ -1,0 +1,1101 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "sx2i-td3j",
+      "name" : "Employee Earnings Report 2016",
+      "averageRating" : 0,
+      "createdAt" : 1487098311,
+      "description" : "Earnings for City of Boston Employees for calendar year 2016.",
+      "displayType" : "table",
+      "downloadCount" : 624,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1487098432,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 25439480,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1487098440,
+      "publicationGroup" : 14041736,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1487098326,
+      "rowsUpdatedBy" : "mbzy-d86c",
+      "tableId" : 14041736,
+      "totalTimesRated" : 0,
+      "viewCount" : 14903,
+      "viewLastModified" : 1487098440,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 290088960,
+        "name" : "NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43824553,
+        "width" : 148,
+        "cachedContents" : {
+          "largest" : "Zwerdling,Laura",
+          "non_null" : 22046,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Zindman,Jonathan M",
+            "count" : 20
+          }, {
+            "item" : "Zingarelli,Lauren Marie",
+            "count" : 19
+          }, {
+            "item" : "Zingg,Robert M",
+            "count" : 18
+          }, {
+            "item" : "Zinka,Megan J",
+            "count" : 17
+          }, {
+            "item" : "Zinkowski,John A",
+            "count" : 16
+          }, {
+            "item" : "Zinn,Ichin",
+            "count" : 15
+          }, {
+            "item" : "Zion,Kassim A",
+            "count" : 14
+          }, {
+            "item" : "Ziulkowski,Rachel Tudor",
+            "count" : 13
+          }, {
+            "item" : "Zizza,Rocco R",
+            "count" : 12
+          }, {
+            "item" : "Zlab,Reilly",
+            "count" : 11
+          }, {
+            "item" : "Zlody,Maura T.",
+            "count" : 10
+          }, {
+            "item" : "Zoelzer,Mitchell Alan",
+            "count" : 9
+          }, {
+            "item" : "Zographos,Peter A.",
+            "count" : 8
+          }, {
+            "item" : "Zolla,Maria C.",
+            "count" : 7
+          }, {
+            "item" : "Zoquier,Andri L",
+            "count" : 6
+          }, {
+            "item" : "Zoran,Mor",
+            "count" : 5
+          }, {
+            "item" : "Zorrilla Kelly,Abner",
+            "count" : 4
+          }, {
+            "item" : "Zou,Andy",
+            "count" : 3
+          }, {
+            "item" : "Zrike,Sara M.",
+            "count" : 2
+          }, {
+            "item" : "Zuares,David Jonathan",
+            "count" : 1
+          } ],
+          "smallest" : "Abadi,Kidani A"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088961,
+        "name" : "DEPARTMENT_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "department_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43824554,
+        "width" : 280,
+        "cachedContents" : {
+          "largest" : "Youth Engagement & Employment",
+          "non_null" : 22046,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Boston Police Department",
+            "count" : 20
+          }, {
+            "item" : "Boston Fire Department",
+            "count" : 19
+          }, {
+            "item" : "BPS Facility Management",
+            "count" : 18
+          }, {
+            "item" : "BPS Transportation",
+            "count" : 17
+          }, {
+            "item" : "BPS Special Education",
+            "count" : 16
+          }, {
+            "item" : "BPS Substitute Teachers/Nurs",
+            "count" : 15
+          }, {
+            "item" : "Boston Cntr - Youth & Families",
+            "count" : 14
+          }, {
+            "item" : "Boston Public Library",
+            "count" : 13
+          }, {
+            "item" : "Public Works Department",
+            "count" : 12
+          }, {
+            "item" : "Parks Department",
+            "count" : 11
+          }, {
+            "item" : "BPS Quincy Elementary",
+            "count" : 10
+          }, {
+            "item" : "Haley Pilot",
+            "count" : 9
+          }, {
+            "item" : "Edison K-8",
+            "count" : 8
+          }, {
+            "item" : "Jackson/Mann K-8",
+            "count" : 7
+          }, {
+            "item" : "Kilmer K-8",
+            "count" : 6
+          }, {
+            "item" : "BPS Charlestown High",
+            "count" : 5
+          }, {
+            "item" : "Workers Compensation Service",
+            "count" : 4
+          }, {
+            "item" : "BPS Latin Academy",
+            "count" : 3
+          }, {
+            "item" : "Dpt of Innovation & Technology",
+            "count" : 2
+          }, {
+            "item" : "Environment Department",
+            "count" : 1
+          } ],
+          "smallest" : "Accountability"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088962,
+        "name" : "TITLE",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43824555,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "Yth Programs Librarian III",
+          "non_null" : 22046,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Police Officer",
+            "count" : 20
+          }, {
+            "item" : "Fire Fighter",
+            "count" : 19
+          }, {
+            "item" : "Teacher",
+            "count" : 18
+          }, {
+            "item" : "Paraprofessional",
+            "count" : 17
+          }, {
+            "item" : "Substitute Teacher",
+            "count" : 16
+          }, {
+            "item" : "Cab Monitor",
+            "count" : 15
+          }, {
+            "item" : "Lunch Hour Monitors",
+            "count" : 14
+          }, {
+            "item" : "Part-Time Cafeteria Attendant",
+            "count" : 13
+          }, {
+            "item" : "Substitute Teacher HE",
+            "count" : 12
+          }, {
+            "item" : "Police Detective",
+            "count" : 11
+          }, {
+            "item" : "Specialist (BTU)",
+            "count" : 10
+          }, {
+            "item" : "One to One Para",
+            "count" : 9
+          }, {
+            "item" : "ACC - Attorney",
+            "count" : 8
+          }, {
+            "item" : "Prin Clerk/School Sec 19",
+            "count" : 7
+          }, {
+            "item" : "Police Clerk And Typist",
+            "count" : 6
+          }, {
+            "item" : "Chief of EnterpriseApplication",
+            "count" : 5
+          }, {
+            "item" : "Police Sergeant/CHF RADIO DISP",
+            "count" : 4
+          }, {
+            "item" : "Workers Comp Job Classificatn",
+            "count" : 3
+          }, {
+            "item" : "Cluster Substitute",
+            "count" : 2
+          }, {
+            "item" : "Spec Library Asst II",
+            "count" : 1
+          } ],
+          "smallest" : "121A Manager, BOR"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088963,
+        "name" : "REGULAR",
+        "dataTypeName" : "money",
+        "fieldName" : "regular",
+        "position" : 5,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824556,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "259484.43",
+          "non_null" : 21463,
+          "average" : "61332.62075851465",
+          "null" : 583,
+          "top" : [ {
+            "item" : "8582.22",
+            "count" : 20
+          }, {
+            "item" : "18218.79",
+            "count" : 19
+          }, {
+            "item" : "42339.17",
+            "count" : 18
+          }, {
+            "item" : "80939.04",
+            "count" : 17
+          }, {
+            "item" : "293.93",
+            "count" : 16
+          }, {
+            "item" : "14451.22",
+            "count" : 15
+          }, {
+            "item" : "17262.63",
+            "count" : 14
+          }, {
+            "item" : "74484.97",
+            "count" : 13
+          }, {
+            "item" : "104849.47",
+            "count" : 12
+          }, {
+            "item" : "62757.76",
+            "count" : 11
+          }, {
+            "item" : "82297.70",
+            "count" : 10
+          }, {
+            "item" : "9319.98",
+            "count" : 9
+          }, {
+            "item" : "77623.05",
+            "count" : 8
+          }, {
+            "item" : "80865.02",
+            "count" : 7
+          }, {
+            "item" : "45118.54",
+            "count" : 6
+          }, {
+            "item" : "3538.84",
+            "count" : 5
+          }, {
+            "item" : "41747.07",
+            "count" : 4
+          }, {
+            "item" : "29489.32",
+            "count" : 3
+          }, {
+            "item" : "72207.20",
+            "count" : 2
+          } ],
+          "smallest" : "-7702.22",
+          "sum" : "1316382039.34"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088964,
+        "name" : "RETRO",
+        "dataTypeName" : "money",
+        "fieldName" : "retro",
+        "position" : 6,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824557,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "134476.33",
+          "non_null" : 416,
+          "average" : "51075.05475961538",
+          "null" : 21630,
+          "top" : [ {
+            "item" : "4376.89",
+            "count" : 20
+          }, {
+            "item" : "1373.51",
+            "count" : 19
+          }, {
+            "item" : "65618.97",
+            "count" : 18
+          }, {
+            "item" : "13692.20",
+            "count" : 17
+          }, {
+            "item" : "51301.20",
+            "count" : 16
+          }, {
+            "item" : "107368.53",
+            "count" : 15
+          } ],
+          "smallest" : "31.27",
+          "sum" : "21247222.78"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088965,
+        "name" : "OTHER",
+        "dataTypeName" : "money",
+        "fieldName" : "other",
+        "position" : 7,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824558,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "180404.30",
+          "non_null" : 12845,
+          "average" : "3778.020797975866",
+          "null" : 9201,
+          "top" : [ {
+            "item" : "300.00",
+            "count" : 20
+          }, {
+            "item" : "550.00",
+            "count" : 19
+          }, {
+            "item" : "800.00",
+            "count" : 18
+          }, {
+            "item" : "27.50",
+            "count" : 17
+          }, {
+            "item" : "17.50",
+            "count" : 16
+          }, {
+            "item" : "500.00",
+            "count" : 15
+          }, {
+            "item" : "1290.10",
+            "count" : 14
+          }, {
+            "item" : "8793.52",
+            "count" : 13
+          }, {
+            "item" : "25497.04",
+            "count" : 12
+          }, {
+            "item" : "105.00",
+            "count" : 11
+          }, {
+            "item" : "3300.00",
+            "count" : 10
+          }, {
+            "item" : "1000.00",
+            "count" : 9
+          }, {
+            "item" : "4380.55",
+            "count" : 8
+          }, {
+            "item" : "5207.64",
+            "count" : 7
+          }, {
+            "item" : "46875.56",
+            "count" : 6
+          }, {
+            "item" : "600.00",
+            "count" : 5
+          } ],
+          "smallest" : "-1220.75",
+          "sum" : "48528677.15"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088966,
+        "name" : "OVERTIME",
+        "dataTypeName" : "money",
+        "fieldName" : "overtime",
+        "position" : 8,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824559,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "124130.45",
+          "non_null" : 6690,
+          "average" : "14929.89179671151",
+          "null" : 15356,
+          "top" : [ {
+            "item" : "83.83",
+            "count" : 20
+          }, {
+            "item" : "69739.29",
+            "count" : 19
+          }, {
+            "item" : "666.97",
+            "count" : 18
+          }, {
+            "item" : "20242.39",
+            "count" : 17
+          }, {
+            "item" : "72372.52",
+            "count" : 16
+          }, {
+            "item" : "271.92",
+            "count" : 15
+          }, {
+            "item" : "51.78",
+            "count" : 14
+          } ],
+          "smallest" : "-484.12",
+          "sum" : "99880976.12"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088967,
+        "name" : "INJURED",
+        "dataTypeName" : "money",
+        "fieldName" : "injured",
+        "position" : 9,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824560,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "171024.37",
+          "non_null" : 1378,
+          "average" : "20807.85139332366",
+          "null" : 20668,
+          "top" : [ {
+            "item" : "48176.11",
+            "count" : 20
+          }, {
+            "item" : "20617.43",
+            "count" : 19
+          }, {
+            "item" : "6184.98",
+            "count" : 18
+          }, {
+            "item" : "1872.88",
+            "count" : 17
+          }, {
+            "item" : "23266.12",
+            "count" : 16
+          }, {
+            "item" : "9273.43",
+            "count" : 15
+          }, {
+            "item" : "2143.29",
+            "count" : 14
+          }, {
+            "item" : "25025.00",
+            "count" : 13
+          }, {
+            "item" : "7955.12",
+            "count" : 12
+          }, {
+            "item" : "7017.34",
+            "count" : 11
+          }, {
+            "item" : "32947.80",
+            "count" : 10
+          }, {
+            "item" : "5472.12",
+            "count" : 9
+          }, {
+            "item" : "8602.20",
+            "count" : 8
+          }, {
+            "item" : "16616.00",
+            "count" : 7
+          }, {
+            "item" : "20943.08",
+            "count" : 6
+          }, {
+            "item" : "1278.38",
+            "count" : 5
+          }, {
+            "item" : "4299.20",
+            "count" : 4
+          }, {
+            "item" : "11514.62",
+            "count" : 3
+          }, {
+            "item" : "2880.27",
+            "count" : 2
+          }, {
+            "item" : "39336.39",
+            "count" : 1
+          } ],
+          "smallest" : "0.00",
+          "sum" : "28673219.22"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088968,
+        "name" : "DETAIL",
+        "dataTypeName" : "money",
+        "fieldName" : "detail",
+        "position" : 10,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824561,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "140530.00",
+          "non_null" : 2425,
+          "average" : "19273.07471752577",
+          "null" : 19621,
+          "top" : [ {
+            "item" : "11914.00",
+            "count" : 20
+          }, {
+            "item" : "39100.00",
+            "count" : 19
+          }, {
+            "item" : "33655.00",
+            "count" : 18
+          }, {
+            "item" : "736.00",
+            "count" : 17
+          }, {
+            "item" : "368.00",
+            "count" : 16
+          } ],
+          "smallest" : "-256.00",
+          "sum" : "46737206.19"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088969,
+        "name" : "QUINN/EDUCATION INCENTIVE",
+        "dataTypeName" : "money",
+        "fieldName" : "quinn_education_incentive",
+        "position" : 11,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824562,
+        "width" : 400,
+        "cachedContents" : {
+          "largest" : "30198.92",
+          "non_null" : 1290,
+          "average" : "14543.36865891473",
+          "null" : 20756,
+          "top" : [ {
+            "item" : "12338.56",
+            "count" : 20
+          }, {
+            "item" : "12158.90",
+            "count" : 19
+          }, {
+            "item" : "15398.24",
+            "count" : 18
+          }, {
+            "item" : "14932.22",
+            "count" : 17
+          }, {
+            "item" : "15715.00",
+            "count" : 16
+          }, {
+            "item" : "12805.42",
+            "count" : 15
+          }, {
+            "item" : "732.59",
+            "count" : 14
+          }, {
+            "item" : "5004.42",
+            "count" : 13
+          }, {
+            "item" : "12757.26",
+            "count" : 12
+          }, {
+            "item" : "21298.14",
+            "count" : 11
+          }, {
+            "item" : "1312.14",
+            "count" : 10
+          }, {
+            "item" : "15349.16",
+            "count" : 9
+          }, {
+            "item" : "16428.03",
+            "count" : 8
+          }, {
+            "item" : "15173.47",
+            "count" : 7
+          }, {
+            "item" : "12572.19",
+            "count" : 6
+          }, {
+            "item" : "12759.07",
+            "count" : 5
+          }, {
+            "item" : "21770.58",
+            "count" : 4
+          }, {
+            "item" : "15677.22",
+            "count" : 3
+          }, {
+            "item" : "12561.77",
+            "count" : 2
+          }, {
+            "item" : "19344.05",
+            "count" : 1
+          } ],
+          "smallest" : "-423.47",
+          "sum" : "18760945.57"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088970,
+        "name" : "TOTAL EARNINGS",
+        "dataTypeName" : "money",
+        "fieldName" : "total_earnings",
+        "position" : 12,
+        "renderTypeName" : "money",
+        "tableColumnId" : 43824563,
+        "width" : 268,
+        "cachedContents" : {
+          "largest" : "403408.61",
+          "non_null" : 22046,
+          "average" : "71677.86838292661",
+          "null" : 0,
+          "top" : [ {
+            "item" : "8582.22",
+            "count" : 20
+          }, {
+            "item" : "69146.51",
+            "count" : 19
+          }, {
+            "item" : "284985.62",
+            "count" : 18
+          }, {
+            "item" : "61325.30",
+            "count" : 17
+          }, {
+            "item" : "93264.99",
+            "count" : 16
+          }, {
+            "item" : "14373.84",
+            "count" : 15
+          }, {
+            "item" : "13561.59",
+            "count" : 14
+          }, {
+            "item" : "75503.56",
+            "count" : 13
+          }, {
+            "item" : "119052.08",
+            "count" : 12
+          }, {
+            "item" : "68678.52",
+            "count" : 11
+          }, {
+            "item" : "62309.82",
+            "count" : 10
+          }, {
+            "item" : "42339.17",
+            "count" : 9
+          }, {
+            "item" : "117043.69",
+            "count" : 8
+          }, {
+            "item" : "293.93",
+            "count" : 7
+          }, {
+            "item" : "14451.22",
+            "count" : 6
+          }, {
+            "item" : "17262.63",
+            "count" : 5
+          }, {
+            "item" : "75484.97",
+            "count" : 4
+          }, {
+            "item" : "18218.79",
+            "count" : 3
+          }, {
+            "item" : "109230.02",
+            "count" : 2
+          }, {
+            "item" : "62757.76",
+            "count" : 1
+          } ],
+          "smallest" : "2.14",
+          "sum" : "1580210286.37"
+        },
+        "format" : { }
+      }, {
+        "id" : 290088971,
+        "name" : "POSTAL",
+        "dataTypeName" : "text",
+        "fieldName" : "postal",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 43824564,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "UNKNO",
+          "non_null" : 22045,
+          "null" : 1,
+          "top" : [ {
+            "item" : "02132",
+            "count" : 20
+          }, {
+            "item" : "02127",
+            "count" : 19
+          }, {
+            "item" : "02125",
+            "count" : 18
+          }, {
+            "item" : "02119",
+            "count" : 17
+          }, {
+            "item" : "02131",
+            "count" : 16
+          }, {
+            "item" : "02126",
+            "count" : 15
+          }, {
+            "item" : "02124",
+            "count" : 14
+          }, {
+            "item" : "02130",
+            "count" : 13
+          }, {
+            "item" : "02136",
+            "count" : 12
+          }, {
+            "item" : "02128",
+            "count" : 11
+          }, {
+            "item" : "02122",
+            "count" : 10
+          }, {
+            "item" : "02121",
+            "count" : 9
+          }, {
+            "item" : "02135",
+            "count" : 8
+          }, {
+            "item" : "02186",
+            "count" : 7
+          }, {
+            "item" : "02129",
+            "count" : 6
+          }, {
+            "item" : "02368",
+            "count" : 5
+          }, {
+            "item" : "02118",
+            "count" : 4
+          }, {
+            "item" : "02134",
+            "count" : 3
+          }, {
+            "item" : "02301",
+            "count" : 2
+          }, {
+            "item" : "02113",
+            "count" : 1
+          } ],
+          "smallest" : "00921"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Owner" : {
+            "Owner" : "Administration & Finance"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "mbzy-d86c",
+        "displayName" : "hclim",
+        "lastNotificationSeenAt" : 1491486795,
+        "roleName" : "administrator",
+        "screenName" : "hclim",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "mbzy-d86c",
+        "displayName" : "hclim",
+        "lastNotificationSeenAt" : 1491486795,
+        "roleName" : "administrator",
+        "screenName" : "hclim",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors", "edit_others_stories", "view_stories_stats" ]
+      },
+      "tags" : [ "employees", "payroll", "finance" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "CA6D4BA0-056B-481E-A5B4-E1B6E1C8108F", 1, 1487098314, "947295", 1487098314, "947295", null, "Abadi,Kidani A", "Assessing Department", "Property Officer", "46291.98", null, "300.00", null, null, null, null, "46591.98", "02118" ]
+, [ 2, "56A885B1-D63E-46E3-98FF-5EFBAF5D3D63", 2, 1487098314, "947295", 1487098314, "947295", null, "Abasciano,Joseph", "Boston Police Department", "Police Officer", "6933.66", null, "850.00", "205.92", "74331.86", null, "15258.44", "97579.88", "02132" ]
+, [ 3, "9509DFD5-B4B4-419C-8864-9B068EC03FF4", 3, 1487098314, "947295", 1487098314, "947295", null, "Abban,Christopher John", "Boston Fire Department", "Fire Fighter", "103442.22", null, "550.00", "15884.53", null, "4746.50", null, "124623.25", "02132" ]
+, [ 4, "9613CCDD-8721-4FD5-9515-E1765AC24FF0", 4, 1487098314, "947295", 1487098314, "947295", null, "Abbasi,Sophia", "Green Academy", "Manager (C) (non-ac)", "18249.83", null, null, null, null, null, null, "18249.83", "02148" ]
+, [ 5, "B0854B21-2651-46AD-BCF7-0F62D374BAFE", 5, 1487098314, "947295", 1487098314, "947295", null, "Abbate-Vaughn,Jorgelina", "BPS Ellis Elementary", "Teacher", "84410.28", null, "1250.00", null, null, null, null, "85660.28", "02481" ]
+, [ 6, "B03C2410-9EAF-402A-8E73-9712DEBB24B8", 6, 1487098314, "947295", 1487098314, "947295", null, "Abberton,James P", "Public Works Department", "Maint Mech (Carpenter)##", "41449.16", null, "81.00", "8807.47", null, null, null, "50337.63", "02127" ]
+, [ 7, "E06E8324-BC71-448C-8CA7-B9F328ACD2F4", 7, 1487098314, "947295", 1487098314, "947295", null, "Abbott,Erin Elizabeth", "Hurley K-8", "Teacher", "80413.68", null, null, null, null, null, null, "80413.68", "02081" ]
+, [ 8, "B813DC65-1421-4A69-B157-834843770C71", 8, 1487098314, "947295", 1487098314, "947295", null, "Abbott,John R.", "BPS Snowden International Hi", "Teacher", "99264.10", null, "656.04", null, null, null, null, "99920.14", "02445" ]
+, [ 9, "7F588024-1F26-49E3-B7F4-42E50BE241B0", 9, 1487098314, "947295", 1487098314, "947295", null, "Abbruzzese,Angela", "BPS Clap Elementary", "Lunch Hour Monitors", "5000.90", null, null, null, null, null, null, "5000.90", "02125" ]
+, [ 10, "55579F52-6938-4A4F-AAE0-61A584CEB47F", 10, 1487098314, "947295", 1487098314, "947295", null, "Abbruzzese,Donna", "BPS Clap Elementary", "Lunch Hour Monitors", "621.90", null, null, null, null, null, null, "621.90", "02125" ]
+, [ 11, "38BD64F1-67C5-4EB3-BA1C-E18233BB544F", 11, 1487098314, "947295", 1487098314, "947295", null, "Abdalkhallaq,Amira N.", "BPS O'Bryant School", "Teacher", "105500.20", null, "5010.00", null, null, null, null, "110510.20", "02121" ]
+, [ 12, "E5B3C1D4-77CC-4F94-99F1-420DDC4A7598", 12, 1487098314, "947295", 1487098314, "947295", null, "Abdal-Khallaq,Musiri Kari", "Green Academy", "Teacher", "93142.59", null, "1346.00", null, null, null, null, "94488.59", "02119" ]
+, [ 13, "9CC2A61C-CD26-4BD8-9705-1831E3739CCF", 13, 1487098314, "947295", 1487098314, "947295", null, "Abdal-Khallaq,Naima", "BPS Charlestown High", "Teacher", "105500.20", null, "27.50", null, null, null, null, "105527.70", "02121" ]
+, [ 14, "7D7DF4A8-F920-4425-BBDC-30D458131C21", 14, 1487098314, "947295", 1487098314, "947295", null, "Abdelnour,Lisa", "BPS Carter Center", "Paraprofessional", "32463.56", null, null, null, null, null, null, "32463.56", "02131" ]
+, [ 15, "815C92E6-13D4-4196-933B-BF1F33B7FABA", 15, 1487098314, "947295", 1487098314, "947295", null, "Abdelrahim,Maha", "Boston Public Library", "Library Aide", "1181.60", null, null, null, null, null, null, "1181.60", "02125" ]
+, [ 16, "2C5E8037-87B0-4839-BC37-194E454404F8", 16, 1487098314, "947295", 1487098314, "947295", null, "Abdul-Aziz,Ramadani", "Boston Police Department", "Police Officer", "99122.67", null, "800.00", "25411.32", null, "58420.00", null, "183753.99", "02119" ]
+, [ 17, "06784967-0EBA-4948-B2C3-36E30CB8C59A", 17, 1487098314, "947295", 1487098314, "947295", null, "Abdur-Rahim,Theodora", "HPEC: Com Acd Science & Health", "Teacher", "106200.12", null, "2100.00", null, null, null, null, "108300.12", "02126" ]
+, [ 18, "51DCFF9D-1628-4991-AF2A-087F53FCC119", 18, 1487098314, "947295", 1487098314, "947295", null, "Abelard,Jean Marc", "West Roxbury Academy", "Staff Asst (B)", "81717.08", null, "550.00", null, null, null, null, "82267.08", "02119" ]
+, [ 19, "4CD3E955-3DA5-4304-9559-04507F081CA4", 19, 1487098314, "947295", 1487098314, "947295", null, "Abellard,Eliphete Jean", "Elderly Commission", "Driver", "34086.59", null, null, "489.01", null, null, null, "34575.60", "02126" ]
+, [ 20, "13E1D4C1-FE7B-4EEE-9EB3-784028A186E8", 20, 1487098314, "947295", 1487098314, "947295", null, "Abelson,Marc A.", "BPS Mason Elementary", "Teacher", "90398.08", null, null, null, null, null, null, "90398.08", "02140" ]
+, [ 21, "1615D9E4-A485-443F-B73A-755C02A90774", 21, 1487098314, "947295", 1487098314, "947295", null, "Abichaker,Linda", "Boston Police Department", "Police Clerk And Typist", "46791.44", null, null, null, null, null, null, "46791.44", "02132" ]
+, [ 22, "746DD670-00D2-4CB2-9FDC-0995FBE14440", 22, 1487098314, "947295", 1487098314, "947295", null, "Abioye,Adedolapo Funke", "Higginson/Lewis K-8", "Teacher", "19810.35", null, null, null, null, null, null, "19810.35", "02124" ]
+, [ 23, "3DF3D8A4-4B56-4646-9CB4-571B8010A246", 23, 1487098314, "947295", 1487098314, "947295", null, "Abo-Sido,Obaida S", "BPS Madison Park High", "Teacher", "28430.75", null, "144.00", null, null, null, null, "28574.75", "02169" ]
+, [ 24, "6B0E7047-8537-40D7-951C-7EC4E996F802", 24, 1487098314, "947295", 1487098314, "947295", null, "Aboujaoude,Jocelyne M.", "BPS Boston Arts Academy", "Nurse", "103584.41", null, "500.00", null, null, null, null, "104084.41", "02131" ]
+, [ 25, "4273C6ED-228C-4F29-A052-E66E4EED74C6", 25, 1487098314, "947295", 1487098314, "947295", null, "Abraham,Caroline", "BPS Brighton High", "Teacher", "63583.32", null, "6752.78", null, null, null, null, "70336.10", "02135" ]
+, [ 26, "B0610B26-5A64-4ABB-93A7-1D866DC13071", 26, 1487098314, "947295", 1487098314, "947295", null, "Abraham,Randolph", "BPS Brighton High", "Community Field Coordinator", "75237.12", null, "10242.50", null, null, null, null, "85479.62", "02135" ]
+, [ 27, "094D48DF-1A13-410E-B94A-4DAE1E7BD704", 27, 1487098314, "947295", 1487098314, "947295", null, "Abraham,Sharon B.", "BPS Human Resource Team", "Teacher", "107708.96", null, "1600.00", null, null, null, null, "109308.96", "02474" ]
+, [ 28, "E1F4C407-20BB-42CC-A6AA-B63CFA36BF7A", 28, 1487098314, "947295", 1487098314, "947295", null, "Abrahams,Rafael Noah", "UP \"Unlocking Potential\" Acad", "Teacher", "29827.82", null, null, null, null, null, null, "29827.82", "02143" ]
+, [ 29, "CC095486-30F1-43A1-96CD-7409B26AC320", 29, 1487098314, "947295", 1487098314, "947295", null, "Abrahamson,Patrick Olaf", "Boston Police Department", "Police Officer", "80222.48", null, "800.00", "4804.80", null, "3542.00", null, "89369.28", "02135" ]
+, [ 30, "46A3E30D-FD86-475F-B457-A52562EDCC59", 30, 1487098314, "947295", 1487098314, "947295", null, "Abramoski,Daniel", "Margarita Muniz Academy", "Manager (C) (non-ac)", "92939.81", null, null, null, null, null, null, "92939.81", "02131" ]
+, [ 31, "613B9B91-50D1-4E5B-B44D-F821A77B020D", 31, 1487098314, "947295", 1487098314, "947295", null, "Abrams,Harriet", "BPS Irving Middle", "Paraprofessional", "41373.70", null, "35.00", null, null, null, null, "41408.70", "02132" ]
+, [ 32, "68097E60-828B-4FFB-BE2D-8A113E4507FD", 32, 1487098314, "947295", 1487098314, "947295", null, "Abrams,Sarah Gross", "BPS Latin Academy", "Teacher", "96162.04", null, "1000.00", null, null, null, null, "97162.04", "02130" ]
+, [ 33, "4280A99E-952B-438E-849E-CF4380C43B35", 33, 1487098314, "947295", 1487098314, "947295", null, "Abreu,Cesar", "Boston Police Department", "Police Officer", "85849.67", null, "6680.12", "50193.20", null, "40158.00", null, "182880.99", "02136" ]
+, [ 34, "596932AE-C4BA-4649-B96F-C377A16FA027", 34, 1487098314, "947295", 1487098314, "947295", null, "Abreu,Iris L.", "BPS Brighton High", "Library Paraprofessional", "33210.10", null, "3075.00", null, null, null, null, "36285.10", "02119" ]
+, [ 35, "D5E97F92-D516-4721-9797-80ACC7E3B33E", 35, 1487098314, "947295", 1487098314, "947295", null, "Abreu,Julie Ana", "Frederick Pilot Middle", "Teacher", "41001.62", null, "465.00", null, null, null, null, "41466.62", "02116" ]
+, [ 36, "B75AFC83-6FB2-4267-B901-B3ABE07A77B9", 36, 1487098314, "947295", 1487098314, "947295", null, "Abreu,Moises J", "Boston Police Department", "Police Officer", "73019.08", null, "800.00", "7710.63", "1621.31", "39882.00", null, "123033.02", "02136" ]
+, [ 37, "C8D406F7-8957-438F-9832-7336E7B505E3", 37, 1487098314, "947295", 1487098314, "947295", null, "Abron,Wayne E.", "Boston Fire Department", "Fire Fighter", "103667.51", null, "550.00", "13696.60", null, null, null, "117914.11", "02125" ]
+, [ 38, "CF844994-6456-4297-9B0E-992CD1F72019", 38, 1487098314, "947295", 1487098314, "947295", null, "Abuzeit,Farouqua", "Boston Public Library", "Manager of Youth Services", "104006.36", null, "1501.70", "828.29", null, null, null, "106336.35", "02128" ]
+, [ 39, "D8142CF3-73CD-4EE2-A45F-FEBB79D3C175", 39, 1487098314, "947295", 1487098314, "947295", null, "Accardi,Patricia", "Transportation-Parking Clerk", "Chief Claims Investigator I", "70166.42", null, "488.66", "735.00", null, null, null, "71390.08", "02081" ]
+, [ 40, "A778C723-9907-4D8A-A22C-2CB9EB2E7AF2", 40, 1487098314, "947295", 1487098314, "947295", null, "Acce Sr.,Jean Denis", "BPS Facility Management", "Sen Cust C/Nights", "44137.52", null, null, "1342.20", null, null, null, "45479.72", "02126" ]
+, [ 41, "675118BE-1A23-4DC5-98F0-7E9F06961B7A", 41, 1487098314, "947295", 1487098314, "947295", null, "Accime-Plaisimond,Marie J", "BPS Transportation", "Cab Monitor", "28843.68", null, null, null, null, null, null, "28843.68", "02136" ]
+, [ 42, "6FCAEAC1-B6E6-43AF-BE36-66F0D568C2C5", 42, 1487098314, "947295", 1487098314, "947295", null, "Accomando,AnnMarie", "BPS Horace Mann", "Teacher", "92764.66", null, null, null, null, null, null, "92764.66", "02026" ]
+, [ 43, "29ACDB87-E904-4968-A53A-D8068045AA8A", 43, 1487098314, "947295", 1487098314, "947295", null, "Ace III,William A", "BPS Facility Management", "Jr Cust/Nights", "47596.49", null, null, "1141.30", null, null, null, "48737.79", "02134" ]
+, [ 44, "4D0D18D8-E1D0-4637-87B0-1F32451FA993", 44, 1487098314, "947295", 1487098314, "947295", null, "Ace,Richard K.", "Boston Police Department", "Police Officer", "82383.86", null, "800.00", "3886.74", null, "66654.00", "12338.56", "166063.16", "02136" ]
+, [ 45, "11F51DE8-F955-4CC8-BBBA-6CBE2FAC0202", 45, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Blanca N", "BPS Transportation", "Hot Line Worker HE", "20731.94", null, null, null, null, null, null, "20731.94", "02703" ]
+, [ 46, "2EB413A4-417E-463A-81CE-20F5C497E2D6", 46, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Danitza", "BPS Taylor Elementary", "Paraprofessional", "3367.35", null, null, null, null, null, null, "3367.35", "02151" ]
+, [ 47, "4A8553AF-BF87-4A6E-A3EB-F9552B2969FC", 47, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Dora Luz", "Boston Police Department", "School Traffic Supv", "11347.95", null, "704.28", null, null, null, null, "12052.23", "02120" ]
+, [ 48, "92C1F23C-8901-4C47-BF2F-6AEB01E58C36", 48, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Jasmine", "BTU Pilot", "Teacher", "107620.26", null, null, null, null, null, null, "107620.26", "02131" ]
+, [ 49, "60003646-6C69-4DA1-98FA-346AEEC2A927", 49, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Johanna", "Treasury-Treasury Division", "Prin Admin Asst (Treas/Treas)", "62250.74", null, "150.00", "861.51", null, null, null, "63262.25", "02136" ]
+, [ 50, "4D682121-7571-4E94-BAAF-5EB200382D5E", 50, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Rafael W.", "Boston Police Department", "Police Officer", "84662.55", null, "3859.15", "18296.84", null, "50922.00", null, "157740.54", "02026" ]
+, [ 51, "69B2DF82-03DA-4D94-8E4E-D029D1B36645", 51, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Ricardo W", "BPS Special Education", "ABA Specialist", "13805.67", null, null, null, null, null, null, "13805.67", "02128" ]
+, [ 52, "BE33A4A6-D235-498F-AA04-ED34CC20C0C5", 52, 1487098314, "947295", 1487098314, "947295", null, "Acevedo,Terisa M", "Workers Compensation Service", "Workers Comp Job Classificatn", null, null, null, null, "276.96", null, null, "276.96", "02132" ]
+, [ 53, "B67C7E11-0365-4415-A043-0C031C76C563", 53, 1487098314, "947295", 1487098314, "947295", null, "Achildiyev,Ilana", "BPS Counseling Service", "School Psychologist(1)", "110462.57", null, "2348.00", null, null, null, null, "112810.57", "02021" ]
+, [ 54, "D6E9F256-D372-4A77-93F8-833867893816", 54, 1487098314, "947295", 1487098314, "947295", null, "Achille,Lodz K", "BPS Taylor Elementary", "Teacher", "85190.32", null, null, null, null, null, null, "85190.32", "02136" ]
+, [ 55, "29F46925-7F36-4C1A-9BB8-BED8F742DB19", 55, 1487098314, "947295", 1487098314, "947295", null, "Achtmann,Geoffrey C.", "BPS Charlestown High", "Cluster Substitute", "33224.39", null, "1085.00", null, null, null, null, "34309.39", "02148" ]
+, [ 56, "9A82676F-F054-4D2A-877B-2857D89F5261", 56, 1487098314, "947295", 1487098314, "947295", null, "Ackerly,Lyn E.", "Boston Public Library", "Spec Library Asst I", "33539.38", null, null, null, null, null, null, "33539.38", "02118" ]
+, [ 57, "C896FC73-E7B1-4AC7-9789-B85022B76577", 57, 1487098314, "947295", 1487098314, "947295", null, "Acloque,Jean Moise", "Boston Police Department", "Police Detective", "99361.13", "98309.68", "8890.23", "75193.68", null, "2254.00", "732.59", "284741.31", "02062" ]
+, [ 58, "DB70EC24-4D2C-42C0-9E58-A25A30DFB57D", 58, 1487098314, "947295", 1487098314, "947295", null, "Acone,Christopher F", "UP Academy Dorchester", "Teacher", "67741.12", null, null, null, null, null, null, "67741.12", "02125" ]
+, [ 59, "0C3058D8-CE1B-4924-B6F1-BDCD5BCE99AD", 59, 1487098314, "947295", 1487098314, "947295", null, "Acosta,Ariel", "UP Academy Holland", "Teacher", "48205.38", null, "1767.67", null, null, null, null, "49973.05", "02122" ]
+, [ 60, "636A8912-ADFB-4498-B614-005BA7AA7966", 60, 1487098314, "947295", 1487098314, "947295", null, "Acosta,Carina", "Boston Police Department", "Police Officer", "85102.68", null, "800.00", "7470.55", null, "3036.00", null, "96409.23", "02136" ]
+, [ 61, "907C1067-0AE7-472E-833D-E8C1791D5603", 61, 1487098314, "947295", 1487098314, "947295", null, "Acosta,Jose L", "Boston Police Department", "Police Officer", "99122.67", null, "7527.81", "122251.81", null, "20700.00", null, "249602.29", "01960" ]
+, [ 62, "CAD146A3-3D23-4815-A91F-146E75D4E919", 62, 1487098314, "947295", 1487098314, "947295", null, "Acosta,Tanya B.", "BPS Special Education", "Teacher", "47670.12", null, null, null, null, null, null, "47670.12", "02127" ]
+, [ 63, "F6AA3C10-4B02-4B4D-A997-A25D0E7FBAA7", 63, 1487098314, "947295", 1487098314, "947295", null, "Acquah,Robert", "Dpt of Innovation & Technology", "Sr Data Proc Sys Anl", "94085.44", null, "300.00", "22130.96", null, null, null, "116516.40", "02136" ]
+, [ 64, "AACD7252-A7E7-4BC2-9CAE-C46C884F4DA8", 64, 1487098314, "947295", 1487098314, "947295", null, "Adair,Jessica P", "BPS Substitute Teachers/Nurs", "Substitute Teacher HE", "8219.01", null, null, null, null, null, null, "8219.01", "02136" ]
+, [ 65, "3BF31058-E728-40EA-A300-386672A5886F", 65, 1487098314, "947295", 1487098314, "947295", null, "Adam,S.Farhan", "Newcomers Academy", "Teacher", "106728.92", null, null, null, null, null, null, "106728.92", "02186" ]
+, [ 66, "6C5F55F5-AF1A-43EC-AE09-D606E7DC15B0", 66, 1487098314, "947295", 1487098314, "947295", null, "Adame,Donna Marie", "West Roxbury Academy", "Paraprofessional", "34174.75", null, null, null, null, null, null, "34174.75", "02131" ]
+, [ 67, "D33A50B9-A685-4385-B07E-53646E225D3E", 67, 1487098314, "947295", 1487098314, "947295", null, "Adame,Nicole M", "HPEC: Com Acd Science & Health", "Teacher", "92510.08", null, "850.00", null, null, null, null, "93360.08", "02122" ]
+, [ 68, "16BE0141-46B8-430F-8513-C37BB8F1CA31", 68, 1487098314, "947295", 1487098314, "947295", null, "Adams,Carey L.", "Law Department", "Prin Clerk", "46791.47", null, "300.00", null, null, null, null, "47091.47", "02131" ]
+, [ 69, "9C6059DA-4950-41F9-9C99-881EC2154713", 69, 1487098314, "947295", 1487098314, "947295", null, "Adams,Christopher", "Boston Police Department", "Police Officer", "56710.58", null, "800.00", "1055.86", "5519.95", "368.00", null, "64454.39", "02131" ]
+, [ 70, "0434DB47-3B3D-4C10-825B-C14B28576AC0", 70, 1487098314, "947295", 1487098314, "947295", null, "Adams,Christopher P", "Boston Police Department", "Police Officer", "80587.13", null, "2623.24", "8396.29", null, "57316.00", "15173.47", "164096.13", "02126" ]
+, [ 71, "28DBCBCB-EC80-4F73-86DD-9EC635D4BEE5", 71, 1487098314, "947295", 1487098314, "947295", null, "Adams,Clyde", "BPS Madison Park High", "Teacher", "63594.28", null, "18682.81", null, null, null, null, "82277.09", "02118" ]
+, [ 72, "005D22EB-D437-408B-BC95-E73AE8C17304", 72, 1487098314, "947295", 1487098314, "947295", null, "Adams,Daniel J", "Boston Police Department", "Police Detective", "88101.14", "56742.25", "6252.02", "51304.34", null, "44620.00", "15454.95", "262474.70", "02131" ]
+, [ 73, "6AD11B3F-BCC3-48D0-B2DF-7099D7CFF393", 73, 1487098314, "947295", 1487098314, "947295", null, "Adams,Daune Anita", "BPS Transportation", "Cab Monitor", "13367.10", null, null, null, null, null, null, "13367.10", "02124" ]
+, [ 74, "3FB721F5-E7DA-4EA1-AB35-7AE285545939", 74, 1487098314, "947295", 1487098314, "947295", null, "Adams,Duel B", "BPS Alternative Education HS", "Teacher", "106600.00", null, "100.00", null, null, null, null, "106700.00", "02130" ]
+, [ 75, "EEDEFA3C-FBB5-4176-8109-8B5CC77A62CE", 75, 1487098314, "947295", 1487098314, "947295", null, "Adams,Eleanor A", "Warren/Prescott K-8", "SpEd Support Svcs Coordinator", "104025.38", null, null, null, null, null, null, "104025.38", "02127" ]
+, [ 76, "64CF59E8-C754-403B-8487-2701E37A8E03", 76, 1487098314, "947295", 1487098314, "947295", null, "Adams,Elizabeth M", "BPS Substitute Teachers/Nurs", "Substitute Teacher", "2040.70", null, null, null, null, null, null, "2040.70", "02155" ]
+, [ 77, "8F49AED6-935E-4A09-92C6-59C1709D1D2A", 77, 1487098314, "947295", 1487098314, "947295", null, "Adams,Frederick C.", "Boston Fire Department", "Fire Fighter", "103720.30", null, "3039.74", "11937.52", null, null, null, "118697.56", "02132" ]
+, [ 78, "7ED38FD4-3A32-4355-82D3-242D93E44962", 78, 1487098314, "947295", 1487098314, "947295", null, "Adams,Gillian", "UP Academy Dorchester", "School Psychologist(1)", "22879.39", null, null, null, null, null, null, "22879.39", "10512" ]
+, [ 79, "20718A7A-B228-49C5-9AA7-992BC81F60F9", 79, 1487098314, "947295", 1487098314, "947295", null, "Adams,Heather Julia", "BPS Fenway High", "Coord-Manager (B)", "29182.88", null, null, null, null, null, null, "29182.88", "02482" ]
+, [ 80, "2DB5E225-3413-4E36-BAAF-1616BBD753BC", 80, 1487098314, "947295", 1487098314, "947295", null, "Adams,Jasenta", "Haley Pilot", "Lunch Hour Monitors", "8533.85", null, "2067.48", null, null, null, null, "10601.33", "02124" ]
+, [ 81, "B0FADEC4-7D82-42C9-A78F-6216B8E1F365", 81, 1487098314, "947295", 1487098314, "947295", null, "Adams,John Eric", "Boston Fire Department", "Fire Fighter", "102843.01", null, "550.00", "18546.18", null, "14203.00", null, "136142.19", "02124" ]
+, [ 82, "40B2DD72-7643-44B4-8003-35298EF34B1B", 82, 1487098314, "947295", 1487098314, "947295", null, "Adams,Kwame", "Henderson Elementary", "Teacher", "55469.45", null, "1162.50", null, null, null, null, "56631.95", "02302" ]
+, [ 83, "D3A69EBB-7A77-4468-9D96-83378AED37F6", 83, 1487098314, "947295", 1487098314, "947295", null, "Adams,Lucille", "BPS Holmes Elementary", "Lunch Hour Monitors", "8582.22", null, null, null, null, null, null, "8582.22", "02119" ]
+, [ 84, "7E057374-E322-4D2E-A770-6C3AFA0F3E36", 84, 1487098314, "947295", 1487098314, "947295", null, "Adams,Natasha", "Boston Cntr - Youth & Families", "Youth Worker", "47885.56", null, null, "298.33", null, null, null, "48183.89", "02124" ]
+, [ 85, "24C4302E-F0B9-47BC-A0DF-9C16194DF56D", 85, 1487098314, "947295", 1487098314, "947295", null, "Adams,Rebecca E", "UP \"Unlocking Potential\" Acad", "Teacher", "65577.61", null, "1162.50", null, null, null, null, "66740.11", "01824" ]
+, [ 86, "65834A9F-D894-4668-82F7-CD23CDBB00C3", 86, 1487098314, "947295", 1487098314, "947295", null, "Adams,Terrence K", "Boston Fire Department", "Fire Fighter", "93926.13", null, "2396.31", "11746.98", "9693.85", null, null, "117763.27", "02301" ]
+, [ 87, "7F7EEF0C-1EC5-473F-81DA-6E9A680AC6A9", 87, 1487098314, "947295", 1487098314, "947295", null, "Adams-Freeman,Leslie D", "BPS Grew Elementary", "SpEd Support Svcs Coordinator", "96066.96", null, null, null, null, null, null, "96066.96", "02718" ]
+, [ 88, "FDB8E3FB-DDE0-47C2-A0B5-5B6CB0A81640", 88, 1487098314, "947295", 1487098314, "947295", null, "Adams-Murphy,Aileen W", "BPS Tynan Elementary", "Teacher", "94859.96", null, null, null, null, null, null, "94859.96", "02043" ]
+, [ 89, "01F4F0DD-2FA1-498F-9650-07AB38EECC36", 89, 1487098314, "947295", 1487098314, "947295", null, "Adario,Anthony J", "ASD Human Resources", "Supvising Claims Agent (Asd)", "104656.61", null, "4210.20", null, null, null, null, "108866.81", "02132" ]
+, [ 90, "49E60039-69EB-49D4-8EDA-AB97C5B2ED2F", 90, 1487098314, "947295", 1487098314, "947295", null, "Adario,Evelyn T.", "BPS Special Education", "Director (D) (non-ac)", "106443.61", null, "1947.46", null, null, null, null, "108391.07", "02132" ]
+, [ 91, "E684A892-1852-4BEC-9193-0C070EA9961E", 91, 1487098314, "947295", 1487098314, "947295", null, "Adarmes,David", "Boston Cntr - Youth & Families", "Youth Worker", "48377.10", null, "899.31", "79.56", null, null, null, "49355.97", "02118" ]
+, [ 92, "CE23AF9F-C50A-4ECE-8F68-64A209492CC2", 92, 1487098314, "947295", 1487098314, "947295", null, "Addaberkane Sr.,Fatima Remaoun", "BPS Mckay Elementary", "Lunch Hour Monitors", "8742.00", null, null, null, null, null, null, "8742.00", "02128" ]
+, [ 93, "0CA589B1-C01D-4E61-ADBD-4E27CE33FB9B", 93, 1487098314, "947295", 1487098314, "947295", null, "Adderly,Kadra Trimese", "Neighborhood Development", "HMIS Coordinator", "64612.90", null, "300.00", null, null, null, null, "64912.90", "02124" ]
+, [ 94, "3B3982C1-A214-4881-B9CE-11FCC30A5D5B", 94, 1487098314, "947295", 1487098314, "947295", null, "Addessa,Rocco", "Property Management", "Jr Building Custodian", "42866.21", null, "200.00", "3117.09", null, null, null, "46183.30", "01844" ]
+, [ 95, "E83943BA-D8C2-4913-BE83-6D191B477ADE", 95, 1487098314, "947295", 1487098314, "947295", null, "Adduci,John A.", "Boston Police Department", "Police Offc Acad Instr 2$6", "99454.17", null, "12950.54", "22543.99", null, null, null, "134948.70", "02171" ]
+, [ 96, "8F236F60-5A66-43E3-9A35-BFBDBA7D1413", 96, 1487098314, "947295", 1487098314, "947295", null, "Adduci,Joseph M", "Boston Fire Department", "Fire Captain Administration", "91321.33", null, "7784.26", "17826.65", "52914.77", null, null, "169847.01", "02171" ]
+, [ 97, "80804B2A-9C6F-438A-9F1B-D8A6D0FE4C6F", 97, 1487098314, "947295", 1487098314, "947295", null, "Adduci,Vincent R.", "Boston Police Department", "Police Offc/Auto Invest 4$10", "53297.39", null, "43626.14", "655.53", null, "19734.00", "7774.13", "125087.19", "02190" ]
+, [ 98, "6830DC1C-B08C-4EFF-9BF1-E4E92A94749E", 98, 1487098314, "947295", 1487098314, "947295", null, "Adebayo,Elizabeth", "BPS Tynan Elementary", "Teacher", "62030.59", null, null, null, null, null, null, "62030.59", "02072" ]
+, [ 99, "F42AEB8F-FF69-4C5C-9562-613EC87B9972", 99, 1487098314, "947295", 1487098314, "947295", null, "Adekoje,John", "BPS Boston Arts Academy", "Teacher", "63463.81", null, "300.00", null, null, null, null, "63763.81", "02121" ]
+, [ 100, "98D141EC-21D8-4FAE-9DA6-6D91E9568189", 100, 1487098314, "947295", 1487098314, "947295", null, "Adinolfi,AnnMarie", "BPS Substitute Teachers/Nurs", "Substitute Teacher", "7871.30", null, "25035.38", null, null, null, null, "32906.68", "01880" ]
+, [ 101, "29A918DE-D051-44E6-86A5-68A8313ECFA0", 101, 1487098314, "947295", 1487098314, "947295", null, "Adjei-Boateng,Attah", "BPS Chittick Elementary", "Specialist (BTU)", "102345.18", null, "1055.00", null, null, null, null, "103400.18", "02072" ]
+, [ 102, "06A570C2-E0E3-4FD6-91F1-FD5EE3AEC83A", 102, 1487098314, "947295", 1487098314, "947295", null, "Adjemian,Daniel Robert", "Boston Fire Department", "Fire Fighter-AdvanceTechnician", "59008.36", null, "550.00", "7156.61", null, null, null, "66714.97", "02136" ]
+, [ 103, "2F655E3F-8FB1-4058-838A-2E332D713136", 103, 1487098314, "947295", 1487098314, "947295", null, "Adjemian,Lauren", "BPS McKinley Middle", "Paraprofessional", "13383.79", null, null, null, null, null, null, "13383.79", "02062" ]
+, [ 104, "588597E6-86F2-4559-BD46-A5BC0C4F60FE", 104, 1487098314, "947295", 1487098314, "947295", null, "Adjemian,Robert H.", "BPS Madison Park High", "Teacher", "849.09", null, "32390.28", null, null, null, null, "33239.37", "02062" ]
+, [ 105, "43E558EE-93E6-4838-AB80-5552A76CB756", 105, 1487098314, "947295", 1487098314, "947295", null, "Adjibodou,Maxwell S", "Boston Fire Department", "Mtr Eq Rpprs ClassIBPDFleetBFD", "70301.61", null, null, "45507.92", null, null, null, "115809.53", "02122" ]
+, [ 106, "308B4756-E274-40E9-8E12-EC8433780B16", 106, 1487098314, "947295", 1487098314, "947295", null, "Adkins,Christine L.", "Kilmer K-8", "Cluster Substitute", "33535.66", null, null, null, null, null, null, "33535.66", "02492" ]
+, [ 107, "DCD3C622-6C13-4788-986F-636E6E013317", 107, 1487098314, "947295", 1487098314, "947295", null, "Adomkaitis,Gloria", "BPS Adult Education", "Employment Agreement", "9738.78", null, null, null, null, null, null, "9738.78", "02186" ]
+, [ 108, "C468853A-471F-41A7-BFA2-C79F86D2030D", 108, 1487098314, "947295", 1487098314, "947295", null, "Adonis,Marie B.", "Lyndon K-8", "Prin Clerk/School Sec 19", "49626.79", null, null, null, null, null, null, "49626.79", "02136" ]
+, [ 109, "61488430-76D3-4EBF-B803-F2BBEE6FAC5E", 109, 1487098314, "947295", 1487098314, "947295", null, "Adorno Cruz,Tomas", "BPS Facility Management", "Part-Time Custodian", "3168.36", null, null, null, null, null, null, "3168.36", "02126" ]
+, [ 110, "661AE58C-6999-4B44-91B2-EDADDB945CD8", 110, 1487098314, "947295", 1487098314, "947295", null, "Adorno-Ayala,Dalia M", "Boston Police Department", "Police Officer", "93507.70", null, "8108.00", "11838.29", null, null, null, "113453.99", "02368" ]
+, [ 111, "FA75D802-3ED8-4CAB-830B-FD6A58C6AFEB", 111, 1487098314, "947295", 1487098314, "947295", null, "Adrien Lorquet,Marie Lourdes", "BPS Transportation", "Standby Cab Monitor HE", "5744.36", null, null, null, null, null, null, "5744.36", "02132" ]
+, [ 112, "1167420E-3003-447E-97AB-4849253FD1CD", 112, 1487098314, "947295", 1487098314, "947295", null, "Afolayan,Oluwatobiloba", "UP Academy Dorchester", "Teacher", "23799.79", null, null, null, null, null, null, "23799.79", "02169" ]
+, [ 113, "AF18316F-54B2-44CF-9840-18BD18E0C3DE", 113, 1487098314, "947295", 1487098314, "947295", null, "Afonseca,Adelina M", "BPS Lee Elementary", "Paraprofessional", "31300.88", null, null, null, null, null, null, "31300.88", "02072" ]
+, [ 114, "505322C2-C2A0-4285-97F3-60F1C5AAACF3", 114, 1487098314, "947295", 1487098314, "947295", null, "Afonseca,Sheila", "BPS Welcome Services", "Hot Line Worker", "22188.70", null, null, null, null, null, null, "22188.70", "02124" ]
+, [ 115, "6C1D6809-E053-475A-85CD-F7408BC7AB75", 115, 1487098314, "947295", 1487098314, "947295", null, "Afonso,Mavrick", "Parks Department", "Sr Research Analyst (Parks&Rec", "63404.09", null, "976.94", "8543.52", "1194.61", null, null, "74119.16", "02124" ]
+, [ 116, "60EABA60-0723-4038-8D69-F190DBD5AC80", 116, 1487098314, "947295", 1487098314, "947295", null, "Agard,Laverne R", "HPEC: Com Acd Science & Health", "SpEd Support Svcs Coordinator", "106200.12", null, "1050.50", null, null, null, null, "107250.62", "02139" ]
+, [ 117, "099FC5F1-6AB7-43EB-9CFA-32FD8C66E61A", 117, 1487098314, "947295", 1487098314, "947295", null, "Aghaansari Nasrabadi,Medya", "Boston Retirement System", "Student Intern", "1332.00", null, null, null, null, null, null, "1332.00", "02111" ]
+, [ 118, "70BA740D-B930-4F14-B78C-45AA685C80F3", 118, 1487098314, "947295", 1487098314, "947295", null, "Agnew,Darius L", "Boston Police Department", "Police Officer", "87843.91", null, "9624.53", "7004.56", null, null, "12884.81", "117357.81", "02124" ]
+, [ 119, "67E87609-23B6-4A99-9CBC-352B1FC44F9E", 119, 1487098314, "947295", 1487098314, "947295", null, "Agoro,Olajumoke Bodunrin", "BPS Holmes Elementary", "Cluster Substitute", "31351.09", null, "950.00", null, null, null, null, "32301.09", "02136" ]
+, [ 120, "96CAC092-F6DF-44C5-8EBB-0CFC6BDBFA7E", 120, 1487098314, "947295", 1487098314, "947295", null, "Agostinelli,Ellen M", "Kilmer K-8", "Lunch Hour Monitors", "8582.22", null, null, null, null, null, null, "8582.22", "02132" ]
+, [ 121, "56BCD598-97CB-4F45-ADC0-A4F497ACA211", 121, 1487098314, "947295", 1487098314, "947295", null, "Agrait,Maritza", "BPS Special Education", "Teacher", "107800.16", null, "2020.45", null, null, null, null, "109820.61", "02186" ]
+, [ 122, "A629E357-960A-4D67-B471-DA1E1C3E44D8", 122, 1487098314, "947295", 1487098314, "947295", null, "Agrinsoni,Hingel", "BPS O'Bryant School", "Prin Clerk/School Sec 21", "52360.62", null, "3817.50", null, null, null, null, "56178.12", "02119" ]
+, [ 123, "424491CE-6B27-4089-BD00-DF8BF4B84848", 123, 1487098314, "947295", 1487098314, "947295", null, "Aguasvivas,Cinthia L", "Curley K-8", "Paraprofessional", "25129.72", null, "17.50", null, null, null, null, "25147.22", "02130" ]
+, [ 124, "156C2978-2639-4736-8773-95D03A91CD0E", 124, 1487098314, "947295", 1487098314, "947295", null, "Aguayo-Delgado,Deborah M", "BPS Quincy Elementary", "Teacher", "89302.06", null, null, null, null, null, null, "89302.06", "01602" ]
+, [ 125, "E368B858-91A3-4D56-87B5-8A99FD9C1ADD", 125, 1487098314, "947295", 1487098314, "947295", null, "Aguilar,Luis", "Assessing Department", "Asst Assessor", "51962.39", null, "275.00", "494.69", null, null, null, "52732.08", "02135" ]
+, [ 126, "4704F532-152F-4C70-8650-B091B951F7F4", 126, 1487098314, "947295", 1487098314, "947295", null, "Aguirre,Maria Acacia", "BPS Otis Elementary", "Teacher", "53707.94", null, null, null, null, null, null, "53707.94", "02134" ]
+, [ 127, "FB171D81-6556-431F-90AA-535ADBBE5AA1", 127, 1487098314, "947295", 1487098314, "947295", null, "Agwu-Igbani,Rosalind U", "BPS Human Resource Team", "Teacher", "107853.98", null, "27.50", null, null, null, null, "107881.48", "02368" ]
+, [ 128, "EEB19FD9-5B6D-4524-80E9-F775D8A41E91", 128, 1487098314, "947295", 1487098314, "947295", null, "Ahearn,Allison M.", "BPS Beethoven Elementary", "Paraprofessional", "36339.54", null, null, null, null, null, null, "36339.54", "02170" ]
+, [ 129, "7B4C77ED-5D93-4186-849B-C03007536531", 129, 1487098314, "947295", 1487098314, "947295", null, "Ahearn,Frances A", "Jackson/Mann K-8", "Teacher", "101460.32", null, "5725.00", null, null, null, null, "107185.32", "02136" ]
+, [ 130, "1514F851-FCD6-4A29-9599-31D9DDC01A13", 130, 1487098314, "947295", 1487098314, "947295", null, "Ahearn-Burnett,Patricia", "BPS Special Education", "Sum Sch - BTU Prof", "7812.00", null, null, null, null, null, null, "7812.00", "02375" ]
+, [ 131, "055C9235-975B-4AC1-BF1C-D6D04BBA57EF", 131, 1487098314, "947295", 1487098314, "947295", null, "Ahern Jr.,Fred V.", "Boston Cntr - Youth & Families", "Admin Coordinator (Com Sch)", "97440.97", null, "1820.31", "429.07", null, null, null, "99690.35", "02127" ]
+, [ 132, "4274A000-D403-4669-A53E-E0C1D786B2C2", 132, 1487098314, "947295", 1487098314, "947295", null, "Ahern,David James", "BPS Facility Management", "Jr Cust/Nights", "6949.36", null, "6629.54", null, null, null, null, "13578.90", "02127" ]
+, [ 133, "A9336FC5-9F93-40EB-A178-44809F52D054", 133, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Denise K", "BPS Blackstone Elementary", "Paraprofessional", null, null, "8776.56", null, null, null, null, "8776.56", "02129" ]
+, [ 134, "1C60B0E3-F7BE-4F45-9F3B-1177DCE52EBD", 134, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Elizabeth H", "Boston Police Department", "Head Clerk & Secretary", "52611.80", null, "982.85", "2104.20", null, null, null, "55698.85", "02128" ]
+, [ 135, "ADA8D86B-8891-4166-B76C-0CFD90A5A6C2", 135, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Gerard T.", "Boston Fire Department", "Fire Fighter", "102103.70", null, "550.00", "13389.29", "1842.48", null, null, "117885.47", "02370" ]
+, [ 136, "D155B2CC-2E59-4A91-AD0D-99D10C6325B5", 136, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Jessica Michelle", "BPS Chittick Elementary", "Teacher", "92526.60", null, null, null, null, null, null, "92526.60", "02188" ]
+, [ 137, "01652E5A-9BD7-474E-A8F8-FA1D692FDD47", 137, 1487098314, "947295", 1487098314, "947295", null, "Ahern,John B.", "Boston Police Department", "Police Sergeant", "110120.25", "1845.88", "16294.93", "28805.83", null, "8586.00", "20064.59", "185717.48", "02339" ]
+, [ 138, "33AFD074-95B6-4F89-9611-25A322E13EEF", 138, 1487098314, "947295", 1487098314, "947295", null, "Ahern,John Jeremiah", "Boston Fire Department", "Fire Fighter-Technician", "87970.79", null, "550.00", "12583.46", null, null, null, "101104.25", "02132" ]
+, [ 139, "64D34CC4-8CF7-4C3C-BFD2-3ACBFF079461", 139, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Julianne", "Edison K-8", "Nurse", "81527.55", null, "2500.00", null, null, null, null, "84027.55", "02127" ]
+, [ 140, "86EC213D-66C7-4876-B2BF-5FEAC53144C7", 140, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Lena-Kate Kopelke", "Law Department", "ACC - Attorney", "33000.00", null, null, null, null, null, null, "33000.00", "02130" ]
+, [ 141, "D3EB3F00-2CCD-4B02-9B33-5D109690A21D", 141, 1487098314, "947295", 1487098314, "947295", null, "Ahern,Michael E", "Boston Fire Department", "Fire Fighter (InctComndSp) DFC", "103907.16", null, "550.00", "18175.55", null, "20615.00", null, "143247.71", "02360" ]
+, [ 142, "F640068C-55E4-42CC-8271-F3D044A64543", 142, 1487098314, "947295", 1487098314, "947295", null, "Ahern-Stalcup,Karen", "Property Management", "BostonMunicipalPoliceSergeant", null, null, "3853.71", null, null, null, null, "3853.71", "02124" ]
+, [ 143, "6EAD6B88-617F-4DD9-9512-FFDC111D1CB4", 143, 1487098314, "947295", 1487098314, "947295", null, "Ahmad,Shahidah", "BPS O'Bryant School", "Teacher", "26266.29", null, null, null, null, null, null, "26266.29", "02472" ]
+, [ 144, "E4929485-4007-4472-A0B1-D22ECB6A4504", 144, 1487098314, "947295", 1487098314, "947295", null, "Ahmad,Waliah J.", "Haynes EEC", "Paraprofessional", "35333.66", null, "2217.50", null, null, null, null, "37551.16", "02125" ]
+, [ 145, "67ACF8FF-7B28-4193-9A7E-A0D65E82E21D", 145, 1487098314, "947295", 1487098314, "947295", null, "Ahmed,Abdirashid", "Boston Cntr - Youth & Families", "Computer Instructor", "48524.13", null, null, null, null, null, null, "48524.13", "02127" ]
+, [ 146, "F99A5C53-49BE-4E9C-951E-61B7340AB485", 146, 1487098314, "947295", 1487098314, "947295", null, "Ahmed,Said Hassan", "BPS South Boston HS - Excel", "Community Field Coordinator", "66901.30", null, "276.96", null, "3416.40", null, null, "70594.66", "02119" ]
+, [ 147, "5E237BE1-B6EC-4C86-BDF6-DFBAA6DC2AEE", 147, 1487098314, "947295", 1487098314, "947295", null, "Aho,Catherine S", "Unified Student Svc", "Coordinator (C)", "35867.79", null, "1405.41", null, null, null, null, "37273.20", "02130" ]
+, [ 148, "EFFA0EC5-1716-4330-89F4-61551F678AAE", 148, 1487098314, "947295", 1487098314, "947295", null, "Ahrens,Jaclyn R.M.", "BPS Guild Elementary", "Teacher", "83039.57", null, "1000.00", null, null, null, null, "84039.57", "02130" ]
+, [ 149, "75A4400E-28E0-4298-B243-EF34969C00FE", 149, 1487098314, "947295", 1487098314, "947295", null, "Ahrens,Kirkland", "Lyon Pilot High 9-12", "Teacher", "74226.87", null, "1500.00", null, null, null, null, "75726.87", "02130" ]
+, [ 150, "84E65DFA-E837-423B-B5EF-A02BE298AEAF", 150, 1487098314, "947295", 1487098314, "947295", null, "Aiello,Laura", "BPS Guild Elementary", "Paraprofessional", "30577.33", null, null, null, null, null, null, "30577.33", "02151" ]
+, [ 151, "9C5FA7AA-6AE1-42FC-8AB2-738BCAEFB411", 151, 1487098314, "947295", 1487098314, "947295", null, "Ailawadhi,Archana R", "BPS English High", "Student Dev Counselor (1)", "106372.69", null, "9975.58", null, null, null, null, "116348.27", "02131" ]
+, [ 152, "C35682BF-42C8-4C07-92CA-89236578A0FA", 152, 1487098314, "947295", 1487098314, "947295", null, "Ainsworth,Ulana", "Dudley St. Neighborhood School", "Teacher", "72883.60", null, "3585.00", null, null, null, null, "76468.60", "02151" ]
+, [ 153, "81D47EDD-4267-4C66-AFC1-033694C2BEB0", 153, 1487098314, "947295", 1487098314, "947295", null, "Aird,Brittany Marie", "Tobin K-8", "Teacher", "43715.71", null, null, null, null, null, null, "43715.71", "02453" ]
+, [ 154, "15312FB0-49E8-4F90-B531-DE6753FC707E", 154, 1487098314, "947295", 1487098314, "947295", null, "Airosus,Donna E.", "BPS Mather Elementary", "Nurse", "107392.34", null, null, null, null, null, null, "107392.34", "02171" ]
+, [ 155, "7B381EF7-017E-4CDE-82B8-083D1240706C", 155, 1487098314, "947295", 1487098314, "947295", null, "Ais,Nathalie", "BPS Madison Park High", "Teacher", "73767.86", null, "9875.00", null, null, null, null, "83642.86", "02302" ]
+ ]
+}
